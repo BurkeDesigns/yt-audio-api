@@ -2,7 +2,7 @@
 
 > Developed with precision by **Alperen Sümeroğlu** — turning YouTube audio into clean, downloadable MP3s with elegance.
 
-A high-performance Flask API that transforms any public YouTube video into a high-quality MP3 audio file — instantly, securely, and reliably. Powered by `yt-dlp` and `FFmpeg`, this API handles downloading, conversion, and secure delivery through expiring token-based access. Designed for developers, content tools, automation pipelines, and all who need clean audio from video sources — fast.
+A high-performance Flask API that transforms any public YouTube video into a high-quality MP3 audio file — instantly, securely, and reliably. Powered by `yt-dlp` and `FFmpeg`, this API handles downloading, conversion, and secure delivery through expiring token-based access. Now featuring **AI-powered speech-to-text transcription** with Parakeet-MLX for Apple Silicon. Designed for developers, content tools, automation pipelines, and all who need clean audio from video sources — fast.
 
 ---
 
@@ -24,6 +24,9 @@ A high-performance Flask API that transforms any public YouTube video into a hig
 - 🔗 Accepts any public YouTube URL
 - 🎵 Downloads best audio using `yt-dlp`
 - ✨ Converts audio to high-quality `.mp3` via `FFmpeg`
+- 🤖 **NEW**: AI-powered transcription using Parakeet-MLX (Apple Silicon optimized)
+- 📝 **NEW**: Multiple transcription formats (text, JSON, SRT, VTT)
+- ⏱️ **NEW**: Timestamped transcriptions with sentence-level precision
 - 🔐 Returns a one-time secure token to download the file
 - ⏱️ Tokens expire automatically (default: 5 mins)
 - 🧹 Expired files are auto-deleted (clean disk usage)
@@ -47,6 +50,20 @@ brew install ffmpeg
 # Ubuntu/Debian
 sudo apt install ffmpeg
 ```
+
+**NEW: AI Transcription Setup (Optional)**
+
+For speech-to-text transcription features, you need to install Parakeet-MLX (requires Apple Silicon):
+
+```bash
+# Recommended method using uv
+uv pip install parakeet-mlx -U
+
+# Or using pip
+pip3 install parakeet-mlx -U
+```
+
+📖 **Detailed transcription setup guide:** See [PARAKEET_SETUP.md](./PARAKEET_SETUP.md)
 
 Clone and run the project:
 ```bash
@@ -75,13 +92,60 @@ GET /download?token=CGIroH6G-8JDL3DllsUhM6_CfYc
 ```
 Result: `yourfile.mp3` will download automatically 🎶
 
+### Step 3: Transcribe Audio (NEW!)
+```
+GET /transcribe?token=CGIroH6G-8JDL3DllsUhM6_CfYc
+```
+Response:
+```json
+{
+  "transcription": "Never gonna give you up, never gonna let you down..."
+}
+```
+
+#### Advanced Transcription Options
+
+**Get timestamped transcription:**
+```
+GET /transcribe?token=CGIroH6G-8JDL3DllsUhM6_CfYc&format=json
+- **NEW**: Uses Parakeet-MLX (NVIDIA's ASR model) for Apple Silicon-optimized transcription
+- **NEW**: Supports multiple output formats with precise timestamps
+
+---
+
+## 📊 Tech Stack
+- Python 3.8+
+- Flask 2.x
+- yt-dlp
+- FFmpeg
+- **Parakeet-MLX** - NVIDIA's ASR model optimized for Apple Silicon via MLX
+- **MLX** - Apple's machine learning frameworkext": "Never gonna give you up.",
+      "start": 0.5,
+      "end": 2.3,
+      "duration": 1.8
+    }
+  ]
+}
+```
+
+**Get SRT subtitles:**
+```
+GET /transcribe?token=CGIroH6G-8JDL3DllsUhM6_CfYc&format=srt
+```
+
+**Get WebVTT subtitles:**
+```
+GET /transcribe?token=CGIroH6G-8JDL3DllsUhM6_CfYc&format=vtt
+```
+
 ---
 
 ## 🔄 API Endpoints
-| Method | Route         | Description                                  |
-|--------|---------------|----------------------------------------------|
-| GET    | `/`           | Accepts `?url=<video_url>`, returns token    |
-| GET    | `/download`   | Accepts `?token=<token>`, returns audio file |
+| Method | Route         | Description                                                                      | Parameters                                    |
+|--------|---------------|----------------------------------------------------------------------------------|-----------------------------------------------|
+| GET    | `/`           | Accepts YouTube URL, returns token                                               | `url` (required)                              |
+| GET    | `/download`   | Returns audio file                                                               | `token` (required)                            |
+| GET    | `/transcribe` | **NEW**: Transcribes audio using AI, returns text/JSON/SRT/VTT                   | `token` (required), `format` (text/json/srt/vtt), `timestamps` (bool) |
 
 ---
 
@@ -102,6 +166,10 @@ Result: `yourfile.mp3` will download automatically 🎶
 
 ---
 
+- **Content creators** needing automatic transcriptions
+- **Accessibility tools** requiring subtitle generation
+- **Research projects** analyzing spoken content
+- **Language learning** applications with timestamped text
 ## 🤝 Ideal For
 - Developers building podcast/audio tools
 - Automation pipelines for archiving

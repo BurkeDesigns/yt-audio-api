@@ -1,0 +1,24 @@
+Transcription Summary
+======================================================================
+
+Generated: 2026-02-12 12:47:50
+Token: g7C6dElDwQhC6G9zgEeHT9VCmNQ
+
+Performance Metrics:
+  Download time:       36.8s
+  Transcription time:  117.5s
+  Total time:         154.4s
+  File size:          112.1 MB
+  Processing speed:   0.96 MB/s
+  Chunks processed:   9
+  Silence removed:    True
+
+Content Statistics:
+  Total sentences:    643
+  Total characters:   54742
+  Total words:        10433
+
+Files Generated:
+  - transcription_20260212_124650.txt
+  - transcription_20260212_124650.json
+  - N/A

@@ -1,0 +1,19 @@
+{
+  "name": "bun-transcribe",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@openrouter/sdk": "^0.8.0",
+    "hono": "^4.11.9",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "youtube-transcript": "^1.2.1"
+  }
+}
