@@ -3,6 +3,12 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "dev": "bun --hot index.ts",
+    "pm2:serve": " bunx pm2 start \"PORT=10200 bun run ./index.ts\" --name powerfulnotes.com",
+    "pm2:reload": "bunx pm2 reload powerfulnotes.com",
+    "pm2:delete": "bunx pm2 delete powerfulnotes.com"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },

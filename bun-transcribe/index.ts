@@ -5,6 +5,8 @@ import { $ } from 'bun';
 import { extractBibleRefs, getVersesFromReferenceList } from './util/bible';
 import bible from './data/ESV_bible.json'
 import { addToQueue } from './util/queue';
+import { serveStatic } from 'hono/bun';
+import { readdir } from "node:fs/promises";
 
 const app = new Hono();
 
@@ -136,6 +138,16 @@ app.get("/verses/:label", async c => {
             width: 100%;
             aspect-ratio: 16 / 9;
         }
+        
+        a{
+            color: hsl(224.56deg 84.89% 55%);
+            text-underline-offset: 3px;
+            transition: color 0.2s;
+        }
+
+        a:visited, a:hover{
+            color: hsl(259.7deg 84.89% 55%);
+        }
     </style>
 </head>
 <body>
@@ -249,6 +261,16 @@ app.get("/notes/:video_id", async c => {
             margin: 24px 0;
         }
 
+        a{
+            color: hsl(224.56deg 84.89% 55%);
+            text-underline-offset: 3px;
+            transition: color 0.2s;
+        }
+
+        a:visited, a:hover{
+            color: hsl(259.7deg 84.89% 55%);
+        }
+
     </style>
 </head>
 <body>
@@ -269,13 +291,108 @@ app.get("/notes/:video_id", async c => {
 </html>`);
 });
 
-app.get("/notes/generate/:video_id", async c => {
-    const { video_id } = c.req.param();
-    // console.log(`Generating notes for video ID: ${video_id}`);
-    addToQueue(video_id);
-    return c.html(videoPendingProcessing(video_id));
+app.get("/", async c => {
+
+    let files:any = await readdir("./output", { recursive: true });
+   
+    
+    files = files.map(f => f.replace('_notes.md', ''));
+ console.log("Files in output directory:", files);
+    
+    let titles:any = {
+        JwsergVfal0: "Wed Feb 11 | 7:00 PM Service",
+        "8PqjX8I-ndo": "Sun Feb 8 | Unity through Humility",
+        o4zmsZRVMMk: "Wed Feb 4 | His Mercy Is Great: His Justice Is Coming",
+        IPCyw6IgjQU: "Sun Feb 1 | Torn between Two Worlds",
+        // dQw4w9WgXcQ: "dQw4w9WgXcQ",
+        zNS603PB6W0: "Sun Jan 28 | The Everlasting Covenant: God’s Promise to Israel",
+        wSKk114Q7zQ: "Wed Jan 21 | The Rise of Antisemitism in Christian and Conservative Circles",
+    };
+
+    // files = files.map(f => {
+    //     if(titles[f] != null) return;
+    //     titles[f] = f;
+    // });
+
+    console.log("Titles for videos:", titles);
+
+
+    return c.html(`<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cornerstone Notes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Google Sans', sans-serif;
+            margin: 0px;
+            padding: 0px;
+            line-height: 1.6;
+            color: #222;
+        }
+        body *{
+            
+        }
+        .page{
+            display: grid;
+            gap: 32px;
+            max-width: 800px;
+            margin: auto;
+            padding: 65px 20px;
+        }
+        iframe{
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            width: 100%;
+            aspect-ratio: 16 / 9;
+        }
+        
+        a{
+            color: hsl(224.56deg 84.89% 55%);
+            text-underline-offset: 3px;
+            transition: color 0.2s;
+        }
+
+        a:visited, a:hover{
+            color: hsl(259.7deg 84.89% 55%);
+        }
+
+        li{
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="ref">
+            <h2>Powerful Notes - Cornerstone Chapel Leesburg, VA</h2>
+            <ul>
+                ${Object.entries(titles).map(([video_id, title]) => `<li><a href="/notes/${video_id}" target="_blank">
+                    <b>${title}</b>
+                </a></li>`).join('')}
+            </ul>
+        </div>
+    </div>
+</body>
+</html>`);
 });
 
-console.log("Starting server on http://localhost:3000/notes/JwsergVfal0");
+// app.get("/notes/generate/:video_id", async c => {
+//     const { video_id } = c.req.param();
+//     // console.log(`Generating notes for video ID: ${video_id}`);
+//     addToQueue(video_id);
+//     return c.html(videoPendingProcessing(video_id));
+// });
 
-export default app;
+app.use('/assets/*', serveStatic({ root: './public' }));
+
+console.log(`Starting server on http://localhost:${Bun.env.PORT || 10100}/notes/JwsergVfal0`);
+
+export default {
+  port: Bun.env.PORT || 10100,
+  fetch: app.fetch,
+} 

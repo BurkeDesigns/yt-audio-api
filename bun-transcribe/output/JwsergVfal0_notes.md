@@ -1,27 +1,31 @@
 # Cornerstone Church Service Notes
 
 ## Worship
+
 - Songs praising Jesus as rock, savior, risen Lord; themes of sacrifice, resurrection ("Nobody in the grave"), grace.
 
 ## Communion
+
 - Celebrated Lord's Supper (bread for body broken, cup for blood of new covenant).
 - Prayer confessing sins (1 John 1:9), thanking for sacrifice, forgiveness.
 - Partaking together; post-communion song "I Say Amazed."
 
 ## Announcements (Pastor Tyler)
-- **Men's Steak & Study**: Feb 21, 8am, steak/eggs breakfast, worship, guest Virgil Walker; free, boys 14+ welcome.
-- **Women's Bible Study**: Feb 24-Apr 28, 9:30am or 7pm; theme "He Is"; register at cornerstonechapel.net; in-person/online.
-- **Stephen Curtis Chapman Concert**: Mar 1, evening; tickets at website.
-- **Wednesday Service Changes** (from Mar 11):
+
+- **[Men's Steak & Study](https://cornerstonechapel.net/events/)**: Feb 21, 8am, steak/eggs breakfast, worship, guest Virgil Walker; free, boys 14+ welcome.
+- **[Women's Bible Study](https://cornerstonechapel.net/events/)**: Feb 24-Apr 28, 9:30am or 7pm; theme "He Is"; register at cornerstonechapel.net; in-person/online.
+- **[Stephen Curtis Chapman Concert](https://cornerstonechapel.net/events/)**: Mar 1, evening; tickets at website.
+- **[Wednesday Service Changes](https://cornerstonechapel.net/events/)** (from Mar 11):
   - 6:30pm start (was 7pm); dinner for purchase 5:30-6:30 (food trucks possible).
   - 6:30-7:30: worship (20min), teaching (40min).
   - 7:30-8: ministry (prayer, communion, baptisms, etc.); early exit option.
 - **March Wednesdays**:
-  - Mar 11: Q&A with pastor & sons (submitted + open mic).
-  - Mar 18: Interview Shannon Bream ("Nothing Is Impossible With God" book signing).
-  - Mar 25: Bible study + baptisms.
+  - **[Mar 11: Q&A with pastor & sons](https://cornerstonechapel.net/events/)** (submitted + open mic).
+  - **[Mar 18: Interview Shannon Bream](https://cornerstonechapel.net/events/)** ("Nothing Is Impossible With God" book signing).
+  - **[Mar 25: Bible study + baptisms](https://cornerstonechapel.net/events/)**.
 
 ## Bible Teaching (1 Chronicles 17-20)
+
 - **Ch 17**: David's humble prayer thanking God for unconditional Davidic Covenant (eternal kingdom via Messiah from David's line).
   - Fulfilled in Jesus (descendant of David via Mary/Joseph lineages).
   - Rejects replacement theology; God faithful to Israel forever (contra anti-Semitism).
@@ -35,12 +39,14 @@
   - Warning: David stays home (ease/idleness → sin; cf. 2 Sam 11 adultery).
 
 **Key Principles**:
+
 - God's covenant faithfulness.
 - Recapture what enemy stole.
 - Encourage others.
 - Beware downtime (Satan exploits idleness/flesh).
 
 ## Verses Mentioned
+
 - 1 Chronicles 17:15-27; 1 Chronicles 18; 1 Chronicles 19; 1 Chronicles 20; 1 Chronicles 2:16
 - 1 John 1:9
 - Isaiah 11:1-2

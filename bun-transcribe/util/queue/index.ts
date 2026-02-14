@@ -27,8 +27,9 @@ FORMAT:
 - Markdown only.
 - Use headings, subheadings, and bullet points to organize information.
 - Avoid unnecessary details.
+- If announcements are made, list them under an "Announcements" heading. Make sure to link the name of events to "https://cornerstonechapel.net/events"
 - If speaker names are not provided, list the speakers
-- If verses are mentioned, list them at the end (do not abbreviate them).
+- If verses are mentioned, list them at the end (do not abbreviate them, correct example: 1 Chronicles 17:15-27).
 
 TRANSCRIPT:
 
@@ -75,6 +76,7 @@ export async function processNext() {
     }
     isProcessing = false;
 }
+
 
 export async function processItem(video_id: any) {
     // placeholder for processing logic
