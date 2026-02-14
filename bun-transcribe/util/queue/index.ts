@@ -4,7 +4,8 @@ import { $ } from 'bun';
 export let queue: any[] = [];
 export let isProcessing = false;
 
-async function createNotes(video_id: string) {
+export async function createNotes(video_id: string) {
+    console.log(`Generating notes for video ID: ${video_id}`);
     const t = await Bun.file(`../output/${video_id}.json`).json();
 const completion = await or.chat.send({
   chatGenerationParams: {
@@ -29,7 +30,7 @@ FORMAT:
 - Avoid unnecessary details.
 - If announcements are made, list them under an "Announcements" heading. Make sure to link the name of events to "https://cornerstonechapel.net/events"
 - If speaker names are not provided, list the speakers
-- If verses are mentioned, list them at the end (do not abbreviate them, correct example: 1 Chronicles 17:15-27).
+- If verses are mentioned, list them at the end (do not abbreviate them, correct example: 1 Chronicles 17:15-27, verses references should not include other chapters or non-sequential verses, bad example: "Psalm 106:1,47-48", should be: "Psalm 106:1, Psalm 106:47-48").
 
 TRANSCRIPT:
 

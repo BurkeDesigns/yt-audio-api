@@ -1,52 +1,48 @@
-# Sermon Summary: Torn Between Two Worlds (Philippians 1)
+# Sermon Summary: Torn Between Two Worlds
 
-## Context
-- Sermon at Cornerstone church; series "Reasons to Rejoice" through Philippians.
-- Paul writes from Roman prison (~62 AD) under Nero, awaiting trial for preaching gospel.
-- Philippi church (Greece) prays for Paul; some in Caesar's household saved via Paul's imprisonment.
-- God directed Paul to Rome (Acts 23); prison advances gospel despite chains.
+## Context and Series
+- Series: "Reasons to Rejoice" through Philippians (started couple weeks ago).
+- Paul writes from Roman prison (~62 AD) to Philippi church; joyful despite chains for preaching gospel.
+- Background: Awaiting trial before Nero; shares gospel with Caesar's household, leading to salvations (divine appointment).
+- God told Paul in Acts he'd testify in Rome (omitted prison detail).
 
-## Previous Reasons to Rejoice
-- God finishes what He starts (Phil 1:6).
-- God uses chains/circumstances for divine purposes (gospel spread in prison).
+## Scripture Focus
+- **Philippians 1:19-25** (key: v21 "For to me, to live is Christ, and to die is gain"; torn between life on earth for ministry vs. being with Christ).
 
-## Key Passage (Phil 1:19-25)
-- Paul's deliverance via prayers and Spirit (v19).
-- Boldness to magnify Christ in life or death (v20).
-- **Core verse**: "For to me to live is Christ, and to die is gain" (v21).
-- Torn: Live = fruit/labor for others; die = be with Christ (far better, v23).
-- Paul confident to remain for Philippians' progress/joy (v24-25); hopes to visit again.
+## Reasons to Rejoice (3 total so far)
+- #1: God finishes what He starts (Philippians 1:6).
+- #2: God uses chains/circumstances for divine purposes.
+- #3: "To live is Christ, and to die is gain" (Philippians 1:21) – reason for joy as outcome is win-win.
 
-## Main Theme: No Death Wish, But "Heaven Wish"
-- Not suicidal; work unfinished, desires to mentor Philippians.
-- Heaven wish: Long to finish well on earth, welcome heaven when God calls.
-- Life's weariness fosters this (e.g., Phil Wickham's "Homesick for Heaven" lyrics: ache for heaven's no-pain reunion, worship).
+## Key Themes
+- Not a death wish, but "heaven wish": Desire to finish well on earth, welcome heaven when God calls (no suicidal intent; Paul expects to return to Philippi).
+- Contrast: Death wish (dark, reckless) vs. heaven wish (longing for no pain/sorrow; like Phil Wickham's "Homesick for Heaven").
+- Heaven overview (5 points):
+  1. God's dwelling place; immediate home for believers upon death (no purgatory/soul sleep).
+  2. Beyond outer space ("third heaven").
+  3. Streets of gold, pearl gates, jasper walls, crystal river.
+  4. Illuminated by God's glory/Jesus (no sun/moon).
+  5. Reunions with believing loved ones (recognizable).
 
-## 5 Facts About Heaven
-- God's dwelling/eternal home for believers; immediate entry upon death (no purgatory/soul sleep).
-- Beyond outer space ("third heaven").
-- Streets of gold, pearl gates, jasper walls, crystal river (spectacular colors).
-- Lit by God's glory/Jesus (no sun/moon).
-- Reunions with saved loved ones (recognition; glorified bodies, full knowledge).
+## Application and Call
+- Must first say "to live is Christ" (surrender to Jesus as Lord/Savior) to claim "to die is gain."
+- Warning: Living for money/fame/success meaningless without God (Ecclesiastes).
+- Salvation prayer offered; Bibles for new believers (in-person or text 703-844-9969).
 
-## Conclusion/Call
-- Death = graduation for Christians; requires "to live is Christ" first.
-- Critique living for money/fame/success (Eccl lesson: meaningless without God).
-- Surrender to Christ as Lord/Savior; name in Lamb's Book of Life.
-- Closing prayer/altar call for salvation; free Bible offered.
-
-## Verses Mentioned
-- Philippians chapter one, verse 19
-- Philippians chapter one (verses 6, 19-25, 21)
-- Acts, chapter 23
-- First Kings chapter 8, verse 30
-- Psalm 103, verse 19
-- Revelation 21, verse 27
-- Second Corinthians chapter 5, verses 6 to 8
-- Second Corinthians chapter 12, verses 1 and 2
-- Revelation 21, verse 18
-- Revelation 21, verse 21
-- Revelation chapter 22, verse 1
-- Revelation 21, verse 23
-- Matthew chapter 17
-- First Corinthians chapter 13
+## Bible Verses Referenced
+- Philippians 1:6
+- Philippians 1:19-25
+- Philippians 1:21
+- Philippians 1:23
+- Acts 23
+- 1 Kings 8:30
+- Psalm 103:19
+- Revelation 21:27
+- 2 Corinthians 5:6-8
+- 2 Corinthians 12:1-2
+- Revelation 21:18
+- Revelation 21:21
+- Revelation 22:1
+- Revelation 21:23
+- Matthew 17
+- 1 Corinthians 13

@@ -1,62 +1,62 @@
-# Sermon Summary: 1 Chronicles 16-17
+# Sermon Notes: 1 Chronicles 16-17
 
 ## Introduction
-- Lord's second coming: Fierce warrior on white horse (Rev 19), King of kings, Lord of lords; contrasts first coming on donkey (meek, for salvation).
-- Opportunity for mercy now; justice coming.
+- David's song after bringing Ark to Jerusalem; establishes God as central.
+- Prophetic reference to Lord's second coming as fierce warrior on white horse (King of kings, Lord of lords), contrasting first coming (meek on donkey).
 
-## Context: David's Song (1 Chron 16)
-- David king over Israel; brings Ark to Jerusalem (tent); sings psalm of thanks.
-- Vs 8-22 mirrors Ps 105:1-15 (covenant with Abraham, Isaac, Jacob: land promise).
-- Vs 20-22: God protected Israel from harm.
-- Vs 23-33 mirrors Ps 96: Call to worship, proclaim salvation; Lord made heavens; He comes to judge earth (prophetic of second coming).
-
-## Biblical Covenants Review
-- Covenant: Solemn God-initiated agreement (conditional or unconditional, grace-based).
-- Six major:
-  - Adam: Conditional (obey, no tree; broken, restored in Christ).
-  - Noah: Unconditional (no global flood; rainbow sign).
-  - Abraham: Unconditional (people/land for Messiah; Gen 12,15).
+## Biblical Covenants Reviewed
+- **Definition**: Solemn, grace-based agreement by God; conditional (human obedience) or unconditional (God's sovereignty).
+- Six major covenants:
+  - Adam: Conditional (be fruitful; do not eat from tree).
+  - Noah: Unconditional (no more global flood; rainbow sign).
+  - Abraham: Unconditional (people, land for Messiah; Gen 12, 15).
   - Moses: Law (conditional).
-  - David: Unconditional (dynasty; ch 17).
-  - New: Jesus' blood (forgiveness for believers).
+  - David: Unconditional (ch 17).
+  - New: Jesus' blood for sin forgiveness.
 
-## Worship Organization (1 Chron 16:37-43)
+## David's Psalm (1 Chronicles 16)
+- **Verses 8-22**: Parallels Psalm 105:1-15; thanks, covenant recall (v15: Abrahamic).
+- **Verses 23-33**: Parallels Psalm 96; praise God, declare glory; world established; Lord comes to judge earth (prophetic of second coming).
+- **Verses 34-36**: Parallels Psalm 106:1, Psalm 106:47-48; thanks for mercy; communal "Amen" (means "truly" or "so be it").
+
+## Ministry Assignments (1 Chron 16:37-43)
 - Asaph/brothers: Minister before Ark daily.
 - Obed-Edom (68 brethren), Hosa: Gatekeepers.
-- Zadok/priests: At Gibeon tabernacle (burnt offerings morning/evening).
-- Heman, Jeduthun: Thanks, trumpets, cymbals.
-- People depart; David blesses house.
-- Note: Ark in Jerusalem tent; rest of tabernacle at Gibeon (5.5 mi NW).
+- Zadok/priests: Offerings at Gibeon tabernacle (5.5 miles NW of Jerusalem).
+- Hemam, Jeduthun: Thanks with music/trumpets/cymbals.
+- Ark in Jerusalem tent; full tabernacle/sacrifices at Gibeon until Solomon's temple.
 
 ## God's Covenant with David (1 Chron 17:1-14)
-- David in cedar palace; wants house for Ark.
-- Nathan initially approves; God corrects: David won't build (God nomadic in tents).
-- God: Took David from sheepfold, defeated enemies, appoints Israel place.
-- Promise: **Builds David's "house" (lineage/dynasty)**.
-  - David's seed (Solomon) builds temple.
-  - Throne/kingdom forever (unconditional).
-- Davidic Covenant: Messiah (Jesus) from David's line/tribe Judah; eternal kingdom; based on God's faithfulness.
+- David desires cedar house for Ark (lives in luxury palace).
+- Nathan initially approves; God corrects: David won't build; God never asked.
+- God recounts: Took David from sheepfold, defeated enemies, gives Israel rest.
+- **Promise**: God builds David's "house" (lineage/dynasty).
+  - Solomon builds temple (literal house).
+  - Eternal throne/kingdom through David's seed (unconditional).
+- **Davidic Covenant**: Messiah (Jesus) from David's line/tribe of Judah; eternal kingdom based on God's faithfulness.
 
-## Key Details
-- "House": Literal (palace/temple) or lineage.
-- Jesus' genealogies: Mary (Luke 3, via Nathan); Joseph (Matt 1, via Solomon; legal father).
-- Fulfilled in Jesus: Salvation for world.
-- Solomon builds temple (David's hands bloody from war).
+## Fulfillment in Jesus
+- Legal claim via Joseph (Solomon line, Matthew 1) and blood via Mary (Nathan line, Luke 3).
+- Messianic prophecy: Jesus rules with iron rod (Rev 19).
 
 ## Closing
-- Prayer: Thanks for covenants, David's fulfillment in Jesus, new covenant.
+- God outdoes human efforts; covenant-keeping God.
+- Next: 1 Chron 17:15+.
 
-## Mentioned Bible Verses
-- First Chronicles chapter 16
-- First Chronicles chapter 17
-- Psalm 105 verses 1 to 15
-- Psalm 106 verse 1 and verses 47 to 48
+## Verses Mentioned
+- 1 Chronicles 16:8-22
+- 1 Chronicles 16:15
+- 1 Chronicles 16:23-33
+- 1 Chronicles 16:34-36
+- 1 Chronicles 17:1-14
+- Genesis 12
+- Genesis 15
 - Psalm 96
-- John chapter 3 verse 17
-- John chapter 12 verse 47
-- Revelation chapter 19 verse 11
-- Revelation chapter 16
-- Genesis chapter 12
-- Genesis chapter 15
-- Luke chapter 3
-- Matthew chapter 1
+- Psalm 105:1-15
+- Psalm 106:1
+- Psalm 106:47-48
+- John 3:17
+- John 12:47
+- Revelation 19:11
+- Matthew 1
+- Luke 3
