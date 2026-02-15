@@ -105,9 +105,9 @@ console.log("Missing Videos:", missingVideos);
 console.log(`Total Videos: ${videos.length}`);
 console.log(`Missing Videos: ${missingVideos.length}`);
 
-// for (const videoId of missingVideos) {
-  // await generateTranscription(`https://www.youtube.com/watch?v=${videoId}`);
-//   await createNotes(videoId);
-// }
+for (const videoId of missingVideos) {
+  await generateTranscription(`https://www.youtube.com/watch?v=${videoId}`);
+  await createNotes(videoId);
+}
 
 // await generateTranscription(`https://www.youtube.com/watch?v=TCMhwyzO3mQ`);
