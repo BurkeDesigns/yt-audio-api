@@ -99,9 +99,12 @@ app.get("/verses/:label", async c => {
     console.log(`Looking up verses for: ${label}`);
 
     let refs = extractBibleRefs(label);
-    // console.log("Extracted Bible References:", JSON.stringify(refs, null, 2));
+    console.log("Extracted Bible References:", JSON.stringify(refs.flatArr, null, 2));
 
     const verses = await getVersesFromReferenceList(bible, refs.flatArr);
+
+    let firstVerses = refs.flatArr[0]?.verses;
+    let startingVerseNumber = firstVerses && firstVerses.length > 0 ? parseInt(firstVerses[0]) : 1;
 
     // console.log("Extracted Verses:", verses);
 
@@ -131,6 +134,7 @@ app.get("/verses/:label", async c => {
             max-width: 800px;
             margin: auto;
             padding: 65px 20px;
+            padding-bottom: 96px;
         }
         iframe{
             border-radius: 12px;
@@ -154,7 +158,7 @@ app.get("/verses/:label", async c => {
     <div class="page">
         <div class="ref">
             <h2>${label} - ESV</h2>
-            <p>${verses[0]?.verses?.map((v,idx) => `<b>[${idx + 1}]</b> ${v}`).join(' ')}</p>
+            <p>${verses[0]?.verses?.map((v,idx) => `<b>[${idx + startingVerseNumber}]</b> ${v}`).join(' ')}</p>
             ${!label.includes(':') ? '' : `<a href="/verses/${verses[0].book} ${verses[0].chapter}" target="_blank">Read Full Chapter</a>`}
         </div>
     </div>
@@ -232,6 +236,7 @@ app.get("/notes/:video_id", async c => {
             max-width: 800px;
             margin: auto;
             padding: 65px 20px;
+            padding-bottom: 96px;
         }
         iframe{
             border-radius: 12px;
@@ -343,6 +348,7 @@ app.get("/", async c => {
             max-width: 800px;
             margin: auto;
             padding: 65px 20px;
+            padding-top: 32px;
         }
         iframe{
             border-radius: 12px;
@@ -364,12 +370,19 @@ app.get("/", async c => {
         li{
             margin-bottom: 12px;
         }
+            hr {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 24px 0;
+        }
     </style>
 </head>
 <body>
     <div class="page">
         <div class="ref">
-            <h2>Powerful Notes - Cornerstone Chapel Leesburg, VA</h2>
+            <h1>POWERFUL NOTES</h1>
+            <hr />
+            <h2>Cornerstone Chapel - Leesburg</h2>
             <ul>
                 ${Object.entries(titles).map(([video_id, title]) => `<li><a href="/notes/${video_id}" target="_blank">
                     <b>${title}</b>
