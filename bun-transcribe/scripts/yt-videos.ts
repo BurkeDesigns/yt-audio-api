@@ -1,5 +1,6 @@
 import { google } from 'googleapis';
 import { readdir } from "node:fs/promises";
+import { createNotes, generateTranscription } from '../util/queue';
 
 const youtube = google.youtube('v3');
 
@@ -41,31 +42,43 @@ async function getChannelIdByHandle(handle) {
 async function getRecentVideos() {
   try {
     // 1. Get the Channel's "Uploads" Playlist ID
-    const channelRes = await youtube.channels.list({
-      key: API_KEY,
-      id: CHANNEL_ID,
-      part: 'contentDetails'
-    });
+    // const channelRes = await youtube.channels.list({
+    //   key: API_KEY,
+    //   id: CHANNEL_ID,
+    //   part: 'contentDetails'
+    // });
 
     // console.log("Channel Response:", JSON.stringify(channelRes, null, 2));
 
-    const uploadsPlaylistId = channelRes.data.items[0].contentDetails.relatedPlaylists.uploads;
+    // const uploadsPlaylistId = channelRes.data.items[0].contentDetails.relatedPlaylists.uploads;
 
     // 2. Fetch the most recent videos from that playlist
-    const playlistRes = await youtube.playlistItems.list({
-      key: API_KEY,
-      playlistId: uploadsPlaylistId,
-      part: 'snippet,contentDetails',
-      maxResults: 50 // Adjust as needed (max 50)
-    });
+    // const playlistRes = await youtube.playlistItems.list({
+    //   key: API_KEY,
+    //   playlistId: uploadsPlaylistId,
+    //   part: 'snippet,contentDetails',
+    //   maxResults: 50 // Adjust as needed (max 50)
+    // });
 
     // console.log("Playlist Response:", JSON.stringify(playlistRes, null, 2));
 
-    const videos = playlistRes.data.items;
+    // const videos = playlistRes.data.items;
+
+    const response = await youtube.search.list({
+      key: API_KEY,
+      part: 'snippet',
+      channelId: CHANNEL_ID, // The ID of the channel you want to browse
+      type: 'video',
+      order: 'date',                         // To get the latest videos
+      videoDuration: 'long',                // Filters for videos > 4 minutes to avoid Shorts
+      maxResults: 50
+    });
+
+const videos = response.data.items;
     
     const data = videos.map(video => {
       const title = video.snippet.title;
-      const videoId = video.contentDetails.videoId;
+      const videoId = video.id.videoId;
       const publishedAt = video.snippet.publishedAt;
       const description = video.snippet.description;
     //   console.log(`${publishedAt} - ${title} (https://youtu.be/${videoId})`);
@@ -91,3 +104,10 @@ let missingVideos = videos.filter((v:any) => !fileSet.has(v.videoId)).map(v=> v.
 console.log("Missing Videos:", missingVideos);
 console.log(`Total Videos: ${videos.length}`);
 console.log(`Missing Videos: ${missingVideos.length}`);
+
+// for (const videoId of missingVideos) {
+  // await generateTranscription(`https://www.youtube.com/watch?v=${videoId}`);
+//   await createNotes(videoId);
+// }
+
+// await generateTranscription(`https://www.youtube.com/watch?v=TCMhwyzO3mQ`);

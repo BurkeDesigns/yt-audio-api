@@ -45,12 +45,12 @@ ${t.transcript}
     const markdown:string = completion?.choices[0]?.message?.content || '';
     // save markdown to file
     Bun.write(`./output/${t.video_id}_notes.md`, markdown);
-    console.log(completion?.choices[0]?.message.content);
+    // console.log(completion?.choices[0]?.message.content);
     console.log(`Notes generated for video ID: ${video_id}`);
 
 }
 
-async function generateTranscription(video: string) {
+export async function generateTranscription(video: string) {
     console.log(`Generating transcription for video: ${video}`);
     let video_id = video.replace("https://www.youtube.com/watch?v=", "");
     const output = await $`bash -c "cd /Users/wesley/Documents/GitHub/yt-audio-api && source .venv/bin/activate && python yt_quick_transcribe.py 'https://www.youtube.com/watch?v=${video_id}' 'output/${video_id}.json'"`.text();
