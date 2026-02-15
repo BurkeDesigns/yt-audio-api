@@ -68,7 +68,7 @@ async function getRecentVideos() {
       const videoId = video.contentDetails.videoId;
       const publishedAt = video.snippet.publishedAt;
       const description = video.snippet.description;
-      console.log(`${publishedAt} - ${title} (https://youtu.be/${videoId})`);
+    //   console.log(`${publishedAt} - ${title} (https://youtu.be/${videoId})`);
       return { title, videoId, publishedAt, description };
     });
 
@@ -87,7 +87,7 @@ files = files.map(f => f.replace('.json', ''));
 let fileSet = new Set(files);
 
 // get difference between videos and files
-let missingVideos = videos.filter((v:any) => !fileSet.has(v.videoId));
-console.log("Missing Videos:", JSON.stringify(missingVideos, null, 2));
+let missingVideos = videos.filter((v:any) => !fileSet.has(v.videoId)).map(v=> v.videoId);
+console.log("Missing Videos:", missingVideos);
 console.log(`Total Videos: ${videos.length}`);
 console.log(`Missing Videos: ${missingVideos.length}`);
