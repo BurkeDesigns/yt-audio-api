@@ -221,5 +221,5 @@ ${content}
 ];
 
 // await createBibleStudy(videos[0]?.videoId);
-await Promise.all(videos.map(v => createBibleStudy(v.videoId)));
-console.log("All bible studies generated!");
+// await Promise.all(videos.map(v => createBibleStudy(v.videoId)));
+// console.log("All bible studies generated!");

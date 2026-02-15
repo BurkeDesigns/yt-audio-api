@@ -521,9 +521,14 @@ app.get("/", async c => {
 
     let titles = [
   {
+    fullTitle: "Sun Feb 15, 2026 - 8am Service",
+    videoId: "shIioPGmCoQ",
+  }, 
+  {
     fullTitle: "Wed Feb 11, 2026 - Lessons from David: His Victories &amp; Defeats",
     videoId: "kscwnWs34nA",
-  }, {
+  }, 
+  {
     fullTitle: "Sun Feb 8, 2026 - Unity through Humility",
     videoId: "8PqjX8I-ndo",
   }, {

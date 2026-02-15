@@ -75,7 +75,7 @@ def download_audio(video_id: str, output_dir: Path) -> Tuple[Path, float, float]
     
     ydl_opts = {
         'format': 'bestaudio/best',
-        'outtmpl': str(output_path),
+        'outtmpl': f"{output_path}.%(ext)s",
         'postprocessors': [{
             'key': 'FFmpegExtractAudio',
             'preferredcodec': 'mp3',
