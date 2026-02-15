@@ -1,33 +1,30 @@
 # Sermon Notes: Ephesians 2:1-10
 
 ## Speaker
-- Pastor Gary (Cornerstone Chapel)
+- Pastor Gary
 
-## Core Message
-- Humans are born spiritually dead in sin but made alive by God's mercy, love, and grace through faith in Christ (not works).
-- Avoid returning to "dead life"; lean into God's provision.
+## Main Theme
+- Humans born physically alive but spiritually dead in sin; God makes us alive through Christ by grace.
+- Contrast: Dead life (trespasses/sins) vs. alive in Christ (purpose, heavenly seats, good works).
+- Illustration: Glove gains purpose with hand (Holy Spirit in us).
 
-## Spiritual State Before Christ
-- Physically alive, spiritually dead due to inherited sin nature (from Adam).
-- Lived according to world, devil, flesh; children of wrath.
+## Three Forces Against Us (Keep Dead)
+- **World**: Squeezes into its mold, changes identity (Daniel/Hananiah/Azariah/Meshael in Babylon; Nazi propaganda; Romans 12:2).
+- **Devil**: Prince of power of air; tools: temptation, condemnation, deception, accusation (defeated at cross; James 4:7; Colossians 2:15).
+- **Flesh**: Sinful nature/desires (Galatians 5 acts: immorality, impurity, idolatry, etc.; Romans 8:12-13).
 
-## Illustration
-- Glove: Lifeless until hand (Holy Spirit) enters, giving purpose.
-
-## 3 Forces Against Life (Eph 2:2-3)
-- **World**: Squeezes into its mold via culture/values (e.g., Babylonian renaming of Daniel, Shadrach, Meshach, Abednego; Nazi indoctrination).
-- **Devil**: "Prince of power of air"; uses temptation, condemnation, deception, accusation. Defeated at cross; power only what believers give.
-- **Flesh**: Sinful desires (e.g., Gal 5: sexual immorality, idolatry, jealousy, drunkenness).
-
-## 3 Forces for Life (Eph 2:4-7)
-- **Mercy**: Rich compassion; withholds deserved punishment.
-- **Love**: Great agape (unconditional); everlasting, demonstrated at cross.
+## Three Forces For Us (Make Alive)
+- **Mercy**: Rich compassion; withholds deserved punishment (Psalm 103:8,10).
+- **Love**: Great agape; unconditional, demonstrated on cross (Jeremiah 31:3; Romans 5:8).
 - **Grace**: Exceeding riches; gives undeserved blessings (forgiveness, adoption, eternal life).
 
-## Closing
-- Altar call: Pray to receive Christ; receive free Bible (in-person or text 703-844-9969 if online).
+## Salvation Invitation
+- Pray to confess sin, trust Christ; yields to His lordship.
 
-## Verses Referenced
+## Announcements
+- New believers: Pastor at front with Bible; online: text "I have decided" to 703-844-9969 for mailed Bible.
+
+## Scriptures Referenced
 - Ephesians 2:1-10
 - Psalm 51:5
 - Psalm 103:8
@@ -35,8 +32,8 @@
 - Romans 12:2
 - Romans 5:8
 - Romans 8:12-13
+- Colossians 2:15
+- Galatians 5
 - Jeremiah 31:3
 - John 8:44
-- Colossians 2:15
 - James 4:7
-- Galatians 5

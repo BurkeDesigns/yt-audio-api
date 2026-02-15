@@ -1,40 +1,44 @@
-# Sermon Summary: Torn Between Two Worlds
+# Sermon Notes: Torn Between Two Worlds
 
-## Context and Series
-- Series: "Reasons to Rejoice" through Philippians (started couple weeks ago).
-- Paul writes from Roman prison (~62 AD) to Philippi church; joyful despite chains for preaching gospel.
-- Background: Awaiting trial before Nero; shares gospel with Caesar's household, leading to salvations (divine appointment).
-- God told Paul in Acts he'd testify in Rome (omitted prison detail).
+## Series and Passage
+- **Series**: Reasons to Rejoice (Philippians; joy mentioned 14 times).
+- **Passage**: Philippians 1:19-25.
+- **Speaker**: Pastor (Cornerstone Chapel).
 
-## Scripture Focus
-- **Philippians 1:19-25** (key: v21 "For to me, to live is Christ, and to die is gain"; torn between life on earth for ministry vs. being with Christ).
+## Background
+- Paul writes from Roman prison (~62 AD) awaiting trial before Nero; later released, then re-arrested and beheaded.
+- Philippi church prays for Paul; gospel reaches Caesar's household, leading to salvations.
+- God sovereignly placed Paul there (Acts 23); uses circumstances for His purposes.
 
-## Reasons to Rejoice (3 total so far)
-- #1: God finishes what He starts (Philippians 1:6).
-- #2: God uses chains/circumstances for divine purposes.
-- #3: "To live is Christ, and to die is gain" (Philippians 1:21) – reason for joy as outcome is win-win.
+## Reasons to Rejoice (Philippians Ch. 1)
+- God finishes what He starts (v. 6).
+- God uses chains/circumstances for divine purposes.
+- **Core Verse**: "For to me, to live is Christ, and to die is gain" (v. 21).
+  - Paul torn between life (fruitful ministry for Philippians' progress/joy) and death (with Christ, "far better").
+  - Not a death wish, but a "heaven wish" (longing to finish well, welcome heaven when God calls).
+  - Illustrated by Phil Wickham's "Homesick for Heaven" lyrics.
 
-## Key Themes
-- Not a death wish, but "heaven wish": Desire to finish well on earth, welcome heaven when God calls (no suicidal intent; Paul expects to return to Philippi).
-- Contrast: Death wish (dark, reckless) vs. heaven wish (longing for no pain/sorrow; like Phil Wickham's "Homesick for Heaven").
-- Heaven overview (5 points):
-  1. God's dwelling place; immediate home for believers upon death (no purgatory/soul sleep).
-  2. Beyond outer space ("third heaven").
-  3. Streets of gold, pearl gates, jasper walls, crystal river.
-  4. Illuminated by God's glory/Jesus (no sun/moon).
-  5. Reunions with believing loved ones (recognizable).
+## Heaven Description (5 Points)
+- Dwelling place of God; eternal home for believers (immediate upon death via faith in Christ).
+- Beyond outer space ("third heaven").
+- Streets of gold, gates of pearl, jasper walls, crystal river.
+- Illuminated by God's glory and Jesus (no sun/moon).
+- Reunions with believing loved ones (recognition retained/enhanced).
 
-## Application and Call
-- Must first say "to live is Christ" (surrender to Jesus as Lord/Savior) to claim "to die is gain."
-- Warning: Living for money/fame/success meaningless without God (Ecclesiastes).
-- Salvation prayer offered; Bibles for new believers (in-person or text 703-844-9969).
+## Closing Challenge
+- "To live is Christ" prerequisite for "to die is gain."
+- Surrender to Christ as Lord/Savior; name in Lamb's Book of Life.
+- Altar call/prayer for salvation.
 
-## Bible Verses Referenced
+## Announcements
+- New believers: Receive free Bible at front (in-person) or text "I have decided" to 703-844-9969 (online; mailed worldwide).
+
+## Bible Verses
 - Philippians 1:6
 - Philippians 1:19-25
 - Philippians 1:21
-- Philippians 1:23
 - Acts 23
+- Revelation 21
 - 1 Kings 8:30
 - Psalm 103:19
 - Revelation 21:27

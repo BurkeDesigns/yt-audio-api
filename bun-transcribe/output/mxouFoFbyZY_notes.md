@@ -1,45 +1,50 @@
 # Sermon: Watchmen (Ezekiel 33)
 
 ## Overview
-- Ezekiel: underrated major prophet (~2500 years ago); Ch. 1 supernatural/angelic; Ch. 1-32 judgment, Ch. 33+ hope.
-- Speaker directed by God to teach Ch. 33 despite preference for Ch. 1.
+- Speaker teaches Ezekiel 33, emphasizing God's appointment of Ezekiel as a spiritual watchman for Israel.
+- Watchman role: stationed at high points (e.g., city gates, towers) to **watch** for threats and **warn** people via trumpet (ram's horn).
+- Key principle: Watchman accountable for warning, not people's response; blood on hearer's head if ignored (Ezekiel 33:1-9).
+- Shift in Ezekiel: Chapters 1-32 focus on judgment; 33+ emphasize hope and repentance.
 
-## Watchman Role (Ezekiel 33:1-7)
-- Physical: stationed high (city gate/2 Samuel; tower/2 Kings); watch for threats, sound trumpet (ram's horn) to warn.
-- If warns & ignored: blood on hearer's head.
-- If fails to warn: blood on watchman's hand.
-- Ezekiel appointed spiritual watchman for rebellious Israel: warn of judgment/death unless repent; responsible only for obedience, not response.
+## Ezekiel's Role
+- Appointed spiritual watchman to warn Israel of judgment and separation from God unless they repent ("turn from wicked ways").
+- Freeing truth: Responsible only for obedience to God's word, not outcomes.
+- Israel portrayed as rebellious; God calls them Ezekiel's people to warn.
 
-## Personal Illustration
-- Wife (Kayla) "people watcher"; couple now enjoys together; all observe others (e.g., awkward eye contact).
+## Application to Christians
+- All Christians called as watchmen in modern society: proclaim Jesus, be **salt** (flavor, preserve, sting) and **light** (expose darkness, guide).
+- People watch Christians' lives/deeds, leading to praise of God.
+- Balance **warning** (hell, judgment, sin's consequences) and **teaching** (grace, truth, maturity in Christ).
+- Goal: Present people mature in Christ; obedient sharing frees from response accountability.
+- Jonah example: Obeyed after reluctance, Nineveh repented; God used him despite attitude.
 
-## Christian Application
-- All Christians: watchmen as salt/light (Matthew 5:13-16).
-  - Salt: flavors, preserves, stings.
-  - Light: exposes darkness, guides; let good deeds shine to glorify Father.
-- Warn (hell/sin) *and* teach grace (Colossians 1:28; balance like Jesus/John the Baptist/Paul).
-- Goal: present mature in Christ; not responsible for response, only obedience (like Ezekiel).
-- Example: Jonah obeyed reluctantly; Nineveh repented; God saves despite wickedness.
+## God's Heart (Ezekiel 33:10-16)
+- Israel laments transgressions; God responds: No pleasure in wicked's death, desires **repentance** ("turn") and life.
+- Fairness: Righteous who rebel judged by final rebellion; wicked who repent forgiven completely—no sins remembered.
+- Two attributes:
+  - Desires all to repent (sins eradicated).
+  - Patient, erases forgiven sins (not held against us).
 
-## God's Heart (Ezekiel 33:10-11,16)
-- No pleasure in wicked's death; desires repentance/turn (Greek: metanoia).
-- Forgives completely: sins forgotten/erased, even for worst offenders.
-- Fairness: righteous who rebel judged by end; wicked who repent saved.
+## Closing
+- Call to obedience as watchmen; repent if needed—God forgives fully.
+- Prayer reinforces God's compassion, mercy, unfailing love; sins removed "as far as east from west."
 
-## Closing: God's Attributes
-- Wants all to repent, sins eradicated (2 Peter 3:9).
-- Compassionate, merciful, slow to anger, unfailing love; removes sins "east from west."
-
-## Prayer Emphasis
-- Obey as watchmen; God holds accountable only for obedience, not responses.
-- Repent; sins blotted out.
-
-## Verses
-- Ezekiel 33:1-7
-- Ezekiel 33:7-9
-- Ezekiel 33:10-11
+## Bible Verses Referenced
+- Ezekiel 33:1
+- Ezekiel 33:2
+- Ezekiel 33:3
+- Ezekiel 33:6
+- Ezekiel 33:7
+- Ezekiel 33:8
+- Ezekiel 33:9
+- Ezekiel 33:10
+- Ezekiel 33:11
 - Ezekiel 33:16
-- Matthew 5:13-16
+- Ezekiel 1
+- 2 Samuel (city gate reference)
+- 2 Kings (lookout tower reference)
+- Matthew 5:13
+- Matthew 5:16
 - Colossians 1:28
 - 2 Peter 3:9
 - Micah 7:19

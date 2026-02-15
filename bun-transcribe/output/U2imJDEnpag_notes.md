@@ -1,42 +1,40 @@
-# Bible Study Notes: Ephesians 5-6 Relationships
+# Bible Study: Ephesians 5-6 on Healthy Relationships
 
 ## Speaker
-Unnamed pastor
+- Unnamed pastor
 
-## Foundational Principle
-- Ephesians 5:20-21: Give thanks always; submit to one another in fear of God.
+## Key Foundation
+- Ephesians 5:20-21: Giving thanks always... submitting to one another in the fear of God.
 - Covers Eph 5:22-6:9: God's order for harmony in marriage, family, workplace.
-- Submission starts with God (not conditional on others); overcome sinful nature (selfish, proud, unforgiving).
-- All imperfect; extend grace; prioritize submission to Lord.
+- No perfect people; sinful nature defaults to selfishness (selfish, proud, unforgiving, etc.).
+- Submit to God first (unconditionally), then others; give grace as all in process.
 
 ## Marriage (Eph 5:22-33)
-- **Wives**: Submit to husbands as to Lord (headship like Christ/church); means orderly arrangement (hupotasso), not inferiority.
-- **Husbands**: Love wives as Christ loves church (9 verses vs. 3 for wives):
-  - Unconditionally, sacrificially, faithfully.
-  - Nourish/cherish as own body; enter her world; dwell with knowledge (1 Pet 3:7).
-- Summary: Jesus as Lord; husband leads with love; wife submits with respect—as unto Lord.
-- Tiebreaker: Husband leads at impasse; pray for each other.
+- **Wives**: Submit to husbands as to the Lord (headship like Christ/church); means orderly arrangement (hupotasso), not inferiority (3 verses).
+- **Husbands**: Love wives as Christ loves church (unconditional, sacrificial, faithful, enter her world); 9 verses; know wife (1 Pet 3:7); lead with love.
+- Summary: Jesus as Lord; husband leads with love; wife submits with respect; both as unto Lord; tiebreaker for impasses on husband.
 
 ## Family (Eph 6:1-4)
-- **Children**: Obey/honor parents in Lord (hupakouo = listen/heed); 5th Commandment with promise (long life/well-being).
-- Instill respect for authority early; no "time-outs" without discipline.
-- **Fathers**: Do not provoke to wrath; train in Lord's admonition (spiritual leaders).
+- **Children**: Obey (hupakouo: listen/heed) and honor parents in the Lord (5th Commandment with promise: long life/well-being).
+- **Fathers**: Do not provoke to wrath; train in Lord's discipline/admonition.
+- Instill respect for authority; balance discipline with grace.
 
 ## Workplace (Eph 6:5-9)
-- **Employees** (bondservants/doulos = voluntary servants): Obey employers as Christ; sincere heart, not eye-service; as unto Lord (rewards regardless of status).
-  - Best work ethic; leave if unworkable.
-- **Employers** (masters): Treat same way; no threats/partiality (God impartial).
+- **Employees (bondservants/doulos)**: Obey employers as to Christ; sincere, not eye-service; good work ethic as unto Lord (rewards regardless of status).
+- **Employers**: Treat same way; no threats/partiality (God impartial).
+- Leave toxic situations; Christians excel in ethic.
 
-## Key Caveat
-- Obey "in everything/as to Lord" unless dishonors God (need strong biblical basis, not whims).
+## Closing Caveat
+- "In the Lord/as to Lord" prioritizes honoring God; refuse ungodly commands (need strong biblical basis, not whims).
 
-## Closing Prayer
-- For marriages, families, workplaces: Honor God, extend grace, submit mutually.
+## Prayer Points
+- Grace for imperfect roles; heal strained marriages/families; honor in work; submit in fear of God.
 
-## Bible Verses Referenced
+## Verses Referenced
 - Ephesians 5:20-21
 - Ephesians 5:22-24
 - Ephesians 5:25-33
 - Ephesians 6:1-4
 - Ephesians 6:5-9
+- Genesis 2:24
 - 1 Peter 3:7

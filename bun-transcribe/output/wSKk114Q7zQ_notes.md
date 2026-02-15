@@ -1,66 +1,66 @@
-# Service Summary: Rise of Anti-Semitism
+# Rise of Anti-Semitism: Biblical Perspective on Israel and Jewish People
 
-## Overview
-- Evening service at Cornerstone Chapel addressing anti-Semitism in church and conservative circles.
-- Host pastor emphasizes biblical support for Israel/Jews; God's favor ongoing (not transferred to church).
-- ADL stats: Anti-Semitic incidents up 344% (5 yrs), 893% (decade); distinguishes policy critique from Jew-hatred.
-- Requests respect; security enforced.
+## Speakers
+- Pastor Gary Hamrick (host, Cornerstone Chapel)
+- Rob McCoy (pastor, Godspeak Calvary Chapel; former mayor)
+- Sammy Smaja (TBN regional director Israel/Middle East; messianic pastor Jerusalem)
+- Bob McEwen (former U.S. Congressman; Council on National Policy executive director)
 
-## Guest Speakers
-- **Rob McCoy**: Ordained pastor 30+ yrs; former Godspeak Calvary Chapel sr. pastor; Thousand Oaks mayor/council (resigned over COVID defiance, $300k fine overturned); married 35 yrs, 5 kids, 8 grandkids.
-- **Sammy Smaja**: TBN regional director (Israel/ME); pres. SARL Tours/Conferences; pastors largest Hebrew-speaking messianic congregation in Jerusalem (est. 1960s by father); lives Judean Hills; married, 3 kids, 2 grandkids.
-- **Bob McEwen**: Former 6-term OH congressman; exec. dir. Council on National Policy; Turning Point growth role; American history expert; married, 4 kids, 9 grandkids.
+## Introduction
+- Anti-Semitism rising: ADL reports 344% increase in incidents over 5 years, 893% over decade (excludes policy opposition).
+- Distinguishes policy criticism from anti-Semitism (harming/blaming Jews is demonic; Satan as accuser, Revelation 12).
+- Catholic/Orthodox leaders condemned Christian Zionism (Jan 17 statement).
+- Concerns over Candace Owens/Tucker Carlson comments dividing conservatives/Christians.
+- Call for respect; pray for influencers; expose darkness biblically (Ephesians 5:11; 2 Timothy 2:23-26).
 
-## Key Discussions
-### Accusation Clarification (Rob McCoy)
-- Addressed claim of shielding pedophile (Tom Semino, Megan's Law registrant, church attendee 10+ yrs).
-- Semino confessed past, served time, no recidivism; discipled, taught home Bible study (attendees informed); never near kids/ministry.
-- Attack by Soros-linked Indivisible Conejo during election/COVID.
+## Guest Clarifications
+- Rob McCoy addressed accusation of shielding pedophile (Tom Semino): Attender served time, discipled, no recidivism, not near children; attack by Soros-linked group.
 
-### Resources
-- Atrium tables: Israel Allies Foundation, Concerned Women for America, Intl. Christian Embassy Jerusalem.
-- Free items: "Replacement Theology: What It Is & Why It Matters"; "Anti-Semitism: What Every Christian Needs to Know & How to Counter It" (Dr. Susan Michael/Karen Engel).
+## Definitions
+- **Anti-Semitism**: Hatred/opposition to Jews (includes anti-Zionism; blaming Jews for world problems).
+- **Zionism**: Biblical return of Jews to homeland (Zion = Jerusalem/Israel); part of God's salvation plan.
 
-### Definitions
-- **Anti-Semitism**: Hatred of Jews (Semites); includes anti-Zionism, blaming Jews for world problems, denying homeland right.
-- **Zionism**: Biblical return of Jews to Zion (Jerusalem/Israel); part of God's salvation plan (Ezek 36-39 dry bones).
+## Biblical Case for Israel
+- God chose Jews to bring Word, Messiah (not superior ethnicity); roots of Christianity in Judaism.
+- Against replacement theology: God faithful despite apostasy (Ezekiel 36-39 dry bones; Romans 9-11).
+- Genesis 12:1-3 unconditional covenant: Bless Israel, be blessed; curse Israel, be cursed (applies today).
+- Church not replacement: "All Israel will be saved" (Romans 11:25-26); Jews need Yeshua, but God not done.
+- Dead Sea Scrolls (1947) as "title deed" before Israel's rebirth.
 
-### Biblical Perspective on Israel
-- Satan persecutes Jews/Israel (Rev 12:13; "woman"=Israel, "child"=Messiah).
-- Abrahamic covenant unconditional (Gen 12:1-3: bless those who bless, curse cursers); applies to modern Israel.
-- Rejects replacement theology: God not done with ethnic Israel (Rom 9-11; Rom 11:25-26 "all Israel saved"; Zech 13).
-- Jews chosen not for superiority but to bring Word/Messiah; church rooted in Judaism.
-- Salvation by faith in Yeshua for all; no free pass by ethnicity.
+## Critiques of Anti-Israel Views (Clips)
+- Candace Owens: Zionism "grief"; Israel "demonic"; Netanyahu "demon"; conspiracy theories (e.g., Jews control everything, ancient tech).
+- Tucker Carlson: No chosen people; church universal; Netanyahu "evil"; U.S. leaders betray America.
+- Charlie Kirk rejected anti-Semitic scapegoating (Jews blamed for all ills).
 
-### Critics' Clips (Owens/Carlson)
-- Owens: Zionism "grief" to US; Israel "demonic"; Netanyahu demon; conspiracy theories (Jews control/slave trade/9-11).
-- Carlson: No "chosen people" (church only); US leaders betray America prioritizing Israel; Netanyahu "evil".
-- Response: Demonic delusion; exposes via Eph 5:11; pray for discernment (2 Tim 2:23-26).
+## U.S.-Israel Alliance
+- Strategic: Israel's location, military/intel (Mossad), Iran containment (PragerU: 5 reasons).
+- Proportional response to Oct 7 (1,216 killed = 60K U.S. equivalent); Hamas atrocities, ongoing rockets (tens of thousands since 2005).
+- Spiritual battle: Anti-Israel = anti-American/Christian; hate from Satan.
+- Jewish global population: ~15M (0.2%); most targeted minority.
 
-### October 7th & War
-- 1,216 Israelis murdered (equiv. 60k US deaths proportionally); Hamas atrocities (babies microwaved, rapes, beheadings).
-- Gaza received $ since 2005; built tunnels/rockets (tens of thousands fired) not state.
-- War could end if Hamas stops/released hostages; 26k missiles on Israel since Oct 7.
-- Israel response proportional; protects civilians.
+## Broader Context
+- Oct 7 changed Israel/Middle East; Hamas invested aid in tunnels/weapons.
+- Defend Jews as Christians would want defense (imagine anti-Christian attacks).
+- Quotes: Bill Maher/Van Jones on tiny Jewish population deserving protection post-Holocaust.
 
-### US-Israel Alliance
-- Strategic: ME fortress vs. Iran; intel (Mossad); combat-ready forces; shared values/democracy (PragerU: 5 reasons).
-- Spiritual battle: Anti-Israel = anti-US/Christianity; Jews (15M global, 7M Israel) blessed world (Nobel, inventions).
-- Iran intel: 25k killed resisting regime.
+## Closing
+- Martin Niemöller poem: Speak out before "they come for you."
+- God's favor remains on Israel/Jews; pray protection/blessing.
+- Sammy Smaja closing prayer (Hebrew/English for Israel, attendees).
 
-### Closing
-- Quotes Nie Moller poem on speaking out (Jews last before "me").
-- Sammy Smaja prayer (Hebrew/English) for Israel, leaders, soldiers, attendees.
+## Announcements
+- Free resources in atrium (while supplies last): Israel Allies Foundation, Concerned Women for America, International Christian Embassy Jerusalem.
+  - "Replacement Theology: What It Is and Why It Matters."
+  - "Antisemitism: What Every Christian Needs to Know and How to Counter It" (Dr. Susan Michael/Karen Engel).
 
 ## Bible Verses
 - Revelation 12:10
-- Revelation 12:13
 - John 8:44
+- Revelation 12:13
 - Ephesians 5:11
 - 2 Timothy 2:23-26
 - Proverbs 18:17
 - Genesis 12:1-3
 - Romans 9-11
 - Romans 11:25-26
-- Ezekiel 36-39
 - Zechariah 13

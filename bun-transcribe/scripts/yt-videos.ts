@@ -93,21 +93,97 @@ const videos = response.data.items;
 }
 
 CHANNEL_ID = await getChannelIdByHandle(CHANNEL_HANDLE);
-const videos = await getRecentVideos();
+// const videos = await getRecentVideos();
 
-let files:any = await readdir("../output", { recursive: true });
-files = files.map(f => f.replace('.json', ''));
-let fileSet = new Set(files);
+// let files:any = await readdir("../output", { recursive: true });
+// files = files.map(f => f.replace('.json', ''));
+// let fileSet = new Set(files);
 
-// get difference between videos and files
-let missingVideos = videos.filter((v:any) => !fileSet.has(v.videoId)).map(v=> v.videoId);
-console.log("Missing Videos:", missingVideos);
-console.log(`Total Videos: ${videos.length}`);
-console.log(`Missing Videos: ${missingVideos.length}`);
+// // get difference between videos and files
+// let missingVideos = videos.filter((v:any) => !fileSet.has(v.videoId)).map(v=> v.videoId);
+// console.log("Missing Videos:", missingVideos);
+// console.log(`Total Videos: ${videos.length}`);
+// console.log(`Missing Videos: ${missingVideos.length}`);
 
-for (const videoId of missingVideos) {
-  await generateTranscription(`https://www.youtube.com/watch?v=${videoId}`);
-  await createNotes(videoId);
+// for (const videoId of missingVideos) {
+//   await generateTranscription(`https://www.youtube.com/watch?v=${videoId}`);
+//   await createNotes(videoId);
+// }
+
+function formatClosestChurchDay(publishedAt) {
+  const date = new Date(publishedAt);
+  const dayOfWeek = date.getDay(); // 0 (Sun) to 6 (Sat)
+
+  // Distances to Sunday (0) and Wednesday (3) within the same week
+  const distToSun = Math.abs(dayOfWeek - 0);
+  const distToWed = Math.abs(dayOfWeek - 3);
+
+  // Determine the offset to the closest target day
+  const offset = distToSun <= distToWed ? -dayOfWeek : (3 - dayOfWeek);
+  
+  const closestDate = new Date(date);
+  closestDate.setDate(date.getDate() + offset);
+
+  const formatter = new Intl.DateTimeFormat('en-US', {
+    weekday: 'short',
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+  });
+
+  // Example output: "Wed Jun 4, 25" or "Sun Jun 1, 25"
+  const parts = formatter.formatToParts(closestDate);
+  const map = parts.reduce((acc, part) => ({ ...acc, [part.type]: part.value }), {});
+  
+  return `${map.weekday} ${map.month} ${map.day}, ${map.year}`;
 }
 
-// await generateTranscription(`https://www.youtube.com/watch?v=TCMhwyzO3mQ`);
+async function generateVideoTitles() {
+  try {
+
+    let files:any = await readdir("../output", { recursive: true });
+    files = files.map(f => f.replace('.json', ''));
+    let fileSet = new Set(files);
+
+    const response = await youtube.search.list({
+      key: API_KEY,
+      part: 'snippet',
+      channelId: CHANNEL_ID, // The ID of the channel you want to browse
+      type: 'video',
+      order: 'date',                         // To get the latest videos
+      videoDuration: 'long',                // Filters for videos > 4 minutes to avoid Shorts
+      maxResults: 50
+    });
+
+    const videos = response.data.items;
+    
+    const data = videos.map(video => {
+      const title = video.snippet.title.split('|')[0].trim(); // Take the part before '|' and trim whitespace
+      const videoId = video.id.videoId;
+      const publishedAt = video.snippet.publishedAt;
+      const description = video.snippet.description;
+      const closestChurchDay = formatClosestChurchDay(publishedAt);
+    //   console.log(`${publishedAt} - ${title} (https://youtu.be/${videoId})`);
+      return { 
+        title, 
+        videoId, 
+        publishedAt, 
+        closestChurchDay, 
+        description,
+        fullTitle: `${closestChurchDay} - ${title}`
+      };
+    });
+
+    // console.log("Video:", JSON.stringify(data, null, 2));
+    // let allTitles = {};
+    let allTitles = data.filter((v:any) => fileSet.has(v.videoId)).map(v=> ({fullTitle: v.fullTitle, videoId: v.videoId}));
+    console.log("All Titles:", allTitles);
+
+    // return data;
+
+  } catch (error) {
+    console.error('Error fetching videos:', error.message);
+  }
+}
+
+// await generateVideoTitles();

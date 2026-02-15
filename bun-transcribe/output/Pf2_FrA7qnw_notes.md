@@ -1,31 +1,26 @@
-# Sunrise Service Summary
-- **Event**: Resurrection Sunday sunrise service in new courtyard; first use, already outgrown; early crowd despite 6:30 AM start.
-- **Worship Team**: Younger team led songs including "Because He Lives," "Praise the Name," others.
-- **Prayers**: Multiple prayers thanking God for resurrection, creation, hope.
+## Sunrise Easter Service Notes
 
-## Scripture Reading
-- John 20:1-18 (Mary Magdalene at empty tomb, encounters Peter/John, angels, Jesus; recognizes Him when called by name).
+### Service Overview
+- Outdoor sunrise service in new Cornerstone Chapel courtyard (first use; already outgrown).
+- Greeting emphasizes joy of resurrection; references Proverbs 27:14 on early morning greetings.
+- Led by unnamed pastor; younger worship team.
+- Theme: Encouragement for believers on Jesus' resurrection (not evangelism-focused).
 
-## Sermon: Three Reminders on Jesus' Resurrection
-### 1. Factual
-- Historical evidence stronger than most events (Simon Greenleaf, Harvard Law).
-- Skeptics converted: Lew Wallace (*Ben-Hur*), Frank Morrison (*Who Moved the Stone?*), Josh McDowell (*Evidence That Demands a Verdict*), Lee Strobel (*The Case for Christ*), Robert Ingersoll influenced friend.
-- Apostles/martyrs died defending it; no one dies for a known lie.
+### Worship
+- Songs: "Because He Lives", "In Christ Alone" (Praise the Father, Praise the Son), "O Praise the Name".
+- Opening and closing prayers praising resurrection, creation, and hope in Christ.
 
-### 2. Powerful
-- Proves authority/credibility; Jesus predicted it 10+ times (e.g., Mark 9:31).
-- Paul in Acts 13:28- (preached resurrection post-crucifixion).
-- Unique vs. other leaders (Confucius, Buddha, Muhammad buried); distinguishes Christianity.
+### Sermon: John 20:1-18
+- Narrative summary: Mary Magdalene finds empty tomb early morning; alerts Peter and John (John outruns Peter); they see linen cloths but leave; Mary weeps, encounters angels and unrecognized Jesus (mistaken for gardener); recognizes Him when He says "Mary"; instructed to tell disciples of ascension.
+- **Three Key Points on Resurrection**:
+  - **Factual**: Historical evidence (Simon Greenleaf quote); skeptics converted (Lew Wallace/Ben-Hur, Frank Morrison/Who Moved the Stone?, Josh McDowell/Evidence That Demands a Verdict, Lee Strobel/The Case for Christ, Robert Ingersoll's friend); martyrs died defending it.
+  - **Powerful**: Proves authority/legitimacy; Jesus predicted it (10x in Gospels); unique to Christianity (other leaders' tombs intact); Jesus superior as living Lord.
+  - **Personal**: Knows us by name (Mary example); reasons for non-recognition (context, shock, preconceptions); McDonald's milkshake analogy illustrates preconceptions; new name in heaven; offers living hope and eternal inheritance (1 Peter 1:3-4).
+- Closing: Hope amid despair (e.g., Brad Delp suicide); prayer for world to know resurrection truth.
 
-### 3. Personal
-- Jesus knows us by name (John 20 example: calls "Mary"; she mistakes Him for gardener due to context/shock/preconception).
-- Story: Speaker's McDonald's mix-up (pumpkin vs. chocolate shake) illustrates preconceptions.
-- New name in heaven (Revelation 2:17); personal God (Romans 5:8).
-- Benefits (1 Peter 1:3-4): living hope, eternal inheritance (forgiveness, heaven).
-
-## Closing
-- Hope for hopeless (e.g., Brad Delp suicide note); overflow with hope (Romans 15:13).
-- More services today; greet others.
+### Announcements
+- Four more services today ([https://cornerstonechapel.net/events](https://cornerstonechapel.net/events)).
+- New courtyard praised; plans to expand.
 
 ## Bible Verses
 - Proverbs 27:14

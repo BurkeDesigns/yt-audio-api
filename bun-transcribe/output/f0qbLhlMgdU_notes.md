@@ -1,43 +1,35 @@
-# Sermon Summary: Truth-Telling in Light of Charlie Kirk's Assassination
+# Sermon Notes: Response to Charlie Kirk's Assassination
 
-## Context
-- Sermon deviates from Galatians study due to Charlie Kirk's assassination on Wednesday in Utah.
-- First real-time captured assassination via cell phones, impacting national psyche.
-- Speaker troubled; balances tribute to Kirk with focus on evil, truth, and biblical response.
+## Speaker
+- Pastor (Cornerstone Chapel; personal friend of Charlie Kirk)
 
-## Speaker's Connection to Charlie Kirk
-- Knew Kirk ~6 years: Hosted at Cornerstone (2021); interviewed in Phoenix (2022); spoke at California event (2023).
-- Daily texts with Kirk and other pastors; last verse from Kirk: Proverbs 17:24.
-- Scheduled to speak with Kirk Friday at Christianity & Culture conference (World Outreach Church, TN; still proceeding).
+## Main Scripture
+- Galatians 4:16: "Have I therefore become your enemy because I tell you the truth?"
 
-## Tribute to Charlie Kirk
-- Loved Jesus (grew as apologist), wife Erica, two children, America.
-- "Controversial" due to biblical views shaping politics, challenging culture.
-- Engaged campuses in respectful dialogue; killed cowardly by assassin avoiding debate.
-
-## Condemnation of Evil Reactions
-- Violence un-American, demonic.
-- Democrats booed House prayer for Kirk's family.
-- Social media celebrations of death.
-- Rising anti-Semitism/anti-Christian violence from Satan.
-
-## Core Message: Love Enough to Tell Truth
-- Galatians 4:16: Truth provokes enmity (as with Paul, prophets, Jesus).
-- World hates light/truth (Christians confront evil).
-- Speak biblical truth boldly, graciously for souls' freedom (not popularity).
-- Jesus as truth's personification/objective standard vs. subjective "self" morality.
+## Key Themes
+- **Truth-Telling and Persecution**: Speaking biblical truth provokes hatred; expect enmity like Paul faced (Galatians 4:16); Jesus warned of world's hate (John 15:18-19).
+- **Evil in the World**: Assassination highlights demonic violence; rising anti-Christian/anti-Semitic hatred; contrast light (truth) vs. darkness (evil, John 3:19-21).
+- **Charlie Kirk Tribute**:
+  - Founder of Turning Point; outspoken Christian apologist, patriot, family man.
+  - Personal ties: Visited Cornerstone (2021); hosted pastor at events (2022-2023); daily texts with pastors.
+  - Died on college campus after engaging in dialogue; killer chose violence over debate.
+  - Condemns celebrations of death, congressional boos to prayer for family, social media vitriol.
+- **Cultural Impact**: Real-time videos intensified trauma; first assassination captured live globally.
+- **Jesus as Truth**: Objective standard vs. subjective "my truth"; Christians must boldly proclaim for freedom (John 8:32,36).
 
 ## Takeaways
-- Love Jesus/people more than life (Philippians 1:20-21; death = gain).
-- Don't idolize men (inspire deeper Christ walk; Acts 14:15 example).
-- Be bold, unashamed gospel ambassadors (esp. Gen Z/millennials; Ephesians 6:19-20, Romans 1:16).
-- Kirk wanted remembrance for "courage of my faith."
+- Love Jesus/people more than life (Philippians 1:20-21); death is gain.
+- Do not idolize men (e.g., Paul/Barnabas rejected worship, Acts 14:15); let lives inspire deeper Christ-following.
+- Be bold, unashamed ambassadors (Ephesians 6:19-20; Romans 1:16); especially Gen Z/millennials.
 
 ## Closing
 - Altar call for salvation.
-- Prayer for comfort, revival starting with youth.
+- Prayer for revival, boldness among youth.
 
-## Bible Verses Mentioned
+## Announcements
+- Christianity & Culture conference at World Outreach Church (Murfreesboro, TN) proceeds as planned: [https://cornerstonechapel.net/events](https://cornerstonechapel.net/events).
+
+## Bible Verses
 - Galatians 4:16
 - Proverbs 17:24
 - Matthew 5:11-12

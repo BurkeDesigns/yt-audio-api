@@ -1,56 +1,54 @@
-# Easter Service Summary: Cornerstone Chapel
+# Easter Service Summary - Cornerstone Chapel
 
 ## Worship Songs
-- Praise to God, Father, Son, Holy Spirit; unashamed of gospel.
-- Praise the Lord (mountain/valley themes).
-- Mercy spoke (cross, boasting in Christ).
-- Praise risen Jesus (death defeated).
-- What a love (Father's mercy, sacrifice).
+- "All Praise" (to God, Christ, Holy Spirit)
+- "Praise the Lord, Oh My Soul"
+- "On a Hill Far Away" / "May I Never Boast"
+- "Because He Lives"
+- "What a Love I Found in Christ"
+- Final praise songs post-altar call
+
+## Speakers
+- Pastor (sermon, welcome, altar call)
+- Worship team (led by Mike Hoschar)
+
+## Welcome & Highlights
+- Easter celebration of Christ's resurrection; "He is risen indeed"
+- Welcomed in-person attendees (sanctuary, chapel, cafe, courtyard), online viewers, out-of-state/international visitors (e.g., Florida, NC, Seattle, Montana, Guatemala, Pittsburgh, Mexico, Baltimore)
+- Worship team praised for 8 services
+- Humorous McDonald's story illustrating outwitting evil (Satan/sin/death defeated by God)
 
 ## Announcements
-- [Monthly baptism services](https://cornerstonechapel.net/events): Next Wednesday, April 23rd; sign up at cornerstonechapel.net.
-- [Adult Bible classes](https://cornerstonechapel.net/events): Wednesdays at 7 p.m., starting May 7th (one night each).
-- [Orientation class](https://cornerstonechapel.net/events): Wednesday, June 4th at 7 p.m. (serving, beliefs).
-- Offering: Wooden boxes, online autopay/BillPay, text.
-- Connect: Instagram, Facebook, YouTube, mobile app, cornerstonechapel.net (events, ministry, Bible library).
-- Services: Sundays 8:15/10 a.m./12 p.m.; Wednesdays 7 p.m.
+- [Monthly baptisms](https://cornerstonechapel.net/events): Next on Wed, Apr 23; sign up at Cornerstonechapel.net
+- [Adult Bible classes](https://cornerstonechapel.net/events): 3 one-night classes, Wednesdays 7pm starting May 7 (for new believers/sharing faith)
+- [Orientation class](https://cornerstonechapel.net/events): Wed, Jun 4 at 7pm (serving/beliefs)
+- Giving: Wooden boxes, website auto-pay/BillPay, text
+- Connect: Instagram, Facebook, YouTube, free app, Cornerstonechapel.net (events, ministries, Bible library)
+- Services: Sundays 8:15am, 10am, 12pm; Wednesdays 7pm
 
-## Welcome
-- Pastor welcomes sanctuary, chapel, cafe, courtyard, online viewers.
-- Recognizes out-of-state visitors: Florida, NC, SC, GA, NY, MA, KY, Hong Kong, Italy, MD (Baltimore), WA (Seattle), NC, MT, Guatemala, VA (Leesburg), PA (Pittsburgh), Mexico.
-
-## Sermon: A Tale of Two Gardens (Pastor)
-- **Garden of Eden (Genesis 2)**: God-planted, lush; Adam/Eve given choice (tree of knowledge); Satan tempts Eve, Adam fails; sin enters, expulsion, inherited sin nature.
-- **Garden Tomb (John 19-20)**: Near Golgotha/Calvary; Jesus crucified, buried, rises; Mary Magdalene, Peter, John witness empty tomb/angels/Jesus.
-- **Historical evidence**: Josephus (1st century): Jesus as Messiah, crucified, appeared alive 3rd day.
-- **Contrasts**:
-  | First Garden (Eden) | Second Garden (Tomb) |
-  |---------------------|----------------------|
-  | Sin entered | Sin forgiven |
-  | Death reigned | Death conquered |
-  | Separated from God | Reconciled to God |
-  | Angels block entry | Angels reveal empty tomb |
-  | Thorns curse (toil) | Jesus wears crown of thorns |
-- Salvation: Admit sin, need Savior, accept Jesus (faith alone); public response honors Christ's public death.
-- Funny story: Elderly man outwits rude driver at McDonald's (analogy: God outwits sin/death).
+## Sermon: A Tale of Two Gardens
+- **Garden of Eden (Gen 2-3)**: God-planted paradise; Adam/Eve given choice (tree of knowledge); Satan tempts Eve (shiny serpent); sin enters, ruins perfection, curses with thorns/toil/death; inherited sin nature affects all (Rom 5:12; Ps 51:5)
+- **Garden Tomb (John 19-20)**: Near Golgotha; Jesus crucified, buried in new tomb; Mary Magdalene finds empty tomb, sees angels/Jesus; contrasts Eden—sin forgiven, death conquered, reconciliation, angels invite entry
+- Jesus wears thorns (curse for us); historical evidence (Josephus, eyewitnesses)
+- Salvation: Admit sin, need Savior, accept Jesus (not religion, but relationship); public altar call for commitment
 
 ## Altar Call & Response
-- Invitation to receive Christ; many respond (front, overflows).
-- Group sinner's prayer: Confess sin, accept Jesus as Lord/Savior.
-- Bibles distributed (adults/children); online texters receive Bibles.
-- Baptism reminder: Wednesday (not required for salvation).
-
-## Closing Worship
-- Praise the Lord (alive God, resurrection).
+- Invitation to receive Christ (forgiveness, heaven); many respond publicly (front, overflows)
+- Group sinner's prayer led by pastor
+- Bibles distributed (children's/adult; online via text)
+- Angels rejoice; baptisms Wed (not required for salvation)
 
 ## Bible Verses
+- John 19:1
+- John 19:38
+- John 20:1
 - Genesis 2:9
 - Genesis 2:16-17
 - Genesis 3 (thorns curse)
-- Psalm 51:5
-- John 19:1 (to John 20)
 - Romans 5:12
+- Psalm 51:5
+- John 19:41-42
 - Isaiah 63:5
-- 1 John 1:8-9
+- 1 John 1:8
 - John 14:6
 - Matthew 10:32

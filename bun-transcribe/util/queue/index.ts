@@ -14,7 +14,7 @@ const completion = await or.chat.send({
       {
         role: 'user',
         content: `GOAL:
-- Summarize the following transcript into a concise, informative notes.
+- Summarize the following transcript into concise, informative & comprehensive notes.
 - The notes should capture the main points and key details without unnecessary information.
 
 CONSTRAINTS:
@@ -22,15 +22,17 @@ CONSTRAINTS:
 - Be concise.
 - Use bullet points where appropriate.
 - Prioritize clarity and brevity.
+- Make sure to mention announcements if made
 
 FORMAT:
 
 - Markdown only.
 - Use headings, subheadings, and bullet points to organize information.
 - Avoid unnecessary details.
-- If announcements are made, list them under an "Announcements" heading. Make sure to link the name of events to "https://cornerstonechapel.net/events"
-- If speaker names are not provided, list the speakers
-- If verses are mentioned, list them at the end (do not abbreviate them, correct example: 1 Chronicles 17:15-27, verses references should not include other chapters or non-sequential verses, bad example: "Psalm 106:1,47-48", should be: "Psalm 106:1, Psalm 106:47-48").
+- List all announcements under an "Announcements" heading. Make sure to link any event to "https://cornerstonechapel.net/events"
+- If speaker names are provided, list the speakers
+- If verses are mentioned, list them at the end (do not abbreviate them, correct example: 1 Chronicles 17:15-27, verses references should not include other chapters or non-sequential verses
+ - bad example: "Psalm 106:1,47-48", should be: "Psalm 106:1, Psalm 106:47-48").
 
 TRANSCRIPT:
 
