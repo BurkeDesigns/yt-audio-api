@@ -1,4 +1,5 @@
 import { google } from 'googleapis';
+import { readdir } from "node:fs/promises";
 
 const youtube = google.youtube('v3');
 
@@ -55,10 +56,10 @@ async function getRecentVideos() {
       key: API_KEY,
       playlistId: uploadsPlaylistId,
       part: 'snippet,contentDetails',
-      maxResults: 10 // Adjust as needed (max 50)
+      maxResults: 50 // Adjust as needed (max 50)
     });
 
-    console.log("Playlist Response:", JSON.stringify(playlistRes, null, 2));
+    // console.log("Playlist Response:", JSON.stringify(playlistRes, null, 2));
 
     const videos = playlistRes.data.items;
     
@@ -79,4 +80,14 @@ async function getRecentVideos() {
 }
 
 CHANNEL_ID = await getChannelIdByHandle(CHANNEL_HANDLE);
-await getRecentVideos();
+const videos = await getRecentVideos();
+
+let files:any = await readdir("../output", { recursive: true });
+files = files.map(f => f.replace('.json', ''));
+let fileSet = new Set(files);
+
+// get difference between videos and files
+let missingVideos = videos.filter((v:any) => !fileSet.has(v.videoId));
+console.log("Missing Videos:", JSON.stringify(missingVideos, null, 2));
+console.log(`Total Videos: ${videos.length}`);
+console.log(`Missing Videos: ${missingVideos.length}`);
