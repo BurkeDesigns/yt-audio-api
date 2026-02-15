@@ -3,7 +3,7 @@ import or from './util/openrouter'
 import { Hono } from "hono";
 import { $ } from 'bun';
 import { extractBibleRefs, getVersesFromReferenceList } from './util/bible';
-import bible from './data/ESV_bible.json'
+import bible from './data/NKJV_bible.json'
 import { addToQueue } from './util/queue';
 import { serveStatic } from 'hono/bun';
 import { readdir } from "node:fs/promises";
@@ -113,7 +113,7 @@ app.get("/verses/:label", async c => {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${label} - ESV</title>
+    <title>${label} - NKJV</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
@@ -157,7 +157,7 @@ app.get("/verses/:label", async c => {
 <body>
     <div class="page">
         <div class="ref">
-            <h2>${label} - ESV</h2>
+            <h2>${label} - NKJV</h2>
             <p>${verses[0]?.verses?.map((v,idx) => `<b>[${idx + startingVerseNumber}]</b> ${v}`).join(' ')}</p>
             ${!label.includes(':') ? '' : `<a href="/verses/${verses[0].book} ${verses[0].chapter}" target="_blank">Read Full Chapter</a>`}
         </div>
