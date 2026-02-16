@@ -7,8 +7,85 @@ import bible from './data/NKJV_bible.json'
 import { addToQueue } from './util/queue';
 import { serveStatic } from 'hono/bun';
 import { readdir } from "node:fs/promises";
+// import { auth } from "./lib/auth";
+import { handleError, res, throwErr } from "./util/response";
+import { auth, requiresAuth, type OIDCEnv } from "@auth0/auth0-hono";
 
-const app = new Hono();
+// routes
+import authRoutes from './routes/auth';
+import dashboardRoutes from './routes/dashboard';
+
+const app = new Hono<OIDCEnv>();
+
+// Configure auth middleware with Auth0 options
+app.use(
+  auth({
+    domain: process.env.AUTH0_DOMAIN,
+    clientID: process.env.AUTH0_CLIENT_ID,
+    clientSecret: process.env.AUTH0_CLIENT_SECRET,
+    baseURL: process.env.SITE_URL,
+    authRequired: false,
+    session: {
+      secret: "0ZZND17mBpUxJXdZBxD8kY4AIq0EvJ72",
+    },
+  }),
+);
+
+app.get('/logout', async (c) => {
+  // 1. Get the auth0 client from the context
+  const auth0 = c.var.auth0Client;
+
+  // 2. Call the logout method which clears the local session 
+  // and redirects the user to the Auth0 logout endpoint
+  if (auth0) {
+    let data = await auth0.logout(c,{
+        returnTo: process.env.SITE_URL, // Redirect back to the homepage after logout
+    });
+    return c.redirect(data.href);
+  }
+
+  return c.redirect('/');
+  
+});
+
+app.get("/login", requiresAuth(), (c) => {
+  return c.text(`Hello ${c.var.auth0Client?.getSession(c)?.user?.name}!`);
+});
+app.use("/profile/*", requiresAuth());
+app.get("/profile", async (c) => {
+  const user = await c.var?.auth0Client?.getUser(c);
+  const session = await c.var.auth0Client?.getSession(c);
+
+//   const logoutUrl = await c.var?.auth0Client?.buildLogoutUrl(c);
+//   console.log("User Info:", c.var.auth0Client.logout(c));
+//   console.log("User Info:", logoutUrl);
+//   console.log("User Info:", user);
+//   console.log("Session Info:", session);
+//   return c.text(`Hello ${user.name || user.sub}!`);
+  return c.text(`Hello ${user.name}!`);
+});
+// const app = new Hono<{
+// 	Variables: {
+// 		user: typeof auth.$Infer.Session.user | null;
+// 		session: typeof auth.$Infer.Session.session | null
+// 	}
+// }>();
+
+// app.use("*", async (c, next) => {
+// 	const session = await auth.api.getSession({ headers: c.req.raw.headers });
+//   	if (!session) {
+//     	c.set("user", null);
+//     	c.set("session", null);
+//     	return await next();
+//   	}
+//   	c.set("user", session.user);
+//   	c.set("session", session.session);
+//   	return await next();
+// });
+
+// app.on(["POST", "GET"], "/api/auth/*", (c) => auth.handler(c.req.raw));
+app.route('/auth', authRoutes)
+app.route('/dash', dashboardRoutes)
 
 const noVideoFoundResponse = (video_id: string) => `<!DOCTYPE html>
 <html lang="en">
@@ -96,10 +173,15 @@ const videoPendingProcessing = (video_id: string) => `<!DOCTYPE html>
 
 app.get("/verses/:label", async c => {
     const { label } = c.req.param();
+     const highlight = c.req.query('highlight');
+     
+     console.log(`Highlighting verses for: ${highlight}`);
     console.log(`Looking up verses for: ${label}`);
 
+    let highlightRefs = highlight != null? extractBibleRefs(highlight) : null;
     let refs = extractBibleRefs(label);
-    console.log("Extracted Bible References:", JSON.stringify(refs.flatArr, null, 2));
+    // console.log("Extracted Bible References:", JSON.stringify(refs.flatArr, null, 2));
+    console.log("Extracted Bible References:", JSON.stringify(highlightRefs?.flatArr, null, 2));
 
     const verses = await getVersesFromReferenceList(bible, refs.flatArr);
 
@@ -152,15 +234,210 @@ app.get("/verses/:label", async c => {
         a:visited, a:hover{
             color: hsl(259.7deg 84.89% 55%);
         }
+        mark{
+            text-decoration: underline;
+             text-decoration-style: dotted;
+             text-decoration-color: darkcyan;
+            text-underline-offset: 3px;
+            background-color: transparent;
+        }
     </style>
+    <script>
+        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group identify setPersonProperties setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags resetGroups onFeatureFlags addFeatureFlagsHandler onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+        posthog.init('phc_WTPgqIoxXPj2lbWMMvC3JCZRvaHbOomVGMNzyIY53oo', {
+            api_host: 'https://us.i.posthog.com',
+            defaults: '2026-01-30'
+        })
+    </script>
 </head>
 <body>
     <div class="page">
         <div class="ref">
             <h2>${label} - NKJV</h2>
-            <p>${verses[0]?.verses?.map((v,idx) => `<b>[${idx + startingVerseNumber}]</b> ${v}`).join(' ')}</p>
-            ${!label.includes(':') ? '' : `<a href="/verses/${verses[0].book} ${verses[0].chapter}" target="_blank">Read Full Chapter</a>`}
+            <p>${verses[0]?.verses?.map((v,idx) => {
+                const verseNum = idx + startingVerseNumber;
+                const isHighlighted = highlightRefs?.flatArr[0]?.verses?.includes(verseNum);
+                const verseContent = isHighlighted == true ? `<mark>${v}</mark>` : v;
+                // console.log(`Verse ${verseNum}: ${h.chapter.toString() === verses[0].chapter.toString()} ${isHighlighted ? '(highlighted)' : ''}`);
+                return `<b>[${verseNum}]</b> ${verseContent}`;
+            }).join(' ')}</p>
+            ${!label.includes(':') ? '' : `<a href="/verses/${verses[0].book} ${verses[0].chapter}?highlight=${label}">Read Full Chapter</a>`}
         </div>
+    </div>
+</body>
+</html>`);
+});
+
+app.get("/devotional/:video_id", async c => {
+    const { video_id } = c.req.param();
+    // console.log(`Generating notes for video ID: ${video_id}`);
+
+    // serve the markdown file as html
+    const path = `./devotionals/${video_id}_devotional.md`;
+    const file = Bun.file(path);
+    // const fileExists = await file.exists();
+    // if (!fileExists) {
+    //     return c.html(noVideoFoundResponse(video_id), 404);
+    // }
+    let content = await file.text();
+    content = injectBibleRefs(content);
+    // const md = Bun.markdown.html(content, { headingIds: true });
+    const md = Bun.markdown.render(content, { 
+        heading: (children, { level }) => `<h${level} class="title">${children}</h${level}>`,
+        paragraph: (children) => `<p>${children}</p>`,
+        blockquote: (children) => `<blockquote>${children}</blockquote>`,
+        code: (children, meta) => `<pre><code class="${meta?.language ? `language-${meta.language}` : ''}">${children}</code></pre>`,
+        list: (children, { ordered, start }) => ordered ? `<ol start="${start}">${children}</ol>` : `<ul>${children}</ul>`,
+        listItem: (children, meta) => meta?.checked !== undefined ? `<li class="task-list-item"><input type="checkbox" ${meta.checked ? 'checked' : ''} disabled> ${children}</li>` : `<li>${children}</li>`,
+        hr: () => `<hr>`,
+        table: (children) => `<div class="table-container"><table>${children}</table></div>`,
+        thead: (children) => `<thead>${children}</thead>`,
+        tbody: (children) => `<tbody>${children}</tbody>`,
+        tr: (children) => `<tr>${children}</tr>`,
+        th: (children, meta) => `<th${meta?.align ? ` align="${meta.align}"` : ''}>${children}</th>`,
+        td: (children, meta) => `<td${meta?.align ? ` align="${meta.align}"` : ''}>${children}</td>`,
+        html: (children) => children,
+        strong: (children) => `<strong>${children}</strong>`,
+        emphasis: (children) => `<em>${children}</em>`,
+        link: (children, { href, title }) => `<a href="${href}"${title ? ` title="${title}"` : ''} target="_blank">${children}</a>`,
+        image: (children, { src, title }) => `<img src="${src}" alt="${children}"${title ? ` title="${title}"` : ''}>`,
+        codespan: (children) => `<code>${children}</code>`,
+        strikethrough: (children) => `<s>${children}</s>`,
+        text: (text) => text,
+    });
+
+    // let refs = extractBibleRefs(content);
+    // console.log("Extracted Bible References:", refs);
+
+    // refs.flatArr = refs.flatArr.filter((ref: string) => ref?.label?.search(':') !== -1);
+    // const verses = await getVersesFromReferenceList(bible, refs.flatArr);
+    // console.log("Extracted Verses:", verses);
+
+    return c.html(`<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-Day Devotional</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Google Sans', sans-serif;
+            margin: 0px;
+            padding: 0px;
+            line-height: 1.6;
+            color: #222;
+        }
+        body *{
+            
+        }
+        .page{
+            display: grid;
+            gap: 32px;
+            max-width: 800px;
+            margin: auto;
+            padding: 65px 20px;
+            padding-bottom: 96px;
+        }
+        iframe{
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            width: 100%;
+            aspect-ratio: 16 / 9;
+        }
+        .table-container{
+            overflow-x: auto;
+            width: 100%;
+            max-width: calc(100vw - 40px);
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 24px 0;
+        }
+
+        a{
+            color: hsl(224.56deg 84.89% 55%);
+            text-underline-offset: 3px;
+            transition: color 0.2s;
+        }
+
+        a:visited, a:hover{
+            color: hsl(259.7deg 84.89% 55%);
+        }
+            button {
+                background-color: #222;
+                color: white;
+                border: none;
+                padding: 5px 8px;
+                border-radius: 3px;
+                cursor: pointer;
+                font-size: 16px;
+                transition: background-color 0.2s;
+            }
+            button:hover {
+                background-color: hsl(224.56deg 84.89% 55%);
+            }
+            .green-btn {
+                background-color: hsl(120deg 60% 35%);
+            }
+            .blue-btn {
+                background-color: hsl(224.56deg 84.89% 55%);
+            }
+        
+        @media print {
+            .hideOnPrint {
+                display: none !important;
+            }
+            .page{
+                padding: 0 !important;
+            }
+            iframe {
+                display: none !important;
+            }
+        }
+            .actionBtns {
+                display: flex;
+                gap: 8px;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+    </style>
+    <script>
+        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group identify setPersonProperties setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags resetGroups onFeatureFlags addFeatureFlagsHandler onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+        posthog.init('phc_WTPgqIoxXPj2lbWMMvC3JCZRvaHbOomVGMNzyIY53oo', {
+            api_host: 'https://us.i.posthog.com',
+            defaults: '2026-01-30'
+        })
+    </script>
+</head>
+<body>
+    <div class="page">
+        <iframe src="https://www.youtube.com/embed/${video_id}" title="Cornerstone Chapel Leesburg, VA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="md">${md}<hr/>
+            <div class="actionBtns hideOnPrint">
+                <button onclick="window.print()">Print Study</button>
+                <button onclick="window.location.href='https://donate.stripe.com/aFa9AU4xldW5cbe5Gvak007'" class="hideOnPrint blue-btn">Donate</button>
+                <button onclick="window.location.href='/bible-study/${video_id}'" class="green-btn">View Bible Study</button>
+            </div>
+            <br/><br/>
+            <a href="https://burkedesigns.biz" target="_blank" style="font-weight: bold; color: #222 !important;">Bible Study Powered by Burke Designs LLC</a>
+        </div>
+        
     </div>
 </body>
 </html>`);
@@ -295,6 +572,9 @@ app.get("/bible-study/:video_id", async c => {
             .blue-btn {
                 background-color: hsl(224.56deg 84.89% 55%);
             }
+            .purple-btn {
+                background-color: hsl(259.7deg 84.89% 55%);
+            }
         
         @media print {
             .hideOnPrint {
@@ -315,6 +595,13 @@ app.get("/bible-study/:video_id", async c => {
             }
 
     </style>
+    <script>
+        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group identify setPersonProperties setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags resetGroups onFeatureFlags addFeatureFlagsHandler onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+        posthog.init('phc_WTPgqIoxXPj2lbWMMvC3JCZRvaHbOomVGMNzyIY53oo', {
+            api_host: 'https://us.i.posthog.com',
+            defaults: '2026-01-30'
+        })
+    </script>
 </head>
 <body>
     <div class="page">
@@ -323,9 +610,10 @@ app.get("/bible-study/:video_id", async c => {
             <div class="actionBtns hideOnPrint">
                 <button onclick="window.print()">Print Study</button>
                 <button onclick="window.location.href='https://donate.stripe.com/aFa9AU4xldW5cbe5Gvak007'" class="hideOnPrint blue-btn">Donate</button>
+                <button onclick="window.location.href='/devotional/${video_id}'" class="purple-btn">View Devotional</button>
             </div>
             <br/><br/>
-            <a href="https://burkedesigns.biz" target="_blank" style="font-weight: bold; color: #222 !important;">Bible Study Powered by Burke Designs</a>
+            <a href="https://burkedesigns.biz" target="_blank" style="font-weight: bold; color: #222 !important;">Bible Study Powered by Burke Designs LLC</a>
         </div>
         
     </div>
@@ -462,6 +750,9 @@ app.get("/notes/:video_id", async c => {
             .blue-btn {
                 background-color: hsl(224.56deg 84.89% 55%);
             }
+            .purple-btn {
+                background-color: hsl(259.7deg 84.89% 55%);
+            }
         
         @media print {
             .hideOnPrint {
@@ -482,6 +773,13 @@ app.get("/notes/:video_id", async c => {
             }
 
     </style>
+    <script>
+        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group identify setPersonProperties setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags resetGroups onFeatureFlags addFeatureFlagsHandler onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+        posthog.init('phc_WTPgqIoxXPj2lbWMMvC3JCZRvaHbOomVGMNzyIY53oo', {
+            api_host: 'https://us.i.posthog.com',
+            defaults: '2026-01-30'
+        })
+    </script>
 </head>
 <body>
     <div class="page">
@@ -491,9 +789,10 @@ app.get("/notes/:video_id", async c => {
                 <button onclick="window.print()">Print Notes</button>
                 <button onclick="window.location.href='https://donate.stripe.com/aFa9AU4xldW5cbe5Gvak007'" class="blue-btn">Donate</button>
                 <button onclick="window.location.href='/bible-study/${video_id}'" class="green-btn">View Bible Study</button>
+                <button onclick="window.location.href='/devotional/${video_id}'" class="purple-btn">View Devotional</button>
             </div>
             <br/><br/>
-            <a href="https://burkedesigns.biz" target="_blank" style="font-weight: bold; color: #222 !important;">Notes Powered by Burke Designs</a>
+            <a href="https://burkedesigns.biz" target="_blank" style="font-weight: bold; color: #222 !important;">Notes Powered by Burke Designs LLC</a>
         </div>
         
     </div>
@@ -753,6 +1052,13 @@ app.get("/", async c => {
                 background-color: hsl(259.7deg 84.89% 55%);
             }
     </style>
+    <script>
+        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group identify setPersonProperties setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags resetGroups onFeatureFlags addFeatureFlagsHandler onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+        posthog.init('phc_WTPgqIoxXPj2lbWMMvC3JCZRvaHbOomVGMNzyIY53oo', {
+            api_host: 'https://us.i.posthog.com',
+            defaults: '2026-01-30'
+        })
+    </script>
 </head>
 <body>
     <div class="page">
@@ -761,7 +1067,7 @@ app.get("/", async c => {
             <hr />
             <h2>Cornerstone Chapel - Leesburg</h2>
             <ul>
-                ${titles.map(({ videoId, fullTitle }) => `<li><a href="/notes/${videoId}" target="_blank">
+                ${titles.map(({ videoId, fullTitle }) => `<li><a href="/notes/${videoId}">
                     <b>${fullTitle}</b>
                 </a></li>`).join('')}
             </ul>
@@ -771,7 +1077,7 @@ app.get("/", async c => {
                 <button onclick="window.location.href='https://donate.stripe.com/aFa9AU4xldW5cbe5Gvak007'" class="hideOnPrint">Help By Donating</button>
             </div>
             <br/>
-            <a href="https://burkedesigns.biz" target="_blank" style="font-weight: bold; color: #222 !important;">Notes Powered by Burke Designs</a>
+            <a href="https://burkedesigns.biz" target="_blank" style="font-weight: bold; color: #222 !important;">Notes Powered by Burke Designs LLC</a>
         </div>
     </div>
 </body>
@@ -788,6 +1094,8 @@ app.get("/", async c => {
 app.use('/assets/*', serveStatic({ root: './public' }));
 
 console.log(`Starting server on http://localhost:${Bun.env.PORT || 10100}/notes/JwsergVfal0`);
+
+app.onError(handleError);
 
 export default {
   port: Bun.env.PORT || 10100,
