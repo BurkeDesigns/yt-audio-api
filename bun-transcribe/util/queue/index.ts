@@ -52,10 +52,67 @@ ${t.transcript}
 
 }
 
+export async function createNotesGemini(video_id: string) {
+    console.log(`Generating notes for video ID: ${video_id}`);
+    const t = await Bun.file(`../output/${video_id}.json`).json();
+const completion = await or.chat.send({
+  chatGenerationParams: {
+    model: 'google/gemini-3-flash-preview',
+    messages: [
+      {
+        role: 'user',
+        content: `GOAL:
+- Summarize the following transcript into concise, informative & comprehensive notes.
+- The notes should capture the main points and key details without unnecessary information.
+
+CONSTRAINTS:
+
+- Be concise.
+- Use bullet points where appropriate.
+- Prioritize clarity and brevity.
+- Make sure to mention announcements if made
+
+FORMAT:
+
+- Markdown only.
+- Use headings, subheadings, and bullet points to organize information.
+- Avoid unnecessary details.
+- List all announcements under an "Announcements" heading. Make sure to link any event to "https://cornerstonechapel.net/events"
+- If speaker names are provided, list the speakers
+- If verses are mentioned, list them at the end (do not abbreviate them, correct example: 1 Chronicles 17:15-27, verses references should not include other chapters or non-sequential verses
+ - bad example: "Psalm 106:1,47-48", should be: "Psalm 106:1, Psalm 106:47-48").
+
+TRANSCRIPT:
+
+${t.transcript}
+`,
+      },
+    ],
+    stream: false,
+  }
+});
+
+    const markdown:string = completion?.choices[0]?.message?.content || '';
+    // save markdown to file
+    Bun.write(`./output/${t.video_id}_gemini_notes.md`, markdown);
+    // console.log(completion?.choices[0]?.message.content);
+    console.log(`Notes generated for video ID: ${video_id}`);
+
+}
+
 export async function generateTranscription(video: string) {
     console.log(`Generating transcription for video: ${video}`);
     let video_id = video.replace("https://www.youtube.com/watch?v=", "");
     const output = await $`bash -c "cd /Users/wesley/Documents/GitHub/yt-audio-api && source .venv/bin/activate && python yt_quick_transcribe.py 'https://www.youtube.com/watch?v=${video_id}' 'output/${video_id}.json'"`.text();
+    console.log(output);
+    // console.log(`Generating notes for video ID: ${video_id}`);
+    // await createNotes();
+}
+
+export async function generateCudaTranscription(video: string) {
+    console.log(`Generating transcription for video: ${video}`);
+    let video_id = video.replace("https://www.youtube.com/watch?v=", "");
+    const output = await $`/home/wesley/.venvs/torch313/bin/python /home/wesley/Documents/GitHub/yt-audio-api/yt_quick_transcribe_cuda.py 'https://www.youtube.com/watch?v=${video_id}' '../output/${video_id}.json'`.text();
     console.log(output);
     // console.log(`Generating notes for video ID: ${video_id}`);
     // await createNotes();

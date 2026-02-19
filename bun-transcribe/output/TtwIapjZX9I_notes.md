@@ -1,12 +1,15 @@
 # Cornerstone Chapel Bible Study
 
 ## Speaker
+
 - Pastor Austin (son of Pastor Gary)
 
 ## Topic
+
 - Biblical worldview on the rise of Artificial Intelligence (AI); different from usual verse-by-verse study; addresses current events
 
 ## Key Messages
+
 - **Introduction & Prayer**: Emphasizes slowing down to wait on God amid fast-paced society/tech reliance. Disclaimer: Content heavy for young kids; use children's ministry.
 - **AI's Future**: Entering AI-dominant world; no fear for believers ("Team Jesus" – repent, trust Christ; victory already won). Urges salvation as Christ's return nears.
 - **AI Impact on Youth/Families**: Articles cite chatbots encouraging self-harm/sexual acts (72% teens use as companions); ChatGPT parental controls insufficient; CA Gov. Newsom vetoed kid-access restrictions. Mom's story: Son uses ChatGPT for devotions/Bible questions.
@@ -31,10 +34,8 @@
   - Keep looking up (anticipate Christ's return).
 - **Closing Prayer**: For wisdom, discernment, more Bible time, Holy Spirit sensitivity.
 
-## Announcements
-- None made.
-
 ## Bible Verses
+
 - Revelation 13:11-18
 - 1 Timothy 4:1
 - 2 Thessalonians 2:9-11

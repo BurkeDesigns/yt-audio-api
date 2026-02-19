@@ -1,11 +1,13 @@
 # Sermon Notes: Mystery of Lawlessness (2 Thessalonians 2) – Part 2
 
 ## Context
+
 - Follow-up to prior teaching on rapture (available on website/YouTube).
 - Focus: End-times events before Day of the Lord/Tribulation, including Antichrist.
 - Pre-trib rapture view emphasized; church age ongoing, followed by potential gap, then 7-year Tribulation (Daniel's 70th week).
 
 ## End-Times Timeline
+
 - **69 weeks** (Daniel 9:24-27): From Jerusalem rebuild (Artaxerxes/Nehemiah) to Jesus' crucifixion (~33 AD).
 - **Gap (Church Age/Time of Gentiles)**: Current era; God's patience for salvation.
 - **Rapture**: Pre-trib (Rev 3); removes church.
@@ -16,6 +18,7 @@
 - Christ's return: Destroys Antichrist, establishes kingdom.
 
 ## Key Events Before Tribulation (2 Thess 2)
+
 1. **Rebellion/Falling Away (Apostasia)**:
    - Great apostasy: Abandonment of true God/Bible/faith (only NT use of term).
    - Opposite of revival; links to last days' doctrines of demons (1 Tim 4:1).
@@ -36,14 +39,13 @@
    - Speculation: Jewish/Gentile?; alive now?; AI links?; not female/Trump/etc.
 
 ## Application & Conclusion
+
 - Stand firm; grip teachings/Bible tightly (2 Thess 2:15).
 - God provides comfort/hope; patient for repentance (2 Pet 3 implied).
 - Focus: Jesus' return, evangelism; Holy Spirit active.
 
-## Announcements
-- None.
-
 ## Verses
+
 - 2 Thessalonians 2:1
 - 2 Thessalonians 2:3
 - 2 Thessalonians 2:4

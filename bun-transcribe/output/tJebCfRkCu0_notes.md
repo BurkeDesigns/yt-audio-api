@@ -1,12 +1,14 @@
 # Thanksgiving Eve Service Notes
 
 ## Opening (Pastor Gary)
+
 - Theme: Giving thanks, sharing encouragements about God's grace.
 - Read President Trump's 2025 National Day of Thanksgiving Proclamation (Nov 27, 2025), highlighting history from Washington/Lincoln, blessings, economy, peace.
 - Read Psalm 100 (full).
 - Opening prayer for sharing, God's glory.
 
 ## Live Speakers
+
 - **Steve Ruff** (joined 2021 via Antoine Watson; prayer ministry participant):
   - Diagnosed Ewing sarcoma (rare; initially bladder cancer); chemo, surgery (bladder/prostate removal), sepsis, hernia, blood infection.
   - God's interventions: Angel wings sunlight (Dec 22, 2024), still small voice for surgery peace (May 12), stopped bleeding pre-procedures (June 18).
@@ -24,6 +26,7 @@
   - Prayer for complete removal (beyond remission).
 
 ## Video Testimonies
+
 - **Josh Marzano & Mom**:
   - Josh: Found Jesus visiting ill friend; dove into faith post-surgery.
   - Mom: Synced salvation with son; baptized at Cornerstone.
@@ -33,6 +36,7 @@
   - Delivered from addictions/anxiety/depression; family equipped via ministries.
 
 ## Online Text Testimonies (Read by Austin)
+
 - Thanks to pastoral team for K-group support.
 - Husband saved (3 months).
 - Conception after infertility (Anthony & Bree).
@@ -47,6 +51,7 @@
 - Brother Spencer (Down syndrome): Lung mass gone (special needs ministry attender).
 
 ## Final Live Speakers
+
 - **Chris Garcia & Ashlyn** (5 yrs married, 4 kids):
   - Chris: Dark past (anti-Christian, drugs/overdoses); met Ashlyn at Giant Food.
   - Clean 5+ yrs; home purchase; Ashlyn led to Cornerstone online.
@@ -54,14 +59,13 @@
   - God provided job, homeschooling, church attendance; family saved (son baptized); mom's cancer healed, sister saved.
 
 ## Closing
+
 - Praise for all sharers.
 - Worship song; Pastor Ben closing prayer.
 - Happy Thanksgiving wishes.
 
-## Announcements
-- None.
-
 ## Verses
+
 - Psalm 100
 - Acts 26:17-18
 - 1 John 4:16-19

@@ -1,13 +1,16 @@
 # Bible Study Notes: 2 Kings 6-7
 
 ## Speaker
+
 - Unnamed pastor (Pastor Austin taught previous week on 2 Kings 6:1-7; Pastor Gary teaches next on remaining miracles)
 
 ## Overview
+
 - Continuation of Elisha's miracles series; Elisha received double portion of Elijah's spirit (16 miracles vs. Elijah's 8).
 - Emphasis: God works supernaturally; apply to faith, unseen realm, mercy to enemies, sharing gospel.
 
 ## Elisha's Miracles Highlighted
+
 - Jordan River parted (2 Kings 2:13-14).
 - Jericho's water purified (2 Kings 2:19-22).
 - Widow's oil multiplied (2 Kings 4:1-7).
@@ -24,6 +27,7 @@
 - Bears maul 42 youths (2 Kings 2:23-25).
 
 ## Main Events & Principles (2 Kings 6:8-23)
+
 - Syrian king plans ambushes on Israel; Elisha warns King Jehoram, foiling plans.
 - Syrians surround Dothan (Joseph's pit site, Genesis 37:17) to capture Elisha.
 - Servant panics; Elisha: "Do not fear, those with us > those with them."
@@ -34,6 +38,7 @@
   - Let enemies see Lord/Jesus through mercy/grace (raiders never return).
 
 ## Famine & Prophecy (2 Kings 6:24-7:9)
+
 - Ben-Hadad besieges Samaria; extreme famine (donkey head $500; dove dung $30; cannibalism).
 - King Jehoram blames Elisha, sends to kill him; Elisha anticipates.
 - Elisha prophesies abundance tomorrow; doubting officer: "Even if God opens windows?"
@@ -42,12 +47,11 @@
 - Lepers eat/loot, then share news with city.
 
 ## Closing Principle (2 Kings 7)
+
 - Share good news (gospel); do not stay silent (lepers' conviction).
 
-## Announcements
-- None.
-
 ## Bible Verses Referenced
+
 - 2 Kings 2:13-14
 - 2 Kings 2:19-22
 - 2 Kings 2:23-25

@@ -499,7 +499,18 @@ app.get("/devotional/:video_id", async c => {
                 flex-direction: row;
                 flex-wrap: wrap;
             }
-
+            .back-btn {
+                display: inline-flex;
+                align-items: center;
+                text-decoration: none;
+                color: #222;
+                font-weight: bold;
+                gap: 8px;
+                transition: color 0.2s;
+            }
+            .back-btn:hover {
+                color: hsl(224.56deg 84.89% 55%);
+            }
     </style>
     <script>
         !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group identify setPersonProperties setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags resetGroups onFeatureFlags addFeatureFlagsHandler onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
@@ -511,11 +522,16 @@ app.get("/devotional/:video_id", async c => {
 </head>
 <body>
     <div class="page">
+        <div><a href="/notes/${video_id}" class="back-btn hideOnPrint">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+            Back
+        </a></div>
         <iframe src="https://www.youtube.com/embed/${video_id}" title="Cornerstone Chapel Leesburg, VA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <div class="md">${md}<hr/>
             <div class="actionBtns hideOnPrint">
                 <button onclick="window.print()">Print Study</button>
                 ${user != null ? `<button onclick="window.location.href='/dash/devotional/edit/${video_id}'">Edit Devotional</button>` : ``}
+                <button onclick="window.location.href='/notes/${video_id}'">View Notes</button>
                 <button onclick="window.location.href='https://donate.stripe.com/aFa9AU4xldW5cbe5Gvak007'" class="hideOnPrint blue-btn">Donate</button>
                 <button onclick="window.location.href='/bible-study/${video_id}'" class="green-btn">View Bible Study</button>
             </div>
@@ -679,7 +695,18 @@ app.get("/bible-study/:video_id", async c => {
                 flex-direction: row;
                 flex-wrap: wrap;
             }
-
+            .back-btn {
+                display: inline-flex;
+                align-items: center;
+                text-decoration: none;
+                color: #222;
+                font-weight: bold;
+                gap: 8px;
+                transition: color 0.2s;
+            }
+            .back-btn:hover {
+                color: hsl(224.56deg 84.89% 55%);
+            }
     </style>
     <script>
         !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group identify setPersonProperties setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags resetGroups onFeatureFlags addFeatureFlagsHandler onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
@@ -691,11 +718,16 @@ app.get("/bible-study/:video_id", async c => {
 </head>
 <body>
     <div class="page">
+        <div><a href="/notes/${video_id}" class="back-btn hideOnPrint">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+            Back
+        </a></div>
         <iframe src="https://www.youtube.com/embed/${video_id}" title="Cornerstone Chapel Leesburg, VA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <div class="md">${md}<hr/>
             <div class="actionBtns hideOnPrint">
                 <button onclick="window.print()">Print Study</button>
                 ${user != null ? `<button onclick="window.location.href='/dash/bible-studies/edit/${video_id}'">Edit Study</button>` : ``}
+                <button onclick="window.location.href='/notes/${video_id}'">View Notes</button>
                 <button onclick="window.location.href='https://donate.stripe.com/aFa9AU4xldW5cbe5Gvak007'" class="hideOnPrint blue-btn">Donate</button>
                 <button onclick="window.location.href='/devotional/${video_id}'" class="purple-btn">View Devotional</button>
             </div>
@@ -860,6 +892,18 @@ app.get("/notes/:video_id", async c => {
                 flex-direction: row;
                 flex-wrap: wrap;
             }
+            .back-btn {
+                display: inline-flex;
+                align-items: center;
+                text-decoration: none;
+                color: #222;
+                font-weight: bold;
+                gap: 8px;
+                transition: color 0.2s;
+            }
+            .back-btn:hover {
+                color: hsl(224.56deg 84.89% 55%);
+            }
 
     </style>
     <script>
@@ -872,6 +916,10 @@ app.get("/notes/:video_id", async c => {
 </head>
 <body>
     <div class="page">
+        <div><a href="/" class="back-btn hideOnPrint">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+            Back
+        </a></div>
         <iframe src="https://www.youtube.com/embed/${video_id}" title="Cornerstone Chapel Leesburg, VA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <div class="md">${md}<hr/>
             <div class="actionBtns hideOnPrint">
@@ -909,10 +957,17 @@ app.get("/", async c => {
     // };
 
     let titles = [
-  {
-    fullTitle: "Sun Feb 15, 2026 - 8am Service",
-    videoId: "shIioPGmCoQ",
-  }, 
+        {
+    fullTitle: "Wed Feb 18, 2026 - When Success Becomes Sin:The Warning Behind David&#39;s Census",
+    videoId: "aP5-1HF932A",
+  }, {
+    fullTitle: "Sun Feb 15, 2026 - Our Witness Impacts Our World",
+    videoId: "vzGg6VnoSSw",
+  },
+//   {
+//     fullTitle: "Sun Feb 15, 2026 - 8am Service",
+//     videoId: "shIioPGmCoQ",
+//   }, 
   {
     fullTitle: "Wed Feb 11, 2026 - Lessons from David: His Victories &amp; Defeats",
     videoId: "kscwnWs34nA",

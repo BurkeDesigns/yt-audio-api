@@ -250,5 +250,5 @@ ${content}
 ];
 
 // await createDevotional(videos[0]?.videoId);
-await Promise.all(videos.map(v => createDevotional(v.videoId)));
-console.log("All devotionals generated!");
+// await Promise.all(videos.map(v => createDevotional(v.videoId)));
+// console.log("All devotionals generated!");

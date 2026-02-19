@@ -71,7 +71,7 @@ async function getRecentVideos() {
       type: 'video',
       order: 'date',                         // To get the latest videos
       videoDuration: 'long',                // Filters for videos > 4 minutes to avoid Shorts
-      maxResults: 50
+      maxResults: 10
     });
 
 const videos = response.data.items;
@@ -92,7 +92,7 @@ const videos = response.data.items;
   }
 }
 
-CHANNEL_ID = await getChannelIdByHandle(CHANNEL_HANDLE);
+// CHANNEL_ID = await getChannelIdByHandle(CHANNEL_HANDLE);
 // const videos = await getRecentVideos();
 
 // let files:any = await readdir("../output", { recursive: true });
@@ -112,6 +112,13 @@ CHANNEL_ID = await getChannelIdByHandle(CHANNEL_HANDLE);
 
 function formatClosestChurchDay(publishedAt) {
   const date = new Date(publishedAt);
+  
+  // Safety check for invalid dates
+  if (isNaN(date.getTime())) {
+    console.warn(`Invalid date encountered: ${publishedAt}`);
+    return "Unknown Date";
+  }
+
   const dayOfWeek = date.getDay(); // 0 (Sun) to 6 (Sat)
 
   // Distances to Sunday (0) and Wednesday (3) within the same week
@@ -138,8 +145,9 @@ function formatClosestChurchDay(publishedAt) {
   return `${map.weekday} ${map.month} ${map.day}, ${map.year}`;
 }
 
-async function generateVideoTitles() {
+export async function generateVideoTitles() {
   try {
+    if(CHANNEL_ID == '') CHANNEL_ID = await getChannelIdByHandle(CHANNEL_HANDLE); 
 
     let files:any = await readdir("../output", { recursive: true });
     files = files.map(f => f.replace('.json', ''));
@@ -152,7 +160,7 @@ async function generateVideoTitles() {
       type: 'video',
       order: 'date',                         // To get the latest videos
       videoDuration: 'long',                // Filters for videos > 4 minutes to avoid Shorts
-      maxResults: 50
+      maxResults: 20
     });
 
     const videos = response.data.items;
@@ -162,10 +170,23 @@ async function generateVideoTitles() {
       const videoId = video.id.videoId;
       const publishedAt = video.snippet.publishedAt;
       const description = video.snippet.description;
-      const closestChurchDay = formatClosestChurchDay(publishedAt);
+
+      // Use date from description if found (e.g. 2/15/2026), else use publishedAt
+      const dateRegex = /(\d{1,2}\/\d{1,2}\/\d{4})/;
+      const match = description.match(dateRegex);
+      let dateToUse = publishedAt;
+      
+      if (match) {
+        const parsedDate = new Date(match[1]);
+        if (!isNaN(parsedDate.getTime())) {
+          dateToUse = match[1];
+        }
+      }
+
+      const closestChurchDay = formatClosestChurchDay(dateToUse);
     //   console.log(`${publishedAt} - ${title} (https://youtu.be/${videoId})`);
       return { 
-        title, 
+        title,
         videoId, 
         publishedAt, 
         closestChurchDay, 
@@ -176,8 +197,10 @@ async function generateVideoTitles() {
 
     // console.log("Video:", JSON.stringify(data, null, 2));
     // let allTitles = {};
-    let allTitles = data.filter((v:any) => fileSet.has(v.videoId)).map(v=> ({fullTitle: v.fullTitle, videoId: v.videoId}));
+    let allTitles = data.filter((v:any) => fileSet.has(v.videoId) == false).map(v=> ({fullTitle: v.fullTitle, videoId: v.videoId}));
     console.log("All Titles:", allTitles);
+
+    return allTitles;
 
     // return data;
 
