@@ -9,13 +9,34 @@ import { serveStatic } from 'hono/bun';
 import { readdir } from "node:fs/promises";
 // import { auth } from "./lib/auth";
 import { handleError, res, throwErr } from "./util/response";
-import { auth, requiresAuth, type OIDCEnv } from "@auth0/auth0-hono";
+import { auth, requiresAuth, type OIDCEnv, login } from "@auth0/auth0-hono";
 
 // routes
 import authRoutes from './routes/auth';
 import dashboardRoutes from './routes/dashboard';
 
 const app = new Hono<OIDCEnv>();
+
+app.use('*', async (c, next) => {
+  // Check if the proxy is telling us the original request was HTTPS
+  if (c.req.header('x-forwarded-proto') === 'https') {
+    // We override the URL object inside the request so 
+    // downstream middlewares (like Auth0) see 'https'
+    const url = new URL(c.req.url);
+    url.protocol = 'https:';
+    
+    // Some environments also need the port fix if the proxy 
+    // changes it (e.g., 80 to 443)
+    // url.port = ''; 
+
+    // This effectively 'tricks' the OIDC library into 
+    // generating an https:// redirect URI
+    Object.defineProperty(c.req, 'url', {
+      value: url.toString()
+    });
+  }
+  await next();
+});
 
 // Configure auth middleware with Auth0 options
 app.use(
@@ -28,8 +49,32 @@ app.use(
     session: {
       secret: "0ZZND17mBpUxJXdZBxD8kY4AIq0EvJ72",
     },
+    idpLogout: true,
+    routes: {
+        login: "/login",
+        callback: "/auth/callback",
+        logout: "/logout",
+    }
   }),
 );
+
+// app.onError((err, c) => {
+//   // Catch the specific error thrown by the auth0-hono middleware during callback
+//   if (err.message.includes("request a token") || err.message.includes("state mismatch")) {
+//     return c.redirect("/login");
+//   }
+//   console.error(err);
+//   return c.text("Authentication Error", 500);
+// });
+
+// app.get('/debug-env', (c) => {
+//   return c.json({
+//     site_url_env: process.env.SITE_URL,
+//     incoming_url: c.req.url,
+//     x_forwarded_proto: c.req.header('x-forwarded-proto'), // Most proxies use this
+//     cf_visitor: c.req.header('cf-visitor'), // Cloudflare specific
+//   });
+// });
 
 app.get('/logout', async (c) => {
   // 1. Get the auth0 client from the context
@@ -38,18 +83,37 @@ app.get('/logout', async (c) => {
   // 2. Call the logout method which clears the local session 
   // and redirects the user to the Auth0 logout endpoint
   if (auth0) {
-    let data = await auth0.logout(c,{
-        returnTo: process.env.SITE_URL, // Redirect back to the homepage after logout
+
+    let data = await auth0.logout(c, {
+        returnTo: process.env.SITE_URL || "http://localhost:10100", // Redirect back to the homepage after logout
     });
+
+    
     return c.redirect(data.href);
+    // const domain = process.env.AUTH0_DOMAIN;
+    // const clientId = process.env.AUTH0_CLIENT_ID;
+    // const returnTo = process.env.SITE_URL || "http://localhost:10100";
+
+    // // Clear local session first
+    // await auth0.logout(c); 
+    
+    // // Redirect to Auth0 logout endpoint
+    // return c.redirect(`https://${domain}/v2/logout?client_id=${clientId}&returnTo=${encodeURIComponent(returnTo)}`);
   }
 
   return c.redirect('/');
   
 });
 
-app.get("/login", requiresAuth(), (c) => {
-  return c.text(`Hello ${c.var.auth0Client?.getSession(c)?.user?.name}!`);
+app.get("/login", (c) => {
+//   return c.text(`Hello ${c.var.auth0Client?.getSession(c)?.user?.name}!`);
+    // return c.redirect('/');
+    return login({
+        redirectAfterLogin: process.env.SITE_URL, // Redirect to home page after login
+        authorizationParams: {
+          prompt: 'login',
+        },
+    }, c);
 });
 app.use("/profile/*", requiresAuth());
 app.get("/profile", async (c) => {
@@ -64,6 +128,11 @@ app.get("/profile", async (c) => {
 //   return c.text(`Hello ${user.name || user.sub}!`);
   return c.text(`Hello ${user.name}!`);
 });
+
+app.get("/test", async c => {
+    return c.text(process.env.SITE_URL || "http://localhost:10100");
+});
+
 // const app = new Hono<{
 // 	Variables: {
 // 		user: typeof auth.$Infer.Session.user | null;
@@ -84,7 +153,20 @@ app.get("/profile", async (c) => {
 // });
 
 // app.on(["POST", "GET"], "/api/auth/*", (c) => auth.handler(c.req.raw));
-app.route('/auth', authRoutes)
+// app.route('/auth', authRoutes)
+
+app.use('/dash/*', async (c, next) => {
+    const user = await c.var?.auth0Client?.getUser(c);
+    let authorizedEmails = [
+        'wesley@burkedesigns.biz',
+        'crazedwolfe@gmail.com',
+    ];
+    if (user?.email && authorizedEmails.includes(user.email)) {
+        await next();
+    } else {
+        return c.text("Unauthorized", 403);
+    }
+});
 app.route('/dash', dashboardRoutes)
 
 const noVideoFoundResponse = (video_id: string) => `<!DOCTYPE html>
@@ -270,6 +352,8 @@ app.get("/verses/:label", async c => {
 
 app.get("/devotional/:video_id", async c => {
     const { video_id } = c.req.param();
+
+     const user = await c.var?.auth0Client?.getUser(c);
     // console.log(`Generating notes for video ID: ${video_id}`);
 
     // serve the markdown file as html
@@ -431,6 +515,7 @@ app.get("/devotional/:video_id", async c => {
         <div class="md">${md}<hr/>
             <div class="actionBtns hideOnPrint">
                 <button onclick="window.print()">Print Study</button>
+                ${user != null ? `<button onclick="window.location.href='/dash/devotional/edit/${video_id}'">Edit Devotional</button>` : ``}
                 <button onclick="window.location.href='https://donate.stripe.com/aFa9AU4xldW5cbe5Gvak007'" class="hideOnPrint blue-btn">Donate</button>
                 <button onclick="window.location.href='/bible-study/${video_id}'" class="green-btn">View Bible Study</button>
             </div>
@@ -446,6 +531,7 @@ app.get("/devotional/:video_id", async c => {
 app.get("/bible-study/:video_id", async c => {
     const { video_id } = c.req.param();
     // console.log(`Generating notes for video ID: ${video_id}`);
+     const user = await c.var?.auth0Client?.getUser(c);
 
     // serve the markdown file as html
     const path = `./bible-studies/${video_id}_biblestudy.md`;
@@ -609,6 +695,7 @@ app.get("/bible-study/:video_id", async c => {
         <div class="md">${md}<hr/>
             <div class="actionBtns hideOnPrint">
                 <button onclick="window.print()">Print Study</button>
+                ${user != null ? `<button onclick="window.location.href='/dash/bible-studies/edit/${video_id}'">Edit Study</button>` : ``}
                 <button onclick="window.location.href='https://donate.stripe.com/aFa9AU4xldW5cbe5Gvak007'" class="hideOnPrint blue-btn">Donate</button>
                 <button onclick="window.location.href='/devotional/${video_id}'" class="purple-btn">View Devotional</button>
             </div>
@@ -623,7 +710,9 @@ app.get("/bible-study/:video_id", async c => {
 
 app.get("/notes/:video_id", async c => {
     const { video_id } = c.req.param();
-    console.log(`Generating notes for video ID: ${video_id}`);
+
+    // console.log(`Generating notes for video ID: ${video_id}`);
+    const user = await c.var?.auth0Client?.getUser(c);
 
     // serve the markdown file as html
     const path = `./output/${video_id}_notes.md`;
@@ -787,6 +876,7 @@ app.get("/notes/:video_id", async c => {
         <div class="md">${md}<hr/>
             <div class="actionBtns hideOnPrint">
                 <button onclick="window.print()">Print Notes</button>
+                ${user != null ? `<button onclick="window.location.href='/dash/notes/edit/${video_id}'">Edit Notes</button>` : ``}
                 <button onclick="window.location.href='https://donate.stripe.com/aFa9AU4xldW5cbe5Gvak007'" class="blue-btn">Donate</button>
                 <button onclick="window.location.href='/bible-study/${video_id}'" class="green-btn">View Bible Study</button>
                 <button onclick="window.location.href='/devotional/${video_id}'" class="purple-btn">View Devotional</button>

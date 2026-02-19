@@ -43,3 +43,4 @@ This week, identify one area where the enemy seems to have gained ground in your
 - 2 Samuel 11
 - Hebrews 10:25
 - Revelation 22:16
+ 

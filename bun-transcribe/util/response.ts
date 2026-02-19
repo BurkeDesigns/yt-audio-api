@@ -1,4 +1,5 @@
 import { HTTPException } from "hono/http-exception";
+import { Auth0Exception } from "@auth0/auth0-hono";
 
 export const throwErr = (c:any, msg:any, statusCode?: number) => {
   let type = typeof msg;
@@ -17,6 +18,10 @@ export const handleError = (err:any, c:any) => {
   let type = typeof err;
   let error = `${err}`;
   if (err instanceof HTTPException) return err.getResponse();
+  if (err instanceof Auth0Exception) {
+    console.error(err);
+    return err.getResponse();
+  }
   console.error(error);
   return c.json(
     {

@@ -18,8 +18,6 @@ Therefore, my beloved, as you have always obeyed, so now, not only as in my pres
 **Deepen the Roots:**  
 Amos 7:7-8 (God's plumb line on Israel); Deuteronomy 32:5 (a perverse generation).
 
-*(187 words)*
-
 ## DAY 2: THE WRESTLE  
 **What If the Plumb Line Exposes Your Tilt?**
 
@@ -35,8 +33,6 @@ Did you know? Philippi was a proud Roman colony—orderly soldiers, straight leg
 
 **Journaling Prompt:**  
 Finish this: "I grumble most about \_\_\_, because it keeps me from hanging plumb with God by \_\_\_."
-
-*(142 words)*
 
 ## DAY 3: THE TRANSFORMATION  
 **Shine: Let Your Light Hang True**
@@ -54,5 +50,3 @@ For the next 24 hours, every time you catch yourself disputing (a complaint bubb
 
 **The Full Map:**  
 Philippians 2:12-18; Amos 7:7-8; Deuteronomy 32:5; Romans 12:2; Matthew 5:16.
-
-*(138 words)*
