@@ -1,10 +1,12 @@
 # Sermon Summary: 1 Chronicles 20-21
 
 ## Context from Prior Lesson
+
 - Pastor Gary covered 1 Chronicles 20: Beware of ease/downtime when Satan works overtime.
 - Parallels David's sin with Bathsheba (2 Samuel 11).
 
 ## Philistine Giants Destroyed (1 Chronicles 20:4-8)
+
 - Wars at Gezer, Philistine territory; giants (Rephaim descendants) defeated by David's mighty men, not David.
 - **Giants and killers**:
   - Sippai (Sipai): Killed by Sibbechai (Sibekai) the Hushathite, commander of 24,000.
@@ -13,7 +15,8 @@
 - Parallels 2 Samuel 21:15-22 (includes Ishbi-benob, killed by Abishai saving David).
 - Giants (Rephaim/Nephilim lineage): Post-flood race from angels mingling with humans (Genesis 6); fought by Abraham (Genesis 14), Moses (Og, Deuteronomy 3:11); anti-God, linked to occult/chaos.
 
-## David's Census Sin (1 Chronicles 21:1-*)
+## David's Census Sin (1 Chronicles 21:1-\*)
+
 - Satan incites David to number fighting men (pride); parallels 2 Samuel 24 (God sovereignly allows due to anger with Israel).
 - David orders Joab from Beersheba to Dan; Joab resists (risks guilt), omits Levi/Benjamin.
 - Results: 1.1M Israel, 470K Judah (~1.57M total warriors; ~6M population est.).
@@ -24,16 +27,17 @@
 - David buys floor from Ornan for 600 shekels gold (~1.2M USD today); offers sacrifices; angel sheathes sword.
 
 ## Key Lessons
+
 - Sin causes distance/shame; confession brings healing, forgiveness, intimacy (to God: 1 John 1:9; to others: James 5:16).
 - God righteous in justice (consequences) and mercy (relents plague).
 - Jesus paid ultimate price as sacrifice on same site (Mount Moriah: Abraham/Isaac, future temple/cross).
 
 ## Prayer Close
+
 - Thanks for timeless lessons; confess sin for restoration; praise God's justice/mercy/Jesus' sacrifice.
 
-**No announcements made.**
-
 ## Verses Referenced
+
 - 1 Chronicles 20:4-8
 - 1 Chronicles 21:1-28
 - 2 Samuel 11
