@@ -1,0 +1,67 @@
+{
+  "id": "_OAH4CwoSU8",
+  "old": {
+    "count": 0,
+    "perc": 0
+  },
+  "new": {
+    "count": 6,
+    "perc": 100
+  },
+  "uniqueWords": 1817,
+  "totalWords": 7357,
+  "totalRefs": 6,
+  "totalVerses": 0,
+  "topics": [
+    "Incarnation of the Son of God",
+    "Atonement through the Cross",
+    "The Gospel of Christ",
+    "Universal Offer of Salvation",
+    "Angelical Proclamation of the Birth",
+    "The Nativity Narrative (Luke 2)",
+    "Christian Worship and Praise",
+    "The Identity of Jesus as Messiah and King",
+    "Doctrine of Grace and Free Gift"
+  ],
+  "bibleStories": [
+    "The Nativity of Jesus Christ"
+  ],
+  "sentimentFlow": "The sermon opens with joyful wonder and warmth from Christmas songs and the nativity story, dips briefly into fears, worldly bad news, and human flaws to highlight the need for rescue, then surges into triumphant hope, peace, and celebration. This creates an emotional arc that starts light and uplifting, touches heavier tones mid-way for contrast, and ends explosively joyful with an altar call response and praise.",
+  "wordCounts": {
+    "god": 58,
+    "jesus": 58,
+    "joy": 36,
+    "lord": 34,
+    "christ": 24,
+    "world": 21,
+    "pray": 20,
+    "glory": 17,
+    "love": 14,
+    "prayer": 11,
+    "peace": 10,
+    "praise": 7,
+    "faith": 6,
+    "salvation": 6,
+    "worship": 5,
+    "church": 5,
+    "father": 5,
+    "sin": 4,
+    "dark": 3,
+    "honor": 3,
+    "grace": 3,
+    "holy": 3,
+    "light": 2,
+    "gospel": 2,
+    "spirit": 2,
+    "sinful": 2,
+    "forgiveness": 2,
+    "mercy": 1,
+    "hell": 1,
+    "flesh": 1,
+    "righteousness": 1,
+    "messiah": 1,
+    "christian": 1,
+    "goodness": 1,
+    "death": 1
+  }
+}

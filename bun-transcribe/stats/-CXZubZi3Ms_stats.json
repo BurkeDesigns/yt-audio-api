@@ -1,0 +1,56 @@
+{
+  "id": "-CXZubZi3Ms",
+  "old": {
+    "count": 2,
+    "perc": 66.67
+  },
+  "new": {
+    "count": 1,
+    "perc": 33.33
+  },
+  "uniqueWords": 1185,
+  "totalWords": 5085,
+  "totalRefs": 3,
+  "totalVerses": 0,
+  "topics": [
+    "Confidence in God's Protection",
+    "Pursuing Intimacy with God",
+    "God's Sovereign Providence in Trials",
+    "Waiting on God (Obedience & Perseverance)",
+    "God as Teacher and Guide",
+    "God as Light and Salvation",
+    "Spiritual Binding of the Heart"
+  ],
+  "bibleStories": [
+    "Absalom's Rebellion"
+  ],
+  "sentimentFlow": "The sermon opens with empathy for life's heavy troubles—like enemies, family conflicts, and personal struggles—evoking a tone of fear and vulnerability. It then builds encouragement through confidence in God's strength, pursuit of closeness with Him, and seeking His help, lightening the mood with promises of protection, mercy, and intimacy. It ends on an uplifting note of hope, communal prayer, and heart-binding unity, transforming heaviness into joy and assurance.",
+  "wordCounts": {
+    "lord": 109,
+    "god": 49,
+    "jesus": 13,
+    "light": 12,
+    "salvation": 9,
+    "father": 9,
+    "pray": 9,
+    "mercy": 6,
+    "joy": 5,
+    "glory": 5,
+    "love": 4,
+    "church": 3,
+    "flesh": 3,
+    "goodness": 3,
+    "faith": 3,
+    "christ": 3,
+    "spirit": 3,
+    "patience": 3,
+    "sin": 2,
+    "world": 2,
+    "honor": 1,
+    "forgiveness": 1,
+    "holy": 1,
+    "prayer": 1,
+    "peace": 1,
+    "grace": 1
+  }
+}

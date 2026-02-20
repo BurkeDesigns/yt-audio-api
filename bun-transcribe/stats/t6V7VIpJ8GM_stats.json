@@ -1,0 +1,49 @@
+{
+  "id": "t6V7VIpJ8GM",
+  "old": {
+    "count": 0,
+    "perc": 0
+  },
+  "new": {
+    "count": 10,
+    "perc": 100
+  },
+  "uniqueWords": 1210,
+  "totalWords": 4641,
+  "totalRefs": 10,
+  "totalVerses": 0,
+  "topics": [
+    "Equality in Christ (Galatians 3:28)",
+    "Christian unity and diversity",
+    "The nature of sin and the church's stance on sin",
+    "Bondservant relationship to Christ (dooulos)",
+    "Theological condemnation of slavery",
+    "Truth-telling and love in the church",
+    "Grace and justification by faith",
+    "No favoritism (Acts 10:34‑35)"
+  ],
+  "bibleStories": [],
+  "sentimentFlow": "The sermon opens with a firm, cautionary tone, stressing that sin remains sin and confronting historical and modern prejudices, divisions, and cultural extremes that pit people against each other. It builds through explanations of real differences among people while affirming equal value in unity. It concludes on an uplifting, hopeful note, calling for love, acceptance, kindness, and forgiveness to build a unified family.",
+  "wordCounts": {
+    "christ": 42,
+    "god": 34,
+    "love": 18,
+    "jesus": 14,
+    "lord": 13,
+    "church": 9,
+    "pray": 7,
+    "sin": 5,
+    "faith": 5,
+    "sinful": 4,
+    "glory": 3,
+    "prayer": 3,
+    "world": 2,
+    "father": 1,
+    "spirit": 1,
+    "light": 1,
+    "flesh": 1,
+    "grace": 1,
+    "praise": 1,
+    "honor": 1
+  }
+}

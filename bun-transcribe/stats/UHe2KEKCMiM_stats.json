@@ -1,0 +1,50 @@
+{
+  "id": "UHe2KEKCMiM",
+  "old": {
+    "count": 2,
+    "perc": 66.67
+  },
+  "new": {
+    "count": 1,
+    "perc": 33.33
+  },
+  "uniqueWords": 1349,
+  "totalWords": 4993,
+  "totalRefs": 3,
+  "totalVerses": 0,
+  "topics": [
+    "God's patience and mercy in the waiting",
+    "The Aaronic priesthood and Levites: distinction and temple duties",
+    "The sacrificial system and its fulfillment in Christ (High Priest, Lamb)",
+    "Saul's disobedience and divine judgment; obedience vs. pride",
+    "God's sovereignty over nations and the role of Persian king Cyrus",
+    "The nature of divine order versus chaos in worship",
+    "The concept of atonement and intercession (High Priest)",
+    "The role of prophets and divine instruction (Samuel, witch of Endor)",
+    "The genealogical record as identity and covenant continuity",
+    "The concept of redemption and ultimate sacrifice"
+  ],
+  "bibleStories": [
+    "The Witch of Endor",
+    "Saul's Death"
+  ],
+  "sentimentFlow": "The sermon starts on a hopeful, reassuring tone, emphasizing God's patience and mercy amid Israel's past unfaithfulness and captivity. It shifts to a somber mood while detailing Saul's tragic death and disobedience, highlighting the heavy consequences of partial faithfulness. It ends uplifting, circling back to God's long-suffering mercy and a call to full repentance, leaving a sense of grace and hope.",
+  "wordCounts": {
+    "god": 54,
+    "lord": 20,
+    "jesus": 7,
+    "mercy": 6,
+    "worship": 3,
+    "world": 3,
+    "prayer": 2,
+    "praise": 2,
+    "sin": 2,
+    "grace": 2,
+    "glory": 2,
+    "faithfulness": 2,
+    "father": 2,
+    "pray": 2,
+    "christ": 1,
+    "darkness": 1
+  }
+}

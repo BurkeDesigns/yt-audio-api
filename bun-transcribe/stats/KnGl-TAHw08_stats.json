@@ -1,0 +1,58 @@
+{
+  "id": "KnGl-TAHw08",
+  "old": {
+    "count": 3,
+    "perc": 30
+  },
+  "new": {
+    "count": 7,
+    "perc": 70
+  },
+  "uniqueWords": 1171,
+  "totalWords": 4329,
+  "totalRefs": 10,
+  "totalVerses": 0,
+  "topics": [
+    "Justification by grace through faith",
+    "Sanctification and spiritual rebirth",
+    "Original sin and sinful nature",
+    "The role of the Holy Spirit in transformation",
+    "Spiritual warfare: the world, the devil, and the flesh",
+    "God's love, mercy, and grace",
+    "The doctrine of the cross and victory over sin",
+    "Christian identity as God's workmanship"
+  ],
+  "bibleStories": [
+    "The Story of Shadrach, Meshach, and Abednego"
+  ],
+  "sentimentFlow": "The sermon begins on a heavy note, emphasizing human unworthiness, spiritual deadness, sin's pull through the world, devil, and fleshly desires, and the grim reality of decay and separation from God. It then pivots to a lighter tone with \"But God,\" highlighting his mercy, love, and grace that bring life, purpose, and rescue from those dangers. The emotional arc ends uplifting, urging listeners to embrace this new life through faith and surrender, closing with an invitational prayer for hope and belonging.",
+  "wordCounts": {
+    "god": 42,
+    "world": 27,
+    "love": 26,
+    "christ": 23,
+    "jesus": 23,
+    "grace": 18,
+    "mercy": 17,
+    "flesh": 16,
+    "lord": 13,
+    "hell": 11,
+    "spirit": 9,
+    "sinful": 9,
+    "sin": 9,
+    "faith": 8,
+    "pray": 7,
+    "prayer": 5,
+    "kindness": 4,
+    "father": 4,
+    "church": 3,
+    "forgiveness": 3,
+    "holy": 2,
+    "judgment": 1,
+    "evil": 1,
+    "death": 1,
+    "curse": 1,
+    "joy": 1,
+    "goodness": 1
+  }
+}

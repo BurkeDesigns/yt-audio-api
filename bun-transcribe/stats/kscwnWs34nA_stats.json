@@ -1,0 +1,57 @@
+{
+  "id": "kscwnWs34nA",
+  "old": {
+    "count": 4,
+    "perc": 50
+  },
+  "new": {
+    "count": 4,
+    "perc": 50
+  },
+  "uniqueWords": 1716,
+  "totalWords": 7454,
+  "totalRefs": 8,
+  "totalVerses": 0,
+  "topics": [
+    "Davidic Covenant",
+    "Messianic Prophecy",
+    "Replacement Theology",
+    "Israel's Future Salvation",
+    "God's Covenant-Keeping",
+    "Sovereignty of God",
+    "The Nature of the Devil"
+  ],
+  "bibleStories": [
+    "David and Goliath",
+    "David and Bathsheba"
+  ],
+  "sentimentFlow": "The sermon opens with an empowering, fearless tone, emphasizing victory over enemies and heartfelt gratitude for God's enduring promises. It flows triumphantly through tales of conquests, divine faithfulness, and prophetic hope, maintaining an uplifting momentum. It ends on a cautionary note about idleness leading to vulnerability, but lifts back to reliance on God's strength and protective grace.",
+  "wordCounts": {
+    "lord": 50,
+    "god": 48,
+    "jesus": 36,
+    "faith": 10,
+    "father": 9,
+    "christ": 9,
+    "spirit": 8,
+    "pray": 6,
+    "messiah": 6,
+    "world": 5,
+    "flesh": 5,
+    "church": 3,
+    "love": 3,
+    "kindness": 3,
+    "sin": 3,
+    "prayer": 2,
+    "praise": 2,
+    "glory": 2,
+    "honor": 2,
+    "peace": 2,
+    "faithfulness": 1,
+    "gospel": 1,
+    "light": 1,
+    "goodness": 1,
+    "judgment": 1,
+    "grace": 1
+  }
+}

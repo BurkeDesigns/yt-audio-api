@@ -1,0 +1,52 @@
+{
+  "id": "RxzmDg1T5Ks",
+  "old": {
+    "count": 1,
+    "perc": 100
+  },
+  "new": {
+    "count": 0,
+    "perc": 0
+  },
+  "uniqueWords": 1482,
+  "totalWords": 6178,
+  "totalRefs": 1,
+  "totalVerses": 0,
+  "topics": [
+    "Prayer as first option",
+    "God's sovereignty and providence in national events",
+    "Divine judgment and discipline of nations",
+    "Prophetic intercession",
+    "Divine healing and medical means",
+    "Remnant theology and covenant faithfulness",
+    "Angelic intervention in deliverance",
+    "God's mercy and grace"
+  ],
+  "bibleStories": [
+    "The Woman at the Well"
+  ],
+  "sentimentFlow": "The sermon begins on a heavy note of fear and distress, detailing the massive Assyrian threat, brutal conquests, Hezekiah's mourning, and his near-death illness. It shifts to rising hope through desperate prayers and God's reassuring promises, building to triumphant victory with miracles like the angel's slaughter and supernatural healing. It ends lightly with encouragement, mercy, and a prayer for the audience's healing, emphasizing relief and God's care.",
+  "wordCounts": {
+    "lord": 73,
+    "god": 60,
+    "pray": 20,
+    "prayer": 12,
+    "jesus": 9,
+    "glory": 5,
+    "father": 5,
+    "mercy": 4,
+    "church": 3,
+    "praise": 3,
+    "world": 3,
+    "spirit": 2,
+    "grace": 2,
+    "gospel": 1,
+    "goodness": 1,
+    "holy": 1,
+    "death": 1,
+    "faith": 1,
+    "light": 1,
+    "evil": 1,
+    "love": 1
+  }
+}

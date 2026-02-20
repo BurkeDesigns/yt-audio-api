@@ -1,0 +1,58 @@
+{
+  "id": "8PqjX8I-ndo",
+  "old": {
+    "count": 2,
+    "perc": 16.67
+  },
+  "new": {
+    "count": 10,
+    "perc": 83.33
+  },
+  "uniqueWords": 1180,
+  "totalWords": 4603,
+  "totalRefs": 12,
+  "totalVerses": 0,
+  "topics": [
+    "Incarnation",
+    "Christ's humility and obedience to the cross",
+    "Unity in the body of Christ",
+    "Humility as a Christian virtue",
+    "Satan's division tactics",
+    "Paul's theology of joy amid persecution",
+    "Confession of Jesus as Lord and salvation",
+    "Christ's exaltation and lordship"
+  ],
+  "bibleStories": [
+    "The Feeding of the 5,000",
+    "Ananias and Sapphira"
+  ],
+  "sentimentFlow": "The sermon opens joyfully, highlighting reasons to rejoice and the appeal for unity, but shifts to a heavier tone by exposing selfishness, division, and relational conflicts as human defaults fueled by darker influences. It then rises inspirationally through Jesus' ultimate humility as the model for change, easing into hope. It ends lightly with exaltation, forgiveness, and a prayer for grace-filled peace and unity.",
+  "wordCounts": {
+    "jesus": 58,
+    "god": 51,
+    "lord": 34,
+    "christ": 21,
+    "peace": 13,
+    "joy": 12,
+    "church": 12,
+    "flesh": 9,
+    "love": 8,
+    "glory": 5,
+    "father": 5,
+    "death": 4,
+    "spirit": 4,
+    "grace": 4,
+    "world": 4,
+    "pray": 4,
+    "judgment": 3,
+    "forgiveness": 3,
+    "mercy": 2,
+    "faith": 2,
+    "worship": 1,
+    "hell": 1,
+    "gentleness": 1,
+    "christian": 1,
+    "honor": 1,
+    "praise": 1
+  }
+}

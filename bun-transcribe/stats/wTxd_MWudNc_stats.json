@@ -1,0 +1,64 @@
+{
+  "id": "wTxd_MWudNc",
+  "old": {
+    "count": 5,
+    "perc": 50
+  },
+  "new": {
+    "count": 5,
+    "perc": 50
+  },
+  "uniqueWords": 1528,
+  "totalWords": 6480,
+  "totalRefs": 10,
+  "totalVerses": 0,
+  "topics": [
+    "Parental Authority and Responsibility in Scripture",
+    "Discipline as Training and Correction",
+    "Teaching and Instruction of the Lord to Children",
+    "The Role of the Holy Spirit in Parenting",
+    "Provision and Protection of the Father",
+    "Human Nature, Rebellion, and Suffering",
+    "The Parable of the Prodigal Son and Grace",
+    "Maturity, Character, and Perseverance Development"
+  ],
+  "bibleStories": [
+    "Adam and Eve",
+    "Cain and Abel",
+    "Noah's Flood",
+    "Abraham",
+    "Jacob and Esau",
+    "Joseph",
+    "Eli and Samuel",
+    "Anointing of Saul and David",
+    "Gideon",
+    "The Parable of the Prodigal Son"
+  ],
+  "sentimentFlow": "The sermon starts on a warm, appreciative note with personal stories honoring fathers, then shifts to a heavier tone highlighting parenting struggles, flawed biblical examples, and kids' rebellious human nature. It builds through practical, hopeful guidance on loving discipline and leadership, ending on an uplifting, encouraging high with assurances of God's help and a prayer blessing all fathers. Overall, the emotional arc moves from light reflection to mid-sermon weight of imperfection, rising to grace-filled empowerment.",
+  "wordCounts": {
+    "father": 49,
+    "god": 27,
+    "patience": 13,
+    "pray": 11,
+    "holy": 11,
+    "lord": 10,
+    "spirit": 10,
+    "love": 9,
+    "sin": 7,
+    "jesus": 3,
+    "faith": 3,
+    "world": 2,
+    "church": 1,
+    "worship": 1,
+    "honor": 1,
+    "evil": 1,
+    "sinful": 1,
+    "christ": 1,
+    "light": 1,
+    "righteousness": 1,
+    "peace": 1,
+    "christian": 1,
+    "death": 1,
+    "joy": 1
+  }
+}

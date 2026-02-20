@@ -1,0 +1,63 @@
+{
+  "id": "wSKk114Q7zQ",
+  "old": {
+    "count": 5,
+    "perc": 45.45
+  },
+  "new": {
+    "count": 6,
+    "perc": 54.55
+  },
+  "uniqueWords": 2923,
+  "totalWords": 11761,
+  "totalRefs": 11,
+  "totalVerses": 0,
+  "topics": [
+    "Christian Zionism",
+    "Replacement Theology",
+    "Covenant Theology (Abrahamic Covenant)",
+    "Israel's Role in the Redemptive Plan",
+    "Anti‑Semitism as Spiritual Battle",
+    "Satan as Accuser (Revelation 12)",
+    "God's Favor and Promise to Israel (Romans 11)",
+    "Messiah's Jewish Identity",
+    "Church–Israel Relationship (Not Finished)"
+  ],
+  "bibleStories": [],
+  "sentimentFlow": "The sermon opens on a warm, positive note with welcomes and blessings for Israel, then shifts to a heavy, urgent tone exposing the rise of anti-Semitism, its demonic nature, shocking statistics, war atrocities, and critiques of figures like Candace Owens and Tucker Carlson. It sustains passionate defense through biblical affirmations and calls to action, before ending lightly with empathy, hope, and closing prayers for protection and unity. The emotional arc starts upbeat, dives deep into alarm and confrontation, and lifts to encouragement and blessing.",
+  "wordCounts": {
+    "god": 59,
+    "world": 37,
+    "christian": 26,
+    "pray": 16,
+    "church": 15,
+    "jesus": 15,
+    "christ": 11,
+    "lord": 10,
+    "father": 9,
+    "love": 8,
+    "death": 8,
+    "messiah": 7,
+    "evil": 6,
+    "law": 5,
+    "prayer": 4,
+    "grace": 4,
+    "faith": 4,
+    "darkness": 3,
+    "holy": 2,
+    "light": 2,
+    "faithfulness": 2,
+    "peace": 2,
+    "spirit": 1,
+    "gospel": 1,
+    "worship": 1,
+    "salvation": 1,
+    "honor": 1,
+    "sin": 1,
+    "curse": 1,
+    "righteousness": 1,
+    "dark": 1,
+    "flesh": 1,
+    "hell": 1
+  }
+}

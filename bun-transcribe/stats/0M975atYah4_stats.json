@@ -1,0 +1,70 @@
+{
+  "id": "0M975atYah4",
+  "old": {
+    "count": 4,
+    "perc": 50
+  },
+  "new": {
+    "count": 4,
+    "perc": 50
+  },
+  "uniqueWords": 1951,
+  "totalWords": 8699,
+  "totalRefs": 8,
+  "totalVerses": 0,
+  "topics": [
+    "Justification by Faith",
+    "Substitutionary Atonement",
+    "Resurrection of Christ",
+    "Original Sin and the Fall",
+    "The Trinity",
+    "The Nature of God as Just and Holy",
+    "The Call to Repentance and Acceptance",
+    "Covenant of Grace"
+  ],
+  "bibleStories": [
+    "The Fall of Adam and Eve",
+    "The Crucifixion of Jesus",
+    "The Resurrection of Jesus"
+  ],
+  "sentimentFlow": "The sermon opens with upbeat, joyful worship and welcoming humor, creating a light and celebratory tone. It then dips into a heavier acknowledgment of human brokenness and the weight of wrongdoing from the story of the first garden. The mood swiftly rises to triumphant hope and relief through the redemption in the second garden, culminating in an emotional invitation for change and explosive communal praise.",
+  "wordCounts": {
+    "god": 91,
+    "jesus": 90,
+    "praise": 61,
+    "lord": 44,
+    "christ": 37,
+    "sin": 25,
+    "death": 19,
+    "love": 16,
+    "pray": 16,
+    "world": 15,
+    "father": 10,
+    "holy": 10,
+    "worship": 9,
+    "church": 9,
+    "prayer": 9,
+    "faith": 8,
+    "spirit": 6,
+    "sinful": 6,
+    "salvation": 5,
+    "forgiveness": 5,
+    "judgment": 5,
+    "grace": 4,
+    "mercy": 4,
+    "gospel": 3,
+    "kindness": 2,
+    "messiah": 2,
+    "evil": 2,
+    "curse": 2,
+    "hell": 1,
+    "darkness": 1,
+    "peace": 1,
+    "glory": 1,
+    "christian": 1,
+    "goodness": 1,
+    "dark": 1,
+    "law": 1,
+    "flesh": 1
+  }
+}

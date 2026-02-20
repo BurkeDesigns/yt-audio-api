@@ -1,0 +1,57 @@
+{
+  "id": "nwEiRmDURzM",
+  "old": {
+    "count": 1,
+    "perc": 12.5
+  },
+  "new": {
+    "count": 7,
+    "perc": 87.5
+  },
+  "uniqueWords": 1802,
+  "totalWords": 9457,
+  "totalRefs": 8,
+  "totalVerses": 0,
+  "topics": [
+    "Prophetic authority and miracles",
+    "Double portion of prophetic mantle",
+    "Divine sovereignty over warfare and protection",
+    "Spiritual sight and supernatural revelation",
+    "Walking by faith versus seeing",
+    "Compassionate mercy towards enemies",
+    "Witnessing through the church (enemy sees Jesus)",
+    "Evangelism and sharing the good news (no silence)",
+    "Unseen realm and angelic intervention"
+  ],
+  "bibleStories": [
+    "Elisha and the Bears",
+    "Naaman the Syrian",
+    "The Widow of Zarephath",
+    "Elisha and the Floating Axe Head"
+  ],
+  "sentimentFlow": "The sermon starts with upbeat excitement over Elisha's miracles and divine power, shifts to tension and fear amid enemy threats and a servant's panic, then lifts into awe, reassurance, and merciful grace as God protects and feeds the foes. It plunges into heavy despair with the gruesome famine and cannibalism in Samaria, before soaring to triumphant hope through miraculous provision. Overall, it arcs from light wonder through dark crisis to joyful exhortation to share good news.",
+  "wordCounts": {
+    "lord": 56,
+    "god": 40,
+    "jesus": 16,
+    "love": 12,
+    "pray": 10,
+    "faith": 7,
+    "gospel": 5,
+    "church": 4,
+    "prayer": 4,
+    "evil": 3,
+    "sin": 3,
+    "christian": 3,
+    "world": 3,
+    "father": 3,
+    "grace": 3,
+    "mercy": 3,
+    "worship": 1,
+    "spirit": 1,
+    "sinful": 1,
+    "dark": 1,
+    "light": 1,
+    "praise": 1
+  }
+}

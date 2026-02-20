@@ -1,0 +1,62 @@
+{
+  "id": "B5_j2soD710",
+  "old": {
+    "count": 2,
+    "perc": 66.67
+  },
+  "new": {
+    "count": 1,
+    "perc": 33.33
+  },
+  "uniqueWords": 1089,
+  "totalWords": 4241,
+  "totalRefs": 3,
+  "totalVerses": 0,
+  "topics": [
+    "Sovereignty of God and His Patience in Repentance",
+    "Atoning Work of Christ on the Cross (Death and Resurrection)",
+    "The Gospel as the Power of Salvation for Jews and Gentiles",
+    "Trusting God Amid 'Why' Questions (Prayer and Suffering)",
+    "God's Mercy, Grace, and Comfort in Grief",
+    "God's Justice and the Call for National Healing and Revival",
+    "The Mission of the Church to Proclaim the Gospel (Great Commission)",
+    "Hope in Christ and Eternal Assurance (Eschatology and Heaven)"
+  ],
+  "bibleStories": [],
+  "sentimentFlow": "The sermon begins heavy with raw shock, grief, and sorrow over Charlie Kirk's assassination, dwelling on personal loss, evil in the world, and anguished \"why\" questions. It transitions through acknowledging pain and the reality of a broken world, urging trust amid unanswered questions. It ends light with hope, praise for God's mercy, and uplifting worship songs celebrating victory and comfort.",
+  "wordCounts": {
+    "lord": 62,
+    "jesus": 34,
+    "god": 25,
+    "world": 15,
+    "evil": 12,
+    "pray": 10,
+    "christ": 9,
+    "death": 8,
+    "salvation": 7,
+    "mercy": 7,
+    "praise": 7,
+    "love": 6,
+    "worship": 6,
+    "church": 5,
+    "sin": 4,
+    "light": 3,
+    "gospel": 3,
+    "dark": 3,
+    "faith": 3,
+    "grace": 3,
+    "holy": 3,
+    "goodness": 2,
+    "hell": 2,
+    "father": 2,
+    "prayer": 2,
+    "glory": 2,
+    "righteousness": 1,
+    "sinful": 1,
+    "spirit": 1,
+    "flesh": 1,
+    "joy": 1,
+    "curse": 1,
+    "honor": 1
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "22O9otYr_t4",
+  "old": {
+    "count": 1,
+    "perc": 10
+  },
+  "new": {
+    "count": 9,
+    "perc": 90
+  },
+  "uniqueWords": 2832,
+  "totalWords": 16043,
+  "totalRefs": 10,
+  "totalVerses": 39,
+  "topics": [
+    "Holy Spirit and Spiritual Gifts",
+    "Spiritual Warfare and the Enemy's Strategies",
+    "New Creation and Sanctification (Romans 12:1‑2)",
+    "Evangelism and Revival Ministry",
+    "The Trinity and Christology",
+    "Authority of Jesus and the Cross",
+    "Repentance and Confession",
+    "Prayer and Worship as Means of Spiritual Power",
+    "The Blood of Christ and Its Redemptive Power",
+    "Christian Identity and Purpose in Christ"
+  ],
+  "bibleStories": [
+    "The Parable of the Prodigal Son",
+    "The Garden of Gethsemane",
+    "The Last Supper",
+    "The Baptism of Jesus",
+    "The Crucifixion"
+  ],
+  "sentimentFlow": "The sermon opens heavy with alarming statistics on teen suicides, drugs, pregnancies, and cultural \"noise\" destroying lives, amplified by the speaker's dark personal past of addiction, parties, and emptiness. It shifts midway to hope through the speaker's transformation, stories of miracles and deliverance, and the empowering \"power from heaven,\" building excitement. It ends light with an uplifting altar call, collective prayer for forgiveness and filling, worship, and baptisms, leaving a tone of revival and joy.",
+  "wordCounts": {
+    "jesus": 122,
+    "god": 122,
+    "spirit": 102,
+    "holy": 91,
+    "lord": 49,
+    "pray": 49,
+    "love": 30,
+    "christ": 30,
+    "darkness": 25,
+    "world": 20,
+    "church": 19,
+    "worship": 18,
+    "father": 18,
+    "prayer": 15,
+    "light": 15,
+    "praise": 13,
+    "faith": 13,
+    "flesh": 11,
+    "hell": 10,
+    "gospel": 7,
+    "christian": 7,
+    "law": 7,
+    "peace": 5,
+    "dark": 5,
+    "evil": 4,
+    "goodness": 3,
+    "grace": 3,
+    "glory": 3,
+    "joy": 2,
+    "sin": 1,
+    "kindness": 1,
+    "faithfulness": 1,
+    "gentleness": 1,
+    "righteousness": 1,
+    "forgiveness": 1
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "IPCyw6IgjQU",
+  "old": {
+    "count": 1,
+    "perc": 14.29
+  },
+  "new": {
+    "count": 6,
+    "perc": 85.71
+  },
+  "uniqueWords": 1402,
+  "totalWords": 5795,
+  "totalRefs": 7,
+  "totalVerses": 0,
+  "topics": [
+    "Doctrine of 'to die is gain' (Paul's theology of death and eternal life)",
+    "Doctrine of immediate entrance to heaven upon death (no purgatory or soul sleep)",
+    "Doctrine of the Lamb's Book of Life",
+    "Nature and description of heaven (third heaven, dwelling of God)",
+    "Christ-centered living (living for Christ)",
+    "God's sovereignty in using suffering for divine purpose",
+    "Doctrine of the finished work of Christ (soteriology)",
+    "Concept of 'heaven wish' vs. 'death wish'",
+    "Doctrine of the resurrection (body and spirit)",
+    "The power of intercessory prayer"
+  ],
+  "bibleStories": [
+    "The Transfiguration"
+  ],
+  "sentimentFlow": "The sermon begins with a serious tone, highlighting problems like chasing money, fame, and Paul's harsh imprisonment amid persecution, creating a sense of earthly struggle and weariness. It then shifts to an uplifting emotional peak, vividly painting heaven as a joyful, pain-free home of beauty, reunions, and glory, evoking longing and excitement. It ends on a hopeful, light note with a gracious invitation to embrace a life of purpose leading to that eternal joy.",
+  "wordCounts": {
+    "christ": 35,
+    "god": 33,
+    "jesus": 32,
+    "lord": 30,
+    "death": 17,
+    "faith": 9,
+    "gospel": 7,
+    "pray": 7,
+    "love": 7,
+    "glory": 7,
+    "prayer": 6,
+    "joy": 5,
+    "grace": 5,
+    "church": 4,
+    "spirit": 4,
+    "holy": 4,
+    "world": 3,
+    "flesh": 3,
+    "father": 3,
+    "worship": 3,
+    "light": 3,
+    "praise": 2,
+    "goodness": 1,
+    "dark": 1,
+    "hell": 1,
+    "christian": 1,
+    "forgiveness": 1
+  }
+}

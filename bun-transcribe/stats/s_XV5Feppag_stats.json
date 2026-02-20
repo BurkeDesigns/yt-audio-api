@@ -1,0 +1,57 @@
+{
+  "id": "s_XV5Feppag",
+  "old": {
+    "count": 0,
+    "perc": 0
+  },
+  "new": {
+    "count": 4,
+    "perc": 100
+  },
+  "uniqueWords": 1422,
+  "totalWords": 5501,
+  "totalRefs": 4,
+  "totalVerses": 0,
+  "topics": [
+    "Justification by Faith",
+    "Grace",
+    "Doctrine of the Law",
+    "False Gospel and Perverted Teaching",
+    "Works Do Not Save",
+    "Apostolic Authority and Corrective Epistles",
+    "Sovereignty of God in Salvation",
+    "The Role of the Law as Revealing Sin"
+  ],
+  "bibleStories": [],
+  "sentimentFlow": "The sermon opens heavy, stressing human sinfulness, church drifts into error, and fierce warnings against false teachings that mix works with faith, evoking urgency and condemnation. It builds tension through stories of flawed religion and a personal account of leading an elderly woman to simple faith, exposing the limits of good deeds. It ends light, rejoicing in the freeing gift of grace through Jesus alone, with hopeful prayer and celebration of salvation.",
+  "wordCounts": {
+    "jesus": 48,
+    "christ": 35,
+    "gospel": 28,
+    "god": 23,
+    "grace": 17,
+    "church": 15,
+    "faith": 14,
+    "lord": 12,
+    "pray": 12,
+    "love": 10,
+    "law": 8,
+    "spirit": 7,
+    "sin": 6,
+    "salvation": 6,
+    "father": 6,
+    "evil": 5,
+    "christian": 5,
+    "peace": 4,
+    "holy": 4,
+    "messiah": 3,
+    "glory": 3,
+    "world": 3,
+    "flesh": 2,
+    "prayer": 2,
+    "sinful": 1,
+    "light": 1,
+    "honor": 1,
+    "praise": 1
+  }
+}

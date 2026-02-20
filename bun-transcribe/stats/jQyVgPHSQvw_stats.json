@@ -1,0 +1,54 @@
+{
+  "id": "jQyVgPHSQvw",
+  "old": {
+    "count": 10,
+    "perc": 52.63
+  },
+  "new": {
+    "count": 9,
+    "perc": 47.37
+  },
+  "uniqueWords": 1395,
+  "totalWords": 5335,
+  "totalRefs": 19,
+  "totalVerses": 0,
+  "topics": [
+    "Intercessory Prayer",
+    "Spiritual Strengthening by the Holy Spirit",
+    "Christ's Indwelling in Believers",
+    "Experiential Knowledge of God's Love",
+    "Fullness of God in the Christian Life",
+    "Perseverance amid Persecution",
+    "Unconditional Love of God",
+    "Faith as Basis for Christ's Presence",
+    "Being 'At Home' with Christ"
+  ],
+  "bibleStories": [
+    "Elijah's Contest on Mount Carmel",
+    "Jonah's Journey to Nineveh"
+  ],
+  "sentimentFlow": "The sermon opens with heavy, convicting questions that challenge listeners' daily habits and comfort with Jesus in their lives, then dwells on spiritual weariness, historical persecution, and biblical despair to highlight human struggles. It gradually lightens through Paul's prayer for inner strength, Christ's comforting presence, experiential knowledge of vast love, and being filled with divine fullness. Overall, the emotional arc starts heavy with discomfort and fatigue but ends light with hopeful empowerment and communal blessing.",
+  "wordCounts": {
+    "god": 41,
+    "jesus": 34,
+    "pray": 31,
+    "lord": 28,
+    "love": 27,
+    "christ": 23,
+    "prayer": 21,
+    "church": 15,
+    "faith": 8,
+    "father": 7,
+    "spirit": 7,
+    "glory": 5,
+    "world": 5,
+    "death": 3,
+    "christian": 2,
+    "messiah": 2,
+    "holy": 2,
+    "gospel": 1,
+    "light": 1,
+    "sin": 1,
+    "kindness": 1
+  }
+}

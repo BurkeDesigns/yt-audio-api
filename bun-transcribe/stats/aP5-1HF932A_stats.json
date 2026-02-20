@@ -1,0 +1,52 @@
+{
+  "id": "aP5-1HF932A",
+  "old": {
+    "count": 10,
+    "perc": 62.5
+  },
+  "new": {
+    "count": 6,
+    "perc": 37.5
+  },
+  "uniqueWords": 1602,
+  "totalWords": 6972,
+  "totalRefs": 16,
+  "totalVerses": 17,
+  "topics": [
+    "Justice and Mercy of God",
+    "Sin and Its Consequences",
+    "Repentance and Confession",
+    "Sovereignty of God and Satan",
+    "David as a Man After God's Own Heart",
+    "The Angel of the Lord as Christophany",
+    "Christ's Atoning Sacrifice",
+    "Biblical Concept of Giants (Rephaim/Nephilim)"
+  ],
+  "bibleStories": [
+    "David and Bathsheba",
+    "David and Goliath",
+    "Abraham rescues Lot",
+    "Moses defeats King Og",
+    "David's Census of Israel"
+  ],
+  "sentimentFlow": "The sermon begins with a vigilant, cautionary tone about sin's seriousness and triumphs over evil giants, building to a heavy focus on David's prideful sin, temptation, guilt, shame, and devastating consequences like plague and death. It then shifts to relief through David's humble confession and God's merciful restraint, balancing justice with compassion. It ends on a light, hopeful note celebrating forgiveness, intimacy with God, and Jesus' ultimate sacrifice as the final resolution.",
+  "wordCounts": {
+    "god": 72,
+    "lord": 56,
+    "sin": 43,
+    "mercy": 15,
+    "love": 8,
+    "pray": 8,
+    "forgiveness": 8,
+    "jesus": 7,
+    "evil": 3,
+    "righteousness": 3,
+    "world": 2,
+    "worship": 1,
+    "glory": 1,
+    "goodness": 1,
+    "honor": 1,
+    "christ": 1,
+    "grace": 1
+  }
+}

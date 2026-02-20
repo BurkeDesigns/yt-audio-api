@@ -1,0 +1,66 @@
+{
+  "id": "ADCfROvCK6c",
+  "old": {
+    "count": 4,
+    "perc": 36.36
+  },
+  "new": {
+    "count": 7,
+    "perc": 63.64
+  },
+  "uniqueWords": 1665,
+  "totalWords": 6918,
+  "totalRefs": 11,
+  "totalVerses": 0,
+  "topics": [
+    "Assurance of Eternal Life",
+    "Justification by Faith",
+    "Apostolic Authority and Credentials",
+    "The Third Heaven and Heavenly Realities",
+    "The Lamb's Book of Life",
+    "Christ's Atonement and Death on the Cross",
+    "Grace as the Basis of Salvation",
+    "The Call to Repentance",
+    "The Nature of Heaven as God's Dwelling",
+    "The Role of Faith in Receiving Salvation"
+  ],
+  "bibleStories": [
+    "The Transfiguration",
+    "The Conversion of Paul"
+  ],
+  "sentimentFlow": "The sermon starts heavy, dwelling on Paul's brutal sufferings, persecutions, and human weaknesses to establish credibility amid doubt. It shifts to a mysterious heavenly vision tempered by humility and pain, building curiosity. It ends light and joyful, painting heaven as a place of beauty, peace, no suffering, and reunions, with a warm call to certain hope and forgiveness.",
+  "wordCounts": {
+    "god": 39,
+    "jesus": 39,
+    "lord": 32,
+    "christ": 23,
+    "pray": 10,
+    "gospel": 10,
+    "love": 7,
+    "prayer": 7,
+    "church": 6,
+    "messiah": 6,
+    "flesh": 6,
+    "faith": 6,
+    "worship": 5,
+    "death": 5,
+    "evil": 4,
+    "hell": 4,
+    "sin": 3,
+    "holy": 3,
+    "glory": 3,
+    "light": 3,
+    "grace": 2,
+    "mercy": 2,
+    "father": 2,
+    "spirit": 2,
+    "forgiveness": 1,
+    "praise": 1,
+    "law": 1,
+    "christian": 1,
+    "peace": 1,
+    "sinful": 1,
+    "salvation": 1,
+    "world": 1
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "hFGwAiQ2M-w",
+  "old": {
+    "count": 4,
+    "perc": 33.33
+  },
+  "new": {
+    "count": 8,
+    "perc": 66.67
+  },
+  "uniqueWords": 1508,
+  "totalWords": 7653,
+  "totalRefs": 12,
+  "totalVerses": 0,
+  "topics": [
+    "Christ as King",
+    "Christ as High Priest",
+    "Christ as Mediator and Sacrifice",
+    "Prophecy Fulfillment (Micah, Daniel)",
+    "Shekinah Glory and Divine Manifestation",
+    "The Nature of the Star as Divine Revelation",
+    "The Role of the Magi and Gentile Worship",
+    "Christology: Deity and Humanity",
+    "Reconciliation and Forgiveness"
+  ],
+  "bibleStories": [
+    "The Nativity",
+    "The Massacre of the Innocents"
+  ],
+  "sentimentFlow": "The sermon starts with a curious, upbeat tone exploring the mystery and wonder of the wise men and their journey, dips into darker tragedy with Herod's fear and violence, then rises to joyful awe and deep comfort about Jesus' understanding love and role in people's lives. It builds emotional intensity through personal challenge on surrender and lordship, creating a sense of conviction. Ultimately, it ends on a light, hopeful note of grace, prayer, and praise, leaving listeners encouraged and free.",
+  "wordCounts": {
+    "jesus": 74,
+    "god": 58,
+    "lord": 43,
+    "pray": 17,
+    "love": 17,
+    "glory": 17,
+    "christ": 14,
+    "worship": 12,
+    "holy": 11,
+    "spirit": 11,
+    "father": 10,
+    "sin": 9,
+    "flesh": 6,
+    "death": 5,
+    "gospel": 4,
+    "christian": 3,
+    "joy": 3,
+    "church": 3,
+    "messiah": 2,
+    "world": 2,
+    "praise": 1,
+    "hell": 1,
+    "salvation": 1,
+    "grace": 1,
+    "light": 1
+  }
+}

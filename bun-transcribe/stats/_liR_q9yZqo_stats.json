@@ -1,0 +1,59 @@
+{
+  "id": "_liR_q9yZqo",
+  "old": {
+    "count": 4,
+    "perc": 57.14
+  },
+  "new": {
+    "count": 3,
+    "perc": 42.86
+  },
+  "uniqueWords": 1278,
+  "totalWords": 5458,
+  "totalRefs": 7,
+  "totalVerses": 0,
+  "topics": [
+    "Justification by faith alone",
+    "The Law as a tutor/guide to Christ",
+    "The curse of the law and Christ’s redemption",
+    "The Abrahamic covenant and faith as righteousness",
+    "Grace (unmerited favor)",
+    "Faith versus works in salvation",
+    "The Holy Spirit as witness to righteousness",
+    "The cross as the curse-bearing instrument",
+    "The purpose of the Law (righteous standard, exposure of sin, need for Savior)"
+  ],
+  "bibleStories": [],
+  "sentimentFlow": "The sermon starts heavy, rebuking the audience for foolishness and emphasizing the crushing weight of sin, failure, and curse under the law that no one can fully keep. It intensifies this conviction by showing how the law reveals our deep flaws and inability to save ourselves. It then shifts light, celebrating Christ's rescue from the curse, the freedom of faith, and an uplifting invitation to forgiveness and joy.",
+  "wordCounts": {
+    "law": 94,
+    "god": 66,
+    "faith": 39,
+    "jesus": 29,
+    "christ": 19,
+    "lord": 18,
+    "righteousness": 14,
+    "curse": 13,
+    "sin": 11,
+    "spirit": 10,
+    "pray": 6,
+    "world": 5,
+    "sinful": 5,
+    "salvation": 4,
+    "love": 3,
+    "father": 3,
+    "prayer": 3,
+    "worship": 2,
+    "messiah": 2,
+    "evil": 2,
+    "light": 2,
+    "darkness": 2,
+    "holy": 2,
+    "praise": 2,
+    "flesh": 1,
+    "gospel": 1,
+    "grace": 1,
+    "glory": 1,
+    "honor": 1
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "o67es7l8Mpo",
+  "old": {
+    "count": 7,
+    "perc": 100
+  },
+  "new": {
+    "count": 0,
+    "perc": 0
+  },
+  "uniqueWords": 1474,
+  "totalWords": 5958,
+  "totalRefs": 7,
+  "totalVerses": 0,
+  "topics": [
+    "Spiritual Warfare and Demonic Principalities",
+    "Anointing and Kingship of David",
+    "Centrality of God in Worship and Worship Theology",
+    "The Ark of the Covenant and Divine Presence",
+    "Levitical Priesthood and Sanctification Practices",
+    "Divine Guidance through Prayer and Inquiry",
+    "Destruction of Idolatry and Pagan Practices",
+    "Humility and Worship in Leadership"
+  ],
+  "bibleStories": [],
+  "sentimentFlow": "The sermon opens with a tense tone, highlighting spiritual threats, past failures like Uzzah's death, and David's personal flaws, evoking caution and struggle. It builds to triumphant victories over enemies through prayer and dependence, then peaks in exuberant joy with music, celebration, and proper worship as the Ark arrives. The arc flows from heavy conflict to light, uplifting praise, ending on a devoted high despite a brief note of criticism.",
+  "wordCounts": {
+    "lord": 51,
+    "god": 47,
+    "worship": 20,
+    "love": 5,
+    "holy": 5,
+    "glory": 4,
+    "death": 3,
+    "law": 3,
+    "praise": 3,
+    "jesus": 3,
+    "salvation": 3,
+    "grace": 3,
+    "sin": 2,
+    "joy": 2,
+    "pray": 2,
+    "peace": 1,
+    "prayer": 1,
+    "mercy": 1,
+    "judgment": 1,
+    "honor": 1
+  }
+}

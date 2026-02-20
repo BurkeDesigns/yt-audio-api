@@ -1,0 +1,52 @@
+{
+  "id": "U2imJDEnpag",
+  "old": {
+    "count": 0,
+    "perc": 0
+  },
+  "new": {
+    "count": 5,
+    "perc": 100
+  },
+  "uniqueWords": 1460,
+  "totalWords": 6670,
+  "totalRefs": 5,
+  "totalVerses": 22,
+  "topics": [
+    "Submission to God",
+    "Christian Marriage and Hierarchy",
+    "Biblical Order and Authority",
+    "Love as Christ‑Like",
+    "Obedience to Parents",
+    "Obedience to Employers",
+    "Workplace Ethics",
+    "Grace and Imperfection",
+    "Spiritual Formation and Discipline",
+    "God's Sovereignty in Relationships"
+  ],
+  "bibleStories": [],
+  "sentimentFlow": "The sermon starts heavy, confronting universal imperfections and selfish flaws in relationships like marriage, family, and work, evoking conviction about our natural tendencies to blame, judge, and resist. It shifts to a balanced, practical tone while unpacking God's relational guidelines with humor and clarity, emphasizing unconditional love, respect, and mutual honor. It ends light and hopeful, urging grace for one another and closing in prayer for healing, unity, and blessing.",
+  "wordCounts": {
+    "lord": 67,
+    "god": 45,
+    "jesus": 26,
+    "love": 24,
+    "christ": 18,
+    "church": 18,
+    "honor": 16,
+    "grace": 11,
+    "father": 7,
+    "pray": 7,
+    "flesh": 6,
+    "spirit": 4,
+    "sinful": 4,
+    "world": 4,
+    "sin": 3,
+    "holy": 2,
+    "glory": 2,
+    "prayer": 1,
+    "mercy": 1,
+    "faithfulness": 1,
+    "forgiveness": 1
+  }
+}

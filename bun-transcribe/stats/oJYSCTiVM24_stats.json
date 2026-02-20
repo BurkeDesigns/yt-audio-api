@@ -1,0 +1,50 @@
+{
+  "id": "oJYSCTiVM24",
+  "old": {
+    "count": 0,
+    "perc": null
+  },
+  "new": {
+    "count": 0,
+    "perc": null
+  },
+  "uniqueWords": 1559,
+  "totalWords": 6888,
+  "totalRefs": 0,
+  "totalVerses": 0,
+  "topics": [
+    "Divine Providence",
+    "Judgment and Discipline",
+    "Mercy and Grace",
+    "Idolatry and Its Consequences",
+    "Prophetic Warning and Obedience",
+    "Covenant Faithfulness",
+    "Human Sin and Rebellion",
+    "Sovereignty of God in History",
+    "Use of Foreign Powers as Instruments of Judgment",
+    "National Repentance"
+  ],
+  "bibleStories": [],
+  "sentimentFlow": "The sermon opens hopefully, urging trust in God's hidden work amid life's unseen struggles, but quickly turns heavy with tales of failed kings, rebellion, brutal invasions, sieges, famine, and total destruction. It stays dark through Judah's downfall and exile, highlighting sin's painful consequences. It ends lightly, celebrating an unexpected act of mercy as a glimmer of hope and undeserved favor.",
+  "wordCounts": {
+    "god": 62,
+    "lord": 30,
+    "evil": 24,
+    "mercy": 8,
+    "father": 5,
+    "sin": 5,
+    "world": 4,
+    "death": 2,
+    "sinful": 2,
+    "judgment": 2,
+    "love": 2,
+    "dark": 2,
+    "honor": 2,
+    "righteousness": 1,
+    "goodness": 1,
+    "holy": 1,
+    "praise": 1,
+    "glory": 1,
+    "jesus": 1
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "mxouFoFbyZY",
+  "old": {
+    "count": 3,
+    "perc": 60
+  },
+  "new": {
+    "count": 2,
+    "perc": 40
+  },
+  "uniqueWords": 1721,
+  "totalWords": 9415,
+  "totalRefs": 5,
+  "totalVerses": 0,
+  "topics": [
+    "Watchman Doctrine",
+    "Repentance and Turning",
+    "Divine Justice versus Mercy",
+    "Christian Mission and Evangelism",
+    "God's Forgiveness and Erasing of Sins",
+    "Human Responsibility versus Divine Accountability",
+    "Son of Man Messianic Identity",
+    "God's Patience and Universal Repentance"
+  ],
+  "bibleStories": [
+    "Jonah"
+  ],
+  "sentimentFlow": "The sermon opens with an excited, relatable tone through humor and stories, quickly shifting to a heavy focus on the grave responsibility of warning others about impending danger and consequences of ignoring it, evoking tension and urgency around sin and accountability. This builds emotional weight through examples of judgment and the need for balance in warning versus compassion. It then arcs upward to a light, hopeful close, celebrating God's longing for people to turn away from harm and His total erasure of wrongs, leaving listeners with relief and awe.",
+  "wordCounts": {
+    "god": 109,
+    "lord": 53,
+    "love": 30,
+    "jesus": 30,
+    "light": 15,
+    "hell": 14,
+    "grace": 12,
+    "christ": 9,
+    "church": 9,
+    "sin": 8,
+    "pray": 7,
+    "judgment": 7,
+    "world": 4,
+    "father": 4,
+    "faith": 4,
+    "gospel": 4,
+    "forgiveness": 3,
+    "christian": 3,
+    "prayer": 3,
+    "spirit": 2,
+    "sinful": 2,
+    "law": 2,
+    "holy": 2,
+    "darkness": 2,
+    "evil": 2,
+    "praise": 2,
+    "death": 2,
+    "mercy": 1
+  }
+}

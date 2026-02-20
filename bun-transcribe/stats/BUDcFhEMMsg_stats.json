@@ -1,0 +1,64 @@
+{
+  "id": "BUDcFhEMMsg",
+  "old": {
+    "count": 3,
+    "perc": 30
+  },
+  "new": {
+    "count": 7,
+    "perc": 70
+  },
+  "uniqueWords": 1638,
+  "totalWords": 8285,
+  "totalRefs": 10,
+  "totalVerses": 0,
+  "topics": [
+    "Eschatology: Rapture and Second Coming",
+    "Mystery of Lawlessness (2 Thessalonians 2)",
+    "The Antichrist and the Beast",
+    "Holy Spirit as Restraint in End Times",
+    "Great Tribulation (Seven‑Year Tribulation)",
+    "Abomination of Desolation / Temple Revelation",
+    "Mark of the Beast",
+    "Doctrine of Apostasy / Great Falling Away",
+    "Christian Perseverance and Standing Firm",
+    "Divine Patience and Call to Repentance"
+  ],
+  "bibleStories": [
+    "Daniel 9",
+    "Daniel 7",
+    "Daniel 11",
+    "Revelation 13",
+    "Revelation 11",
+    "Acts 2",
+    "Pentecost",
+    "The Rapture",
+    "The Abomination of Desolation"
+  ],
+  "sentimentFlow": "The sermon begins with urgent warnings about ticking time, growing lawlessness, rebellion, and terrifying end-times evil led by a deceptive figure, building a heavy tone of fear and impending doom. Midway, it intensifies this darkness with details of deception, tribulation horrors, and unrestrained wickedness. It then arcs toward light, offering hope through ultimate victory, calls to stand firm, God's comforting patience for repentance, and joyful assurance for believers.",
+  "wordCounts": {
+    "god": 46,
+    "lord": 42,
+    "jesus": 27,
+    "spirit": 27,
+    "holy": 26,
+    "world": 24,
+    "hell": 18,
+    "church": 16,
+    "love": 11,
+    "christ": 9,
+    "evil": 9,
+    "pray": 8,
+    "sin": 7,
+    "peace": 7,
+    "faith": 7,
+    "father": 4,
+    "worship": 3,
+    "law": 2,
+    "christian": 2,
+    "messiah": 2,
+    "praise": 1,
+    "salvation": 1,
+    "grace": 1
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "9ZOiyU_N-bY",
+  "old": {
+    "count": 2,
+    "perc": 66.67
+  },
+  "new": {
+    "count": 1,
+    "perc": 33.33
+  },
+  "uniqueWords": 1607,
+  "totalWords": 7392,
+  "totalRefs": 3,
+  "totalVerses": 0,
+  "topics": [
+    "Post-Exilic Restoration",
+    "Davidic Genealogy and Messianic Promise",
+    "Sin and Divine Judgment",
+    "Redemption of Families",
+    "Role of the Levites in Worship",
+    "Covenant Faithfulness",
+    "Babylon as Instrument of Discipline",
+    "Inheritance and Birthright",
+    "Prayer as Honorable Pursuit",
+    "Fellowship and Unity in the Body of Christ"
+  ],
+  "bibleStories": [
+    "Korah's Rebellion",
+    "Dinah's Assault"
+  ],
+  "sentimentFlow": "The sermon starts with a neutral, informative recap of biblical history and genealogies but grows heavy through repeated examples of family dysfunction, sexual sin, unrestrained anger, rebellion, and idolatry, evoking a tone of human failure and consequences. It then arcs lighter by spotlighting honorable figures like Jabez and redemptive family turnarounds, such as Korah's descendants becoming worship leaders. It ends uplifting, with a prayer emphasizing hope, renewal, and positive legacies despite past flaws.",
+  "wordCounts": {
+    "god": 34,
+    "lord": 34,
+    "christ": 10,
+    "worship": 9,
+    "sin": 8,
+    "prayer": 6,
+    "jesus": 5,
+    "father": 4,
+    "evil": 3,
+    "world": 2,
+    "messiah": 1,
+    "spirit": 1,
+    "judgment": 1,
+    "love": 1,
+    "sinful": 1,
+    "praise": 1,
+    "mercy": 1,
+    "grace": 1
+  }
+}

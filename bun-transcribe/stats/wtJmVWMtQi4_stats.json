@@ -1,0 +1,58 @@
+{
+  "id": "wtJmVWMtQi4",
+  "old": {
+    "count": 1,
+    "perc": 33.33
+  },
+  "new": {
+    "count": 2,
+    "perc": 66.67
+  },
+  "uniqueWords": 1502,
+  "totalWords": 6692,
+  "totalRefs": 3,
+  "totalVerses": 0,
+  "topics": [
+    "Suffering and Joy in the Christian Life",
+    "God's Sovereignty in Completing the Work of Salvation",
+    "Purity and Sincerity in Christian Conduct",
+    "Love with Discernment and Knowledge",
+    "Christ's Death as Gain",
+    "Standing Firm in Faith under Persecution",
+    "God's Use of Hardship for Gospel Advancement",
+    "Eternal Perspective and Hope"
+  ],
+  "bibleStories": [],
+  "sentimentFlow": "The sermon opens with a heavy tone of pain, suffering, personal failings, and the dangers of poor choices or compromise, evoking conviction and discomfort amid life's trials. It then arcs upward through messages of hope, emphasizing God's faithfulness in completing his work, using hardships for good, and providing eternal perspective. It ends on a light, encouraging note of joy, purity, and assurance in standing firm, with a prayer for love and blessing.",
+  "wordCounts": {
+    "god": 72,
+    "love": 62,
+    "lord": 53,
+    "christ": 25,
+    "jesus": 24,
+    "church": 20,
+    "spirit": 17,
+    "pray": 15,
+    "sin": 11,
+    "faith": 9,
+    "holy": 9,
+    "gospel": 7,
+    "christian": 7,
+    "salvation": 6,
+    "joy": 5,
+    "peace": 4,
+    "prayer": 4,
+    "grace": 3,
+    "father": 3,
+    "world": 3,
+    "flesh": 3,
+    "glory": 2,
+    "mercy": 2,
+    "death": 2,
+    "righteousness": 1,
+    "praise": 1,
+    "messiah": 1,
+    "sinful": 1,
+    "forgiveness": 1
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "TtwIapjZX9I",
+  "old": {
+    "count": 0,
+    "perc": 0
+  },
+  "new": {
+    "count": 4,
+    "perc": 100
+  },
+  "uniqueWords": 1768,
+  "totalWords": 6187,
+  "totalRefs": 4,
+  "totalVerses": 22,
+  "topics": [
+    "Salvation by Faith and Repentance",
+    "Eschatology and the Antichrist",
+    "Spiritual Discernment and Wisdom",
+    "The Sovereignty of God over Technology",
+    "Deception and False Teachings",
+    "The Role of Scripture and the Holy Spirit in Guidance",
+    "Christian Responsibility toward Emerging Technologies",
+    "The Christian Life of Patience and Waiting"
+  ],
+  "bibleStories": [],
+  "sentimentFlow": "The sermon starts on a welcoming, hopeful note, quickly building tension through heavy warnings about AI's dangers like deception, harm to kids, and end-times threats, creating a sense of urgency and concern. It balances brief positives before peaking in alarm, then arcs toward lightness with practical, empowering steps to rely on God and end on an uplifting prayer for wisdom, closeness, and anticipation of better days. Overall, it follows a heavy-middle emotional arc, resolving from worry to reassuring faith.",
+  "wordCounts": {
+    "god": 27,
+    "jesus": 19,
+    "spirit": 18,
+    "lord": 15,
+    "world": 14,
+    "church": 10,
+    "pray": 10,
+    "worship": 7,
+    "love": 5,
+    "christ": 5,
+    "holy": 4,
+    "gospel": 4,
+    "sin": 3,
+    "christian": 2,
+    "death": 2,
+    "mercy": 1,
+    "grace": 1,
+    "evil": 1,
+    "father": 1,
+    "dark": 1,
+    "faith": 1,
+    "light": 1,
+    "righteousness": 1,
+    "prayer": 1
+  }
+}

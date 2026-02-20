@@ -1,0 +1,53 @@
+{
+  "id": "KEnNBufYAN4",
+  "old": {
+    "count": 5,
+    "perc": 100
+  },
+  "new": {
+    "count": 0,
+    "perc": 0
+  },
+  "uniqueWords": 1388,
+  "totalWords": 6110,
+  "totalRefs": 5,
+  "totalVerses": 25,
+  "topics": [
+    "Idolatry and False Worship",
+    "Child Sacrifice (Infanticide)",
+    "God's Patience and Judgment (Disciplined Discipline)",
+    "Sovereignty of God over the Land of Israel",
+    "Prophetic Warnings and the Role of Prophets",
+    "Covenant Faithfulness and Stiff-Necked Rebellion",
+    "The Danger of Compromise and Losing Ground",
+    "Spiritual Leadership and Obedience to God vs. Pleasing Men"
+  ],
+  "bibleStories": [
+    "The Exodus"
+  ],
+  "sentimentFlow": "The sermon opens heavy, vividly detailing horrific sins like child sacrifice, idolatry, and stubborn rebellion, which lead to brutal consequences such as exile and deadly lions, building a tone of stern warning and divine judgment. This dark mood persists through centuries of ignored pleas for change, emphasizing God's long patience finally giving way to justice. It lightens toward the end with notes of hope in faithful remnants and future restoration, closing on an uplifting call to genuine heart surrender rather than superficial rituals.",
+  "wordCounts": {
+    "god": 68,
+    "lord": 40,
+    "worship": 7,
+    "jesus": 5,
+    "sin": 4,
+    "evil": 3,
+    "church": 3,
+    "christ": 3,
+    "pray": 3,
+    "messiah": 2,
+    "judgment": 2,
+    "peace": 2,
+    "grace": 1,
+    "sinful": 1,
+    "law": 1,
+    "light": 1,
+    "mercy": 1,
+    "father": 1,
+    "love": 1,
+    "praise": 1,
+    "glory": 1,
+    "honor": 1
+  }
+}

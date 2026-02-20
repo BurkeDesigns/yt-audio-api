@@ -1,0 +1,71 @@
+{
+  "id": "JwsergVfal0",
+  "old": {
+    "count": 4,
+    "perc": 44.44
+  },
+  "new": {
+    "count": 5,
+    "perc": 55.56
+  },
+  "uniqueWords": 2232,
+  "totalWords": 10433,
+  "totalRefs": 9,
+  "totalVerses": 0,
+  "topics": [
+    "Atonement (Christ's sacrificial death)",
+    "Communion / Lord's Supper",
+    "Davidic Covenant (Covenant theology)",
+    "Messianic Prophecy (Isaiah 11, 1 Chronicles)",
+    "Israel–Gentile Relationship (Romans 11, replacement theology)",
+    "God's Faithfulness / Covenant‑keeping",
+    "Spiritual Warfare / the Enemy",
+    "Sanctification / vigilance against sin",
+    "The Church as Body of Christ",
+    "Salvation by Faith in Jesus Christ"
+  ],
+  "bibleStories": [
+    "The Last Supper",
+    "The Crucifixion",
+    "The Resurrection",
+    "David and Goliath",
+    "David and Bathsheba",
+    "The Passover"
+  ],
+  "sentimentFlow": "The sermon begins with an upbeat, celebratory tone through joyful worship songs focused on victory over death and praise. It shifts to a reflective, grateful mood during communion, remembering sacrifice and forgiveness, before moving into an energetic, triumphant teaching on God's promises, military victories, and encouragement. Overall, it maintains a light, hopeful emotional arc with only a brief cautionary note on temptation at the end, never starting heavy.",
+  "wordCounts": {
+    "lord": 66,
+    "god": 55,
+    "jesus": 48,
+    "christ": 18,
+    "world": 12,
+    "praise": 11,
+    "faith": 10,
+    "father": 10,
+    "spirit": 8,
+    "death": 7,
+    "pray": 7,
+    "church": 7,
+    "worship": 6,
+    "sin": 6,
+    "darkness": 6,
+    "love": 6,
+    "messiah": 6,
+    "flesh": 5,
+    "grace": 4,
+    "light": 4,
+    "prayer": 4,
+    "peace": 3,
+    "glory": 3,
+    "kindness": 3,
+    "goodness": 2,
+    "forgiveness": 2,
+    "honor": 2,
+    "salvation": 1,
+    "righteousness": 1,
+    "mercy": 1,
+    "faithfulness": 1,
+    "gospel": 1,
+    "judgment": 1
+  }
+}

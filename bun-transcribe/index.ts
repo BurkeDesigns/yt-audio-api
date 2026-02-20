@@ -1209,6 +1209,7 @@ app.get("/", async c => {
     <div class="page">
         <div class="ref">
             <h1>POWERFUL NOTES</h1>
+            <a href="/disclaimer">Disclaimer</a>
             <hr />
             <h2>Cornerstone Chapel - Leesburg</h2>
             <ul>
@@ -1217,7 +1218,121 @@ app.get("/", async c => {
                 </a></li>`).join('')}
             </ul>
             <hr />
-            <p>This free service is provided for the glory of God and the growth of His church! <br><br>If you find these notes helpful, please consider donating any amount you want to support the costs of running this service and to help others.</p>
+            <p>This free service is provided for the glory of God and the growth of His church! <br><br>If you find these notes helpful, please consider donating any amount you want to support the costs of running this service, to keep it free, and to help others.</p>
+            <div class="actionBtns hideOnPrint">
+                <button onclick="window.location.href='https://donate.stripe.com/aFa9AU4xldW5cbe5Gvak007'" class="hideOnPrint">Help By Donating</button>
+            </div>
+            <br/>
+            <a href="https://burkedesigns.biz" target="_blank" style="font-weight: bold; color: #222 !important;">Notes Powered by Burke Designs LLC</a>
+        </div>
+    </div>
+</body>
+</html>`);
+});
+
+app.get("/disclaimer", async c => {
+
+    return c.html(`<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disclaimer | Powerful Notes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Google Sans', sans-serif;
+            margin: 0px;
+            padding: 0px;
+            line-height: 1.6;
+            color: #222;
+        }
+        body *{
+            
+        }
+        .page{
+            display: grid;
+            gap: 32px;
+            max-width: 800px;
+            margin: auto;
+            padding: 65px 20px;
+            padding-top: 32px;
+        }
+        iframe{
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            width: 100%;
+            aspect-ratio: 16 / 9;
+        }
+        
+        a{
+            color: hsl(224.56deg 84.89% 55%);
+            text-underline-offset: 3px;
+            transition: color 0.2s;
+        }
+
+        a:visited, a:hover{
+            color: hsl(259.7deg 84.89% 55%);
+        }
+
+        li{
+            margin-bottom: 12px;
+        }
+            hr {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 24px 0;
+        }
+            button {
+                background-color: hsl(224.56deg 84.89% 55%);
+                color: white;
+                border: none;
+                padding: 8px 12px;
+                border-radius: 3px;
+                cursor: pointer;
+                font-size: 16px;
+                transition: background-color 0.2s;
+            }
+            button:hover {
+                background-color: hsl(259.7deg 84.89% 55%);
+            }
+            .back-btn {
+                display: inline-flex;
+                align-items: center;
+                text-decoration: none;
+                color: #222;
+                font-weight: bold;
+                gap: 8px;
+                transition: color 0.2s;
+            }
+            .back-btn:hover {
+                color: hsl(224.56deg 84.89% 55%);
+            }
+    </style>
+    <script>
+        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group identify setPersonProperties setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags resetGroups onFeatureFlags addFeatureFlagsHandler onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+        posthog.init('phc_WTPgqIoxXPj2lbWMMvC3JCZRvaHbOomVGMNzyIY53oo', {
+            api_host: 'https://us.i.posthog.com',
+            defaults: '2026-01-30'
+        })
+    </script>
+</head>
+<body>
+    <div class="page">
+        <div class="ref">
+            <div><a href="/" class="back-btn hideOnPrint">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                Back
+            </a></div>
+            <h1>POWERFUL NOTES DISCLAIMER</h1>
+            <hr />
+            <p>
+                This resource is for those who love the Lord and want to go deeper into sermons and Scripture, and great care has been taken to make it as usable and accurate as possible. However, because we are imperfect it cannot be perfect, so please seek the Lord in prayer and fasting regarding anything you read or hear.
+            </p>
+            <hr />
+            <p>This free service is provided for the glory of God and the growth of His church! <br><br>If you find these notes helpful, please consider donating any amount you want to support the costs of running this service, to keep it free, and to help others.</p>
             <div class="actionBtns hideOnPrint">
                 <button onclick="window.location.href='https://donate.stripe.com/aFa9AU4xldW5cbe5Gvak007'" class="hideOnPrint">Help By Donating</button>
             </div>

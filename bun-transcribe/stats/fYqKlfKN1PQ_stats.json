@@ -1,0 +1,50 @@
+{
+  "id": "fYqKlfKN1PQ",
+  "old": {
+    "count": 3,
+    "perc": 75
+  },
+  "new": {
+    "count": 1,
+    "perc": 25
+  },
+  "uniqueWords": 1437,
+  "totalWords": 6528,
+  "totalRefs": 4,
+  "totalVerses": 0,
+  "topics": [
+    "Divine Sovereignty",
+    "Prophetic Authenticity vs Deception",
+    "Angelic Hierarchy and Demonic Influence",
+    "Judgment and Mercy",
+    "Prayer and Divine Response",
+    "Spiritual Warfare",
+    "Idolatry and Covenant Faithfulness",
+    "Human Free Will vs Divine Control"
+  ],
+  "bibleStories": [
+    "The Temptation of Jesus",
+    "Peter's Denial of Jesus"
+  ],
+  "sentimentFlow": "The sermon starts on an uplifting note with prayer and communal gratitude, then shifts to a tense and sobering tone as it recounts deception, false prophecies, divine judgment, demonic influence, and King Ahab's grim death. This heavy middle builds a sense of consequence for wickedness, before lightening toward the end with Jehoshaphat's rescue, calls to deeper faithfulness, and a hopeful closing prayer emphasizing God's responsiveness and guidance. Overall, it follows a classic arc from light to heavy warning, ending on an encouraging, relational high.",
+  "wordCounts": {
+    "lord": 71,
+    "god": 62,
+    "spirit": 13,
+    "pray": 10,
+    "jesus": 10,
+    "peace": 8,
+    "evil": 6,
+    "father": 6,
+    "judgment": 5,
+    "death": 4,
+    "holy": 2,
+    "love": 2,
+    "prayer": 1,
+    "worship": 1,
+    "world": 1,
+    "patience": 1,
+    "sin": 1,
+    "praise": 1
+  }
+}

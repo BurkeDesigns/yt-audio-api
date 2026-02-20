@@ -1,0 +1,55 @@
+{
+  "id": "irLpwPu21Us",
+  "old": {
+    "count": 1,
+    "perc": 50
+  },
+  "new": {
+    "count": 1,
+    "perc": 50
+  },
+  "uniqueWords": 1577,
+  "totalWords": 6438,
+  "totalRefs": 2,
+  "totalVerses": 0,
+  "topics": [
+    "Idolatry and Worship Reform",
+    "Covenant Faithfulness and Divine Discipline",
+    "Sovereignty of God over Nations",
+    "Faith versus Secular Alliances",
+    "Silence as Divine Defense",
+    "Bronze Serpent as Messianic Foreshadowing",
+    "Sacred versus Secular Treasures",
+    "Cultural Syncretism in Samaritan Identity",
+    "Holding One's Tongue Against False Accusations"
+  ],
+  "bibleStories": [
+    "The Samaritan Woman at the Well",
+    "The Bronze Serpent"
+  ],
+  "sentimentFlow": "The sermon opens on a warm, uplifting note with welcoming prayer and calls for refreshment, then shifts to a heavy tone exploring Israel's deep idolatry, ruthless conquests, prejudice, and failed worship that led to captivity and compromise. It introduces some hope through King Hezekiah's bold reforms and trust in God amid Assyrian threats and intimidation, but lingers on fear and surrender before closing lightly with encouragement to stay silent and let God defend, ending in grateful prayer for peace. Overall, the emotional arc waves from light to heavy warnings of consequences, resolving hopefully in reliance on divine protection.",
+  "wordCounts": {
+    "lord": 49,
+    "god": 33,
+    "worship": 23,
+    "jesus": 17,
+    "peace": 7,
+    "love": 6,
+    "pray": 5,
+    "praise": 2,
+    "patience": 2,
+    "father": 2,
+    "law": 2,
+    "holy": 2,
+    "sin": 2,
+    "prayer": 1,
+    "joy": 1,
+    "glory": 1,
+    "honor": 1,
+    "gospel": 1,
+    "spirit": 1,
+    "evil": 1,
+    "judgment": 1,
+    "grace": 1
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "sMbeVSWtgEY",
+  "old": {
+    "count": 1,
+    "perc": 7.69
+  },
+  "new": {
+    "count": 11,
+    "perc": 84.62
+  },
+  "uniqueWords": 1512,
+  "totalWords": 6871,
+  "totalRefs": 13,
+  "totalVerses": 0,
+  "topics": [
+    "The Rapture",
+    "Resurrection and Transformation of the Body",
+    "Eschatology / End Times",
+    "The Mystery of Scripture",
+    "The Antichrist and Lawlessness",
+    "The Millennial Kingdom / Christ's Second Coming",
+    "The Bride of Christ / Church as Bride",
+    "Christian Watchfulness and Armor of God"
+  ],
+  "bibleStories": [],
+  "sentimentFlow": "The sermon opens with an urgent, vigilant tone urging listeners to stay alert and avoid laziness amid uncertainties like false news and sudden return. It shifts to an excited, informative exploration of future transformation and victory over death, building wonder and hope. It ends on a light, encouraging note of faithfulness, revival, and joyful rescue, emphasizing God's promise to keep believers blameless.",
+  "wordCounts": {
+    "god": 51,
+    "christ": 32,
+    "lord": 19,
+    "jesus": 19,
+    "love": 12,
+    "church": 12,
+    "pray": 10,
+    "father": 8,
+    "salvation": 6,
+    "holy": 5,
+    "faith": 5,
+    "death": 4,
+    "world": 4,
+    "spirit": 3,
+    "messiah": 2,
+    "sin": 2,
+    "gospel": 2,
+    "judgment": 2,
+    "flesh": 1,
+    "law": 1,
+    "grace": 1,
+    "christian": 1,
+    "dark": 1,
+    "evil": 1,
+    "peace": 1
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "LOXHVHyoH9M",
+  "old": {
+    "count": 8,
+    "perc": 72.73
+  },
+  "new": {
+    "count": 2,
+    "perc": 18.18
+  },
+  "uniqueWords": 1744,
+  "totalWords": 8061,
+  "totalRefs": 11,
+  "totalVerses": 0,
+  "topics": [
+    "Divine Patience and Mercy",
+    "Sovereign Use of Unworthy Vessels",
+    "Repentance and Humility",
+    "Sowing and Reaping: Divine Justice",
+    "God's Grace Toward the Wicked",
+    "Spiritual Warfare and the Enemy",
+    "Perseverance and Finishing Well"
+  ],
+  "bibleStories": [
+    "Jonah"
+  ],
+  "sentimentFlow": "The sermon opens on a light, hopeful note celebrating God's patient love and pursuit of his flawed people. It then arcs heavily into dark tales of kings' pride, idolatry, defeats, murders, and brutal consequences, evoking tension and warning. It closes lightly with encouragement to persevere, assured of God's forgiving mercy and ultimate reward.",
+  "wordCounts": {
+    "lord": 49,
+    "god": 38,
+    "father": 14,
+    "death": 9,
+    "christ": 8,
+    "worship": 6,
+    "sin": 6,
+    "evil": 5,
+    "glory": 4,
+    "jesus": 4,
+    "love": 4,
+    "holy": 4,
+    "world": 4,
+    "righteousness": 4,
+    "praise": 3,
+    "goodness": 3,
+    "mercy": 3,
+    "faith": 3,
+    "prayer": 2,
+    "honor": 2,
+    "salvation": 2,
+    "pray": 2,
+    "hell": 1,
+    "spirit": 1
+  }
+}

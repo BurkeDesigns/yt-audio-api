@@ -1,0 +1,48 @@
+{
+  "id": "VonH-J-dy8c",
+  "old": {
+    "count": 3,
+    "perc": 50
+  },
+  "new": {
+    "count": 3,
+    "perc": 50
+  },
+  "uniqueWords": 1630,
+  "totalWords": 6254,
+  "totalRefs": 6,
+  "totalVerses": 0,
+  "topics": [
+    "Eschatology",
+    "Prophecy of Gog and Magog",
+    "The Battle of Armageddon",
+    "Divine Sovereignty in World Events",
+    "Judgment and Vindication of Israel",
+    "The Second Coming of Christ as Warrior",
+    "Apocalyptic Warfare",
+    "The Rapture and Christian Hope"
+  ],
+  "bibleStories": [
+    "The Prophecy of Gog and Magog",
+    "The Battle of Armageddon"
+  ],
+  "sentimentFlow": "The sermon begins on a steady, reassuring tone, emphasizing preparation over fear amid current world tensions and biblical prophecies of conflict. It builds tension through descriptions of looming wars, invading coalitions, and divine judgments like earthquakes and hail. It resolves triumphantly with God's decisive victory, Jesus' return, and a hopeful call to look up for redemption.",
+  "wordCounts": {
+    "god": 24,
+    "lord": 21,
+    "peace": 11,
+    "world": 10,
+    "jesus": 8,
+    "gospel": 3,
+    "christ": 3,
+    "pray": 3,
+    "judgment": 3,
+    "father": 2,
+    "faith": 1,
+    "prayer": 1,
+    "evil": 1,
+    "christian": 1,
+    "righteousness": 1,
+    "glory": 1
+  }
+}

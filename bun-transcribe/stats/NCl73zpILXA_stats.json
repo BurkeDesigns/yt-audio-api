@@ -1,0 +1,54 @@
+{
+  "id": "NCl73zpILXA",
+  "old": {
+    "count": 1,
+    "perc": 8.33
+  },
+  "new": {
+    "count": 11,
+    "perc": 91.67
+  },
+  "uniqueWords": 1415,
+  "totalWords": 5901,
+  "totalRefs": 12,
+  "totalVerses": 37,
+  "topics": [
+    "Justification by Faith",
+    "Grace Alone",
+    "Works of the Law",
+    "Judaizers",
+    "Freedom in Christ",
+    "Circumcision",
+    "Gentile Inclusion",
+    "Apostolic Authority"
+  ],
+  "bibleStories": [],
+  "sentimentFlow": "The sermon starts heavy, confronting hypocrisy, fear, and personal failures like Peter's to challenge listeners on their inconsistent lives. It builds tension through strong calls to self-examination and warnings against shame. It ends light, offering practical steps to overcome fear and a hopeful prayer for boldness, forgiveness, and consistent courage.",
+  "wordCounts": {
+    "god": 35,
+    "jesus": 33,
+    "lord": 30,
+    "christ": 25,
+    "law": 11,
+    "faith": 11,
+    "flesh": 8,
+    "spirit": 7,
+    "gospel": 6,
+    "christian": 6,
+    "holy": 6,
+    "love": 6,
+    "grace": 5,
+    "pray": 4,
+    "messiah": 4,
+    "prayer": 4,
+    "righteousness": 3,
+    "church": 3,
+    "salvation": 2,
+    "father": 2,
+    "sin": 2,
+    "peace": 1,
+    "sinful": 1,
+    "honor": 1,
+    "glory": 1
+  }
+}

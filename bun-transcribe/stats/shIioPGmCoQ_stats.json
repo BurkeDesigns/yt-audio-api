@@ -1,0 +1,65 @@
+{
+  "id": "shIioPGmCoQ",
+  "old": {
+    "count": 4,
+    "perc": 36.36
+  },
+  "new": {
+    "count": 7,
+    "perc": 63.64
+  },
+  "uniqueWords": 1660,
+  "totalWords": 6974,
+  "totalRefs": 11,
+  "totalVerses": 0,
+  "topics": [
+    "The Name of Jesus",
+    "Communion (Eucharist)",
+    "Salvation by Faith and Forgiveness of Sins",
+    "The Cross and Sacrifice of Christ",
+    "Christian Witness and Testimony",
+    "Moral Standard as God the Plumb Line",
+    "Perverse and Crooked Generation",
+    "Christian Obedience and Working Out Salvation",
+    "Transformation and Renewal of the Mind",
+    "Eschatology and the Lord’s Return"
+  ],
+  "bibleStories": [
+    "The Last Supper",
+    "The Crucifixion",
+    "The Resurrection"
+  ],
+  "sentimentFlow": "The service opens with joyful worship songs and grateful communion, fostering an uplifting and thankful emotional tone. The sermon then turns heavier, highlighting the world's darkness, crookedness, and moral failings to emphasize the need for faithful living. It ends lightly, with hopeful prayers for shining impact and triumphant songs of rescue, freedom, and new beginnings.",
+  "wordCounts": {
+    "god": 51,
+    "jesus": 49,
+    "lord": 33,
+    "world": 33,
+    "faith": 16,
+    "light": 15,
+    "christ": 13,
+    "salvation": 10,
+    "pray": 8,
+    "love": 8,
+    "church": 8,
+    "joy": 8,
+    "dark": 8,
+    "father": 6,
+    "evil": 6,
+    "glory": 5,
+    "law": 5,
+    "darkness": 4,
+    "praise": 4,
+    "worship": 4,
+    "grace": 3,
+    "prayer": 3,
+    "holy": 2,
+    "sin": 2,
+    "sinful": 2,
+    "honor": 1,
+    "death": 1,
+    "gospel": 1,
+    "flesh": 1,
+    "forgiveness": 1
+  }
+}

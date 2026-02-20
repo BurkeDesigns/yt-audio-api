@@ -1,0 +1,47 @@
+{
+  "id": "EbhY8Ozn-OU",
+  "old": {
+    "count": 0,
+    "perc": 0
+  },
+  "new": {
+    "count": 6,
+    "perc": 100
+  },
+  "uniqueWords": 1009,
+  "totalWords": 3719,
+  "totalRefs": 6,
+  "totalVerses": 0,
+  "topics": [
+    "Joy in Suffering",
+    "Divine Purpose of Trials",
+    "Sovereignty of God in Missionary Work",
+    "Paul's Imprisonment as Ministry",
+    "Eternal Perspective on Suffering",
+    "Christ-centered Contentment",
+    "Persecution of Christians",
+    "Christian Perseverance"
+  ],
+  "bibleStories": [],
+  "sentimentFlow": "The sermon begins on a sobering note, highlighting Paul's imprisonment, chains, and the threat of persecution as heavy, difficult realities. It quickly shifts to an uplifting tone, emphasizing Paul's joy in seeing God's purpose amid the hardship, with the gospel advancing through his chains. It ends on a high, hopeful peak, urging trust in divine plans and rejoicing in Jesus over circumstances.",
+  "wordCounts": {
+    "god": 38,
+    "christ": 27,
+    "jesus": 21,
+    "lord": 18,
+    "gospel": 15,
+    "joy": 13,
+    "glory": 9,
+    "church": 6,
+    "faith": 5,
+    "father": 4,
+    "world": 3,
+    "pray": 3,
+    "light": 3,
+    "love": 2,
+    "christian": 2,
+    "dark": 2,
+    "grace": 1,
+    "praise": 1
+  }
+}

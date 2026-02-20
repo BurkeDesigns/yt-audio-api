@@ -1,0 +1,61 @@
+{
+  "id": "tJebCfRkCu0",
+  "old": {
+    "count": 1,
+    "perc": 20
+  },
+  "new": {
+    "count": 4,
+    "perc": 80
+  },
+  "uniqueWords": 2139,
+  "totalWords": 8996,
+  "totalRefs": 5,
+  "totalVerses": 21,
+  "topics": [
+    "Thanksgiving & Worship",
+    "God's Sovereignty & Providence",
+    "Grace and Faith (Salvation)",
+    "Healing & Miracles",
+    "Evangelism & Mission (Great Commission)",
+    "Sanctification & Transformation",
+    "The Love of God (1 John 4)",
+    "The Power of Prayer"
+  ],
+  "bibleStories": [
+    "The Woman at the Well"
+  ],
+  "sentimentFlow": "The service begins on a joyful, grateful note with thanksgiving proclamations, upbeat scripture, and prayer, setting a light and celebratory tone. Testimonies introduce heavy struggles like cancer, addiction, trauma, and loss, but each quickly shifts to uplifting stories of hope, healing, peace, and victory through faith. It maintains an overall positive emotional arc, ending triumphantly with praise-filled worship and collective thanks.",
+  "wordCounts": {
+    "god": 72,
+    "lord": 62,
+    "love": 41,
+    "praise": 38,
+    "jesus": 26,
+    "pray": 18,
+    "church": 13,
+    "christ": 13,
+    "holy": 12,
+    "spirit": 9,
+    "faith": 9,
+    "worship": 8,
+    "prayer": 7,
+    "grace": 6,
+    "father": 6,
+    "glory": 6,
+    "light": 6,
+    "world": 5,
+    "peace": 5,
+    "joy": 5,
+    "goodness": 5,
+    "darkness": 4,
+    "dark": 3,
+    "mercy": 2,
+    "christian": 2,
+    "faithfulness": 2,
+    "judgment": 1,
+    "kindness": 1,
+    "gospel": 1,
+    "honor": 1
+  }
+}

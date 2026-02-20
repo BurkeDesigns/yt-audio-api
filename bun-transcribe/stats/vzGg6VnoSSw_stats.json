@@ -1,0 +1,59 @@
+{
+  "id": "vzGg6VnoSSw",
+  "old": {
+    "count": 4,
+    "perc": 40
+  },
+  "new": {
+    "count": 6,
+    "perc": 60
+  },
+  "uniqueWords": 1230,
+  "totalWords": 4892,
+  "totalRefs": 10,
+  "totalVerses": 0,
+  "topics": [
+    "Transformation vs Conformity",
+    "Work Out Salvation",
+    "Faith vs Works",
+    "Christ as Light",
+    "Objective Moral Standard (Plumb Line)",
+    "Unity and Humility in the Church",
+    "Witness as Ambassador",
+    "Perverse and Crooked Generation"
+  ],
+  "bibleStories": [],
+  "sentimentFlow": "The sermon starts on an upbeat note with Paul's joy amid hardship, then shifts to a heavy, sobering tone exposing the world's crookedness, perversion, and moral darkness. It builds urgency through calls to live blamelessly and shine brightly without complaint. It ends light and hopeful, celebrating transformation, mission, and future straightening by God.",
+  "wordCounts": {
+    "god": 60,
+    "world": 33,
+    "jesus": 33,
+    "lord": 19,
+    "christ": 16,
+    "light": 13,
+    "salvation": 11,
+    "church": 9,
+    "evil": 7,
+    "faith": 5,
+    "joy": 4,
+    "law": 4,
+    "dark": 4,
+    "glory": 3,
+    "pray": 3,
+    "holy": 3,
+    "father": 3,
+    "grace": 3,
+    "death": 2,
+    "praise": 2,
+    "love": 2,
+    "gospel": 1,
+    "worship": 1,
+    "spirit": 1,
+    "christian": 1,
+    "honor": 1,
+    "darkness": 1,
+    "sin": 1,
+    "sinful": 1,
+    "flesh": 1
+  }
+}

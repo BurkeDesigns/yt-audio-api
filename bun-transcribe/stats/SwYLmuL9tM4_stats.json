@@ -1,0 +1,56 @@
+{
+  "id": "SwYLmuL9tM4",
+  "old": {
+    "count": 1,
+    "perc": 14.29
+  },
+  "new": {
+    "count": 6,
+    "perc": 85.71
+  },
+  "uniqueWords": 1300,
+  "totalWords": 5166,
+  "totalRefs": 7,
+  "totalVerses": 0,
+  "topics": [
+    "Joy in the Christian Life",
+    "The Continuity of God's Work in Believers",
+    "The Role of the Holy Spirit as Comforter and Guide",
+    "Faith and Human Responsibility in Salvation",
+    "Unity and Love in the Church",
+    "Warnings Against False Teaching",
+    "Theological Understanding of Happiness vs Joy",
+    "The Christian Life as a Spiritual Race",
+    "The Day of Jesus Christ / Second Coming",
+    "The Nature of God's Grace and Assurance"
+  ],
+  "bibleStories": [
+    "The Nativity"
+  ],
+  "sentimentFlow": "The sermon's emotional arc is consistently light and uplifting, starting with the joy of a relationship with Jesus even on tough days and sustaining that gladness through stories of Paul's prison optimism, contrasts between fleeting happiness and steady delight, and reassurances of divine support. It builds encouragement without dipping into heaviness, ending triumphantly with a heartfelt father-son Olympic story and a prayer affirming perseverance and victory.",
+  "wordCounts": {
+    "god": 50,
+    "joy": 48,
+    "jesus": 38,
+    "christ": 24,
+    "spirit": 23,
+    "father": 20,
+    "church": 14,
+    "salvation": 12,
+    "lord": 11,
+    "love": 10,
+    "holy": 7,
+    "gospel": 6,
+    "faith": 5,
+    "christian": 4,
+    "pray": 3,
+    "glory": 3,
+    "world": 3,
+    "grace": 2,
+    "prayer": 2,
+    "praise": 2,
+    "kindness": 2,
+    "peace": 1,
+    "righteousness": 1
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "f0qbLhlMgdU",
+  "old": {
+    "count": 1,
+    "perc": 9.09
+  },
+  "new": {
+    "count": 10,
+    "perc": 90.91
+  },
+  "uniqueWords": 1394,
+  "totalWords": 5590,
+  "totalRefs": 11,
+  "totalVerses": 0,
+  "topics": [
+    "Truth as Divine Reality",
+    "Light vs. Darkness: Spiritual Warfare",
+    "Lordship of Jesus as Objective Moral Standard",
+    "Bold Evangelism and Fearless Proclamation",
+    "Salvation by Faith in Jesus Christ",
+    "Idolatry of Human Leaders",
+    "Persecution and Suffering for Believers",
+    "Freedom from Sin through Christ"
+  ],
+  "bibleStories": [
+    "The Healing of the Crippled Man in Lystra"
+  ],
+  "sentimentFlow": "The sermon opens heavy with grief, outrage, and stark confrontation of evil, violence, hatred, and darkness in the world following Charlie Kirk's assassination. It intensifies this tone by warning of persecution for speaking truth, then arcs toward empowerment through courage, freedom, and bold living. It ends light with inspiration, hope, an invitation to personal faith, and prayer for revival.",
+  "wordCounts": {
+    "jesus": 57,
+    "lord": 28,
+    "god": 28,
+    "christ": 25,
+    "world": 21,
+    "love": 20,
+    "evil": 17,
+    "faith": 12,
+    "light": 11,
+    "church": 10,
+    "pray": 10,
+    "glory": 9,
+    "gospel": 7,
+    "worship": 7,
+    "death": 5,
+    "grace": 5,
+    "father": 4,
+    "spirit": 4,
+    "prayer": 4,
+    "darkness": 4,
+    "praise": 3,
+    "christian": 3,
+    "holy": 2,
+    "sin": 2,
+    "hell": 1,
+    "flesh": 1,
+    "salvation": 1,
+    "peace": 1
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "31xUM0po7fc",
+  "old": {
+    "count": 1,
+    "perc": 16.67
+  },
+  "new": {
+    "count": 5,
+    "perc": 83.33
+  },
+  "uniqueWords": 1406,
+  "totalWords": 5610,
+  "totalRefs": 6,
+  "totalVerses": 0,
+  "topics": [
+    "Grace in Weakness",
+    "Sovereignty of God in Suffering",
+    "Satan's Role in Human Trials",
+    "Humility vs Pride",
+    "Perseverance through Suffering",
+    "Christ's Strength in Weakness",
+    "Suffering as a Tool for Sanctification",
+    "Theological Response to Pain",
+    "Job as a Model of Endurance",
+    "The Nature of Divine Providence"
+  ],
+  "bibleStories": [
+    "Job"
+  ],
+  "sentimentFlow": "The sermon opens heavy, immersing listeners in the raw pain of Paul's \"thorn in the flesh\"—a tormenting trial like a stake impaling him, linked to Satan yet allowed by God, evoking deep suffering and struggle. It then arcs upward, reframing hardships as teachable moments that foster humility, prayer, reliance on strength, and closeness to Jesus through real-life stories of perseverance. It ends light and encouraging, celebrating grace as sufficient, with hope, peace, and future joy outweighing the pain.",
+  "wordCounts": {
+    "god": 75,
+    "flesh": 31,
+    "lord": 17,
+    "jesus": 17,
+    "grace": 14,
+    "love": 10,
+    "pray": 8,
+    "prayer": 8,
+    "christ": 6,
+    "father": 5,
+    "death": 4,
+    "christian": 4,
+    "peace": 4,
+    "gospel": 3,
+    "glory": 3,
+    "church": 2,
+    "holy": 2,
+    "spirit": 2,
+    "dark": 2,
+    "world": 2,
+    "curse": 1,
+    "goodness": 1,
+    "praise": 1,
+    "mercy": 1
+  }
+}

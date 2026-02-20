@@ -1,0 +1,58 @@
+{
+  "id": "o4zmsZRVMMk",
+  "old": {
+    "count": 6,
+    "perc": 60
+  },
+  "new": {
+    "count": 4,
+    "perc": 40
+  },
+  "uniqueWords": 1178,
+  "totalWords": 4428,
+  "totalRefs": 10,
+  "totalVerses": 0,
+  "topics": [
+    "Covenant Theology",
+    "The Davidic Covenant",
+    "Second Coming of Christ",
+    "Eschatological Judgment",
+    "Messianic Prophecy and Fulfillment",
+    "Conditional vs Unconditional Covenants",
+    "The Ark of the Covenant and Central Worship",
+    "Symbolism of the White Horse in Revelation"
+  ],
+  "bibleStories": [
+    "The Fall of Adam and Eve",
+    "The Great Flood"
+  ],
+  "sentimentFlow": "The sermon starts heavy, opening with vivid warnings of Jesus' fierce second coming as a warrior to judge the earth, evoking intensity and urgency about impending justice. It then shifts to a steady, explanatory tone through biblical history and God's reliable promises, blending awe with growing praise. It ends light, celebrating enduring mercy, unconditional love, and salvation, leaving listeners grateful and uplifted.",
+  "wordCounts": {
+    "god": 40,
+    "lord": 34,
+    "jesus": 26,
+    "world": 17,
+    "messiah": 14,
+    "mercy": 6,
+    "glory": 6,
+    "father": 5,
+    "praise": 4,
+    "salvation": 4,
+    "law": 3,
+    "christ": 3,
+    "worship": 3,
+    "prayer": 2,
+    "honor": 2,
+    "righteousness": 2,
+    "holy": 2,
+    "spirit": 2,
+    "pray": 2,
+    "grace": 1,
+    "evil": 1,
+    "church": 1,
+    "faithfulness": 1,
+    "gospel": 1,
+    "love": 1,
+    "flesh": 1
+  }
+}

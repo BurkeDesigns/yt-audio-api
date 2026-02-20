@@ -1,0 +1,72 @@
+{
+  "id": "MniGAg2Tuoc",
+  "old": {
+    "count": 12,
+    "perc": 27.91
+  },
+  "new": {
+    "count": 30,
+    "perc": 69.77
+  },
+  "uniqueWords": 3608,
+  "totalWords": 21616,
+  "totalRefs": 43,
+  "totalVerses": 0,
+  "topics": [
+    "Satan's nature and limitations",
+    "Purpose of prayer and alignment with God's will",
+    "Baptism theology and its role in salvation",
+    "Spiritual gifts: cessationism versus continuationism",
+    "Christian Zionism and Israel covenant theology",
+    "Doctrine of Hell versus annihilation",
+    "Biblical canon and inspiration of the Apocrypha",
+    "Transubstantiation versus Protestant Eucharistic theology",
+    "Sinner's prayer and salvation theology",
+    "Spiritual warfare, anxiety, and spiritual disciplines"
+  ],
+  "bibleStories": [
+    "The Parable of the Rich Man and Lazarus"
+  ],
+  "sentimentFlow": "The Q&A session starts light and cheerful with holiday greetings, gratitude in prayer, and reassuring answers to fears about Satan, prayer, and depression. It maintains an steady, empathetic, and encouraging tone while tackling heavier topics like hell, sin, and forgiveness, always pivoting to hope, God's love, and practical comfort. Rather than a heavy-to-light arc, it remains predominantly uplifting, ending with positive advice on anxiety, relationships, and devotionals before a grateful closing prayer.",
+  "wordCounts": {
+    "god": 108,
+    "jesus": 96,
+    "lord": 64,
+    "prayer": 43,
+    "christ": 40,
+    "spirit": 34,
+    "sin": 30,
+    "love": 27,
+    "holy": 25,
+    "pray": 24,
+    "world": 20,
+    "hell": 19,
+    "faith": 16,
+    "salvation": 14,
+    "church": 13,
+    "father": 12,
+    "honor": 10,
+    "christian": 10,
+    "forgiveness": 9,
+    "gospel": 8,
+    "praise": 7,
+    "judgment": 7,
+    "flesh": 7,
+    "peace": 6,
+    "death": 6,
+    "glory": 5,
+    "kindness": 5,
+    "mercy": 4,
+    "evil": 4,
+    "messiah": 4,
+    "grace": 3,
+    "light": 3,
+    "righteousness": 2,
+    "sinful": 2,
+    "dark": 2,
+    "law": 1,
+    "worship": 1,
+    "faithfulness": 1,
+    "patience": 1
+  }
+}

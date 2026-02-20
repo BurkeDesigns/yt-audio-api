@@ -1,0 +1,50 @@
+{
+  "id": "5xR56x5gZtg",
+  "old": {
+    "count": 0,
+    "perc": null
+  },
+  "new": {
+    "count": 0,
+    "perc": null
+  },
+  "uniqueWords": 1116,
+  "totalWords": 4297,
+  "totalRefs": 0,
+  "totalVerses": 0,
+  "topics": [
+    "Transfiguration",
+    "Kingdom of God (present and future)",
+    "Transformation of the believer",
+    "Word of God as transformative agent",
+    "Holy Spirit as transformative agent",
+    "Conformity vs. transformation",
+    "Image of God",
+    "Sovereignty of God in establishing kingdom"
+  ],
+  "bibleStories": [
+    "The Transfiguration"
+  ],
+  "sentimentFlow": "The sermon opens with a cautionary tone about cultural pressures squeezing people into worldly shapes, creating mild tension around conformity and broken values. It then arcs upward into excitement and hope, celebrating Jesus' radiant transformation and the empowering reality of his kingdom through inner change. It closes lightly with uplifting assurance of personal renewal and a grateful prayer for ongoing growth.",
+  "wordCounts": {
+    "god": 88,
+    "jesus": 43,
+    "spirit": 15,
+    "world": 10,
+    "glory": 5,
+    "christ": 4,
+    "lord": 4,
+    "faith": 3,
+    "goodness": 3,
+    "peace": 2,
+    "light": 2,
+    "pray": 2,
+    "gospel": 1,
+    "death": 1,
+    "hell": 1,
+    "righteousness": 1,
+    "father": 1,
+    "christian": 1,
+    "flesh": 1
+  }
+}

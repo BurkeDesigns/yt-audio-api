@@ -1,0 +1,58 @@
+{
+  "id": "o1D90vbW1GE",
+  "old": {
+    "count": 4,
+    "perc": 66.67
+  },
+  "new": {
+    "count": 2,
+    "perc": 33.33
+  },
+  "uniqueWords": 1266,
+  "totalWords": 4908,
+  "totalRefs": 6,
+  "totalVerses": 0,
+  "topics": [
+    "Generosity as a Christian Discipline",
+    "Grace of Giving versus Law",
+    "Sowing and Reaping (Proportional Blessing)",
+    "Stewardship of Resources",
+    "The Heart in Giving",
+    "Church as Vehicle for Distributing Gifts",
+    "Tithing Principle",
+    "God’s Provision and Sufficiency",
+    "Christian Giving as Worship",
+    "Early Church Mutual Aid"
+  ],
+  "bibleStories": [],
+  "sentimentFlow": "The sermon begins on an upbeat, reassuring tone with joyful examples of giving and light humor to ease concerns about money talks. It dips into a heavier, sobering mood amid stories of persecution, poverty, and suffering in the early church. It then lifts to a bright, encouraging close, celebrating cheerful hearts, God's provision, and grateful generosity.",
+  "wordCounts": {
+    "god": 36,
+    "lord": 30,
+    "church": 27,
+    "grace": 24,
+    "love": 15,
+    "jesus": 13,
+    "faith": 12,
+    "father": 12,
+    "law": 8,
+    "christian": 6,
+    "christ": 4,
+    "prayer": 3,
+    "pray": 3,
+    "praise": 3,
+    "worship": 3,
+    "messiah": 3,
+    "righteousness": 2,
+    "gospel": 2,
+    "glory": 2,
+    "hell": 2,
+    "world": 2,
+    "mercy": 2,
+    "faithfulness": 2,
+    "honor": 2,
+    "joy": 1,
+    "spirit": 1,
+    "peace": 1
+  }
+}

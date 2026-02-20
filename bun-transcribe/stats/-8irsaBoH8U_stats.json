@@ -1,0 +1,50 @@
+{
+  "id": "-8irsaBoH8U",
+  "old": {
+    "count": 2,
+    "perc": 100
+  },
+  "new": {
+    "count": 0,
+    "perc": 0
+  },
+  "uniqueWords": 1363,
+  "totalWords": 4864,
+  "totalRefs": 2,
+  "totalVerses": 0,
+  "topics": [
+    "God's Faithfulness and Providence",
+    "Stewardship of Resources and Generosity",
+    "The Great Commission and Evangelism",
+    "Church Community and Volunteer Ministry",
+    "Missionary Work and Global Outreach",
+    "Discipleship and New Believers",
+    "Scriptural Foundations of Worship and Thanksgiving",
+    "The Role of the Holy Spirit in Mission"
+  ],
+  "bibleStories": [],
+  "sentimentFlow": "The sermon flows with a consistently joyful and grateful tone from start to finish, opening with warm reflections on God's faithfulness and church history, then building excitement through stories of volunteers, community service, global outreach, financial blessings, and new lives changed. It never dips into heavy or somber emotions like guilt or struggle, staying uplifting throughout. The arc peaks in celebration of baptisms and salvations, ending with hopeful prayer and peace for the future.",
+  "wordCounts": {
+    "god": 33,
+    "church": 29,
+    "world": 14,
+    "lord": 11,
+    "praise": 6,
+    "jesus": 6,
+    "love": 5,
+    "gospel": 5,
+    "christian": 4,
+    "worship": 3,
+    "pray": 3,
+    "holy": 3,
+    "glory": 2,
+    "joy": 2,
+    "mercy": 2,
+    "christ": 2,
+    "spirit": 2,
+    "goodness": 1,
+    "faithfulness": 1,
+    "prayer": 1,
+    "peace": 1
+  }
+}

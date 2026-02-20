@@ -1,0 +1,61 @@
+{
+  "id": "Pf2_FrA7qnw",
+  "old": {
+    "count": 0,
+    "perc": 0
+  },
+  "new": {
+    "count": 6,
+    "perc": 100
+  },
+  "uniqueWords": 1364,
+  "totalWords": 5103,
+  "totalRefs": 6,
+  "totalVerses": 0,
+  "topics": [
+    "The Resurrection of Jesus",
+    "Christ's Divine Identity and Lordship",
+    "Personal Relationship with God (Jesus knows by name, new heavenly name)",
+    "Living Hope and Eternal Inheritance (1 Peter, Romans)",
+    "The Role of the Cross in Salvation",
+    "Mary Magdalene's Encounter with the Risen Christ",
+    "Apologetics and Evidential Support for the Resurrection",
+    "The Power and Authority of Christ's Resurrection"
+  ],
+  "bibleStories": [
+    "The Resurrection of Jesus Christ"
+  ],
+  "sentimentFlow": "The sermon opens with exuberant joy, lively worship songs, and enthusiastic greetings, setting a celebratory tone from the start. It briefly dips into Mary's grief at the empty tomb but swiftly rises to triumphant encouragement through stories of skeptics' conversions, Jesus' power, and personal hope. The emotional arc stays light and uplifting throughout, building steadily to a peak of living hope and eternal promise without any heavy downturn.",
+  "wordCounts": {
+    "jesus": 80,
+    "christ": 33,
+    "lord": 31,
+    "praise": 30,
+    "god": 23,
+    "glory": 13,
+    "father": 13,
+    "death": 7,
+    "love": 7,
+    "world": 7,
+    "gospel": 6,
+    "pray": 5,
+    "worship": 4,
+    "church": 4,
+    "law": 4,
+    "spirit": 4,
+    "dark": 3,
+    "honor": 3,
+    "faith": 2,
+    "light": 2,
+    "mercy": 2,
+    "salvation": 2,
+    "peace": 2,
+    "holy": 2,
+    "messiah": 1,
+    "christian": 1,
+    "sin": 1,
+    "joy": 1,
+    "forgiveness": 1,
+    "judgment": 1
+  }
+}

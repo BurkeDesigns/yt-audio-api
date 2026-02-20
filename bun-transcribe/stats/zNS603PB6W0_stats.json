@@ -1,0 +1,61 @@
+{
+  "id": "zNS603PB6W0",
+  "old": {
+    "count": 6,
+    "perc": 66.67
+  },
+  "new": {
+    "count": 3,
+    "perc": 33.33
+  },
+  "uniqueWords": 1595,
+  "totalWords": 6765,
+  "totalRefs": 9,
+  "totalVerses": 0,
+  "topics": [
+    "Covenant Theology",
+    "The Everlasting Covenant with Israel",
+    "The Ark of the Covenant",
+    "Forms of Worship",
+    "Conditional and Unconditional Covenants",
+    "Signs of Covenant",
+    "Israel's Redemptive Role",
+    "New Covenant through Jesus",
+    "Church's Obligation for Israel"
+  ],
+  "bibleStories": [
+    "Noah's Flood",
+    "The Covenant with Abraham",
+    "The Covenant at Sinai",
+    "The Last Supper"
+  ],
+  "sentimentFlow": "The sermon begins on a joyful, celebratory tone, celebrating worship, God's faithfulness despite human failings, and David's passionate leadership. It shifts to a serious, urgent mood in the middle, grappling with Israel's historical struggles, persecution, and modern conflicts. It ends light and hopeful, affirming God's unbreakable promises and praising salvation through Jesus.",
+  "wordCounts": {
+    "god": 73,
+    "lord": 52,
+    "worship": 27,
+    "jesus": 24,
+    "christ": 10,
+    "peace": 9,
+    "world": 8,
+    "holy": 6,
+    "praise": 6,
+    "faith": 6,
+    "pray": 6,
+    "messiah": 5,
+    "glory": 4,
+    "forgiveness": 3,
+    "evil": 3,
+    "salvation": 3,
+    "death": 2,
+    "honor": 2,
+    "law": 2,
+    "church": 2,
+    "judgment": 1,
+    "grace": 1,
+    "curse": 1,
+    "darkness": 1,
+    "dark": 1,
+    "love": 1
+  }
+}

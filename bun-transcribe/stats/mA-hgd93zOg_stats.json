@@ -1,0 +1,59 @@
+{
+  "id": "mA-hgd93zOg",
+  "old": {
+    "count": 2,
+    "perc": 12.5
+  },
+  "new": {
+    "count": 14,
+    "perc": 87.5
+  },
+  "uniqueWords": 1620,
+  "totalWords": 7455,
+  "totalRefs": 16,
+  "totalVerses": 18,
+  "topics": [
+    "Spiritual Warfare",
+    "The Armor of God",
+    "Sovereignty and Power of God",
+    "The Nature of Satan and Demonic Forces",
+    "Indwelling of the Holy Spirit in Believers",
+    "The Word of God as Offensive Weapon",
+    "The Role of Prayer and Intercession",
+    "Faith as Defensive Shield"
+  ],
+  "bibleStories": [
+    "The War in Heaven",
+    "The Crossing of the Red Sea"
+  ],
+  "sentimentFlow": "The sermon starts heavy, building tension with urgent warnings about an invisible enemy attacking marriages, families, and faith, evoking fear, weariness, and battle fatigue. It shifts to an empowering middle, detailing practical tools like truth, faith, and prayer to stand firm and fight back with confidence. It ends light, with a communal prayer affirming divine protection, strength, and ultimate victory, leaving a tone of hope and relief.",
+  "wordCounts": {
+    "lord": 49,
+    "god": 42,
+    "spirit": 26,
+    "jesus": 23,
+    "christ": 17,
+    "pray": 15,
+    "evil": 10,
+    "faith": 10,
+    "world": 10,
+    "darkness": 9,
+    "father": 7,
+    "gospel": 6,
+    "love": 6,
+    "holy": 6,
+    "flesh": 5,
+    "prayer": 5,
+    "sin": 5,
+    "salvation": 4,
+    "righteousness": 3,
+    "peace": 3,
+    "christian": 3,
+    "light": 3,
+    "church": 3,
+    "grace": 1,
+    "praise": 1,
+    "worship": 1,
+    "sinful": 1
+  }
+}
