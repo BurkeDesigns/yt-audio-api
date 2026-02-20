@@ -924,7 +924,232 @@ app.get("/notes/:video_id", async c => {
         <div class="md">${md}<hr/>
             <div class="actionBtns hideOnPrint">
                 <button onclick="window.print()">Print Notes</button>
+                <button onclick="window.location.href='/stats/${video_id}'">Stats</button>
                 ${user != null ? `<button onclick="window.location.href='/dash/notes/edit/${video_id}'">Edit Notes</button>` : ``}
+                <button onclick="window.location.href='https://donate.stripe.com/aFa9AU4xldW5cbe5Gvak007'" class="blue-btn">Donate</button>
+                <button onclick="window.location.href='/bible-study/${video_id}'" class="green-btn">View Bible Study</button>
+                <button onclick="window.location.href='/devotional/${video_id}'" class="purple-btn">View Devotional</button>
+            </div>
+            <br/><br/>
+            <a href="https://burkedesigns.biz" target="_blank" style="font-weight: bold; color: #222 !important;">Notes Powered by Burke Designs LLC</a>
+        </div>
+        
+    </div>
+</body>
+</html>`);
+});
+
+app.get("/stats/:video_id", async c => {
+    const { video_id } = c.req.param();
+
+    // console.log(`Generating notes for video ID: ${video_id}`);
+    const user = await c.var?.auth0Client?.getUser(c);
+
+    // serve the markdown file as html
+    const path = `./stats/${video_id}_stats.json`;
+    const file = Bun.file(path);
+    const fileExists = await file.exists();
+    if (!fileExists) {
+        return c.html(noVideoFoundResponse(video_id), 404);
+    }
+    let stats = await file.json();
+
+    return c.html(`<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sermon Stats</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Google Sans', sans-serif;
+            margin: 0px;
+            padding: 0px;
+            line-height: 1.6;
+            color: #222;
+        }
+        body *{
+            
+        }
+        .page{
+            display: grid;
+            gap: 32px;
+            max-width: 800px;
+            margin: auto;
+            padding: 65px 20px;
+            padding-bottom: 96px;
+        }
+        iframe{
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            width: 100%;
+            aspect-ratio: 16 / 9;
+        }
+        .table-container{
+            overflow-x: auto;
+            width: 100%;
+            max-width: calc(100vw - 40px);
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 24px 0;
+        }
+
+        a{
+            color: hsl(224.56deg 84.89% 55%);
+            text-underline-offset: 3px;
+            transition: color 0.2s;
+        }
+
+        a:visited, a:hover{
+            color: hsl(259.7deg 84.89% 55%);
+        }
+            button {
+                background-color: #222;
+                color: white;
+                border: none;
+                padding: 5px 8px;
+                border-radius: 3px;
+                cursor: pointer;
+                font-size: 16px;
+                transition: background-color 0.2s;
+            }
+            button:hover {
+                background-color: hsl(224.56deg 84.89% 55%);
+            }
+            .green-btn {
+                background-color: hsl(120deg 60% 35%);
+            }
+            .blue-btn {
+                background-color: hsl(224.56deg 84.89% 55%);
+            }
+            .purple-btn {
+                background-color: hsl(259.7deg 84.89% 55%);
+            }
+        
+        @media print {
+            .hideOnPrint {
+                display: none !important;
+            }
+            .page{
+                padding: 0 !important;
+            }
+            iframe {
+                display: none !important;
+            }
+        }
+            .actionBtns {
+                display: flex;
+                gap: 8px;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            .back-btn {
+                display: inline-flex;
+                align-items: center;
+                text-decoration: none;
+                color: #222;
+                font-weight: bold;
+                gap: 8px;
+                transition: color 0.2s;
+            }
+            .back-btn:hover {
+                color: hsl(224.56deg 84.89% 55%);
+            }
+                .tags{
+                    display: flex;
+                    gap: 4px;
+                    flex-wrap: wrap;
+                    width:100%;
+                }
+                .tag {
+                    display: flex;
+                    background-color: #eee;
+                    color: #555;
+                    padding: 2px 6px;
+                    border-radius: 3px;
+                    font-size: 12px;
+                }
+                    pre {
+                white-space: pre-wrap;
+                word-wrap: break-word;
+                background: #f4f4f4;
+                padding: 10px;
+                border-radius: 8px;
+                font-size: 12px;
+            }
+
+    </style>
+    <script>
+        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group identify setPersonProperties setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags resetGroups onFeatureFlags addFeatureFlagsHandler onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+        posthog.init('phc_WTPgqIoxXPj2lbWMMvC3JCZRvaHbOomVGMNzyIY53oo', {
+            api_host: 'https://us.i.posthog.com',
+            defaults: '2026-01-30'
+        })
+    </script>
+</head>
+<body>
+    <div class="page">
+        <div><a href="/notes/${video_id}" class="back-btn hideOnPrint">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+            Back
+        </a></div>
+        <iframe src="https://www.youtube.com/embed/${video_id}" title="Cornerstone Chapel Leesburg, VA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="md">
+            <h1>Sermon Stats</h1>
+
+            <h3>Sentiment Flow</h3>
+            <p>${stats.sentimentFlow}</p>
+
+            ${stats.topics?.length > 0 ? `<h3>Topics</h3>
+            <div class="tags">
+                ${stats.topics.map((tag: string) => `<span class="tag">${tag}</span>`).join('')}
+            </div>` : ''}
+
+            ${stats.bibleStories?.length > 0 ? `<br /><h3>Bible Stories Mentioned</h3>
+            <div class="tags">
+                ${stats.bibleStories.map((story: string) => `<span class="tag">${story}</span>`).join('')}
+            </div>` : ''}
+
+            ${Object.keys(stats.wordCounts)?.length > 0 ? `<br /><h3>Common Word Counts (# of times)</h3>
+            <div class="tags">
+                ${Object.keys(stats.wordCounts).map((word: string) => `<span class="tag">${word} (${stats.wordCounts[word]})</span>`).join('')}
+            </div>` : ''}
+
+            <br />
+            <h3>Other Stats</h3>
+            <p>
+                <b>New Testament</b>: ${stats.new.perc}% (${stats.new.count} refs) <br />
+                <b>Old Testament</b>: ${stats.old.perc}% (${stats.old.count} refs) <br />
+                <b>Vocabulary Richness</b>: ${stats.uniqueWords} unique words <br />
+                <b>Repetition Score</b>: ${(stats.uniqueWords / stats.totalWords * 100).toFixed(2)}% (unique / total words) <br />
+                <b>Total Words</b>: ${stats.totalWords} <br />
+                <b>Total Bible References</b>: ${stats.totalRefs} <br />
+                <b>Total Bible Verses</b>: ${stats.totalVerses}
+            </p>
+
+            
+            <br />
+            <br />
+
+            <div class="actionBtns hideOnPrint">
+                <button onclick="window.print()">Print</button>
+                <button onclick="window.location.href='/notes/${video_id}'">View Notes</button>
                 <button onclick="window.location.href='https://donate.stripe.com/aFa9AU4xldW5cbe5Gvak007'" class="blue-btn">Donate</button>
                 <button onclick="window.location.href='/bible-study/${video_id}'" class="green-btn">View Bible Study</button>
                 <button onclick="window.location.href='/devotional/${video_id}'" class="purple-btn">View Devotional</button>
