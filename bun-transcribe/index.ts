@@ -1354,6 +1354,9 @@ app.get("/", async c => {
 
     console.log("Titles for videos:", titles);
 
+    // todo: slit fulltitle by first " - " to get date and title separately, then display in a nice format on the page
+    
+
 
     return c.html(`<!DOCTYPE html>
 <html lang="en">
@@ -1365,29 +1368,85 @@ app.get("/", async c => {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --primary: hsl(224.56deg 84.89% 55%);
+            --primary-hover: hsl(259.7deg 84.89% 55%);
+            --bg: #f8fafc;
+            --text: #1e293b;
+            --card-bg: #ffffff;
+        }
         body {
             font-family: 'Google Sans', sans-serif;
             margin: 0px;
             padding: 0px;
             line-height: 1.6;
-            color: #222;
+            color: var(--text);
+            background-color: var(--bg);
         }
         body *{
-            
+            -webkit-tap-highlight-color: transparent;
         }
         .page{
             display: grid;
             gap: 32px;
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
-            padding: 65px 20px;
-            padding-top: 32px;
+            padding: 40px 20px;
         }
-        iframe{
+            header {
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 8px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-hover));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -1px;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            color: #64748b;
+            margin-bottom: 24px;
+        }
+        .notes-grid {
+            display: grid;
+            gap: 8px;
+            list-style: none;
+            padding: 0;
+        }
+        .note-card {
+            background: var(--card-bg);
             border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            width: 100%;
-            aspect-ratio: 16 / 9;
+        border: 1px solid #e2e8f0;
+            transition: all 0.2s ease;
+            overflow: hidden;
+        }
+        .note-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            border-color: var(--primary);
+        }
+        .note-card a {
+            display: block;
+            padding: 12px;
+            text-decoration: none;
+            color: var(--text);
+            font-weight: 600;
+        }
+        .note-card b {
+            font-size: 1.1rem;
+            display: block;
+        }
+        .footer-content {
+            margin-top: 64px;
+            background: white;
+            padding: 32px;
+            border-radius: 16px;
+            border: 1px solid #e2e8f0;
+            text-align: center;
         }
         
         a{
@@ -1396,31 +1455,37 @@ app.get("/", async c => {
             transition: color 0.2s;
         }
 
-        a:visited, a:hover{
+        /* a:visited, a:hover{
             color: hsl(259.7deg 84.89% 55%);
-        }
+        } */
 
-        li{
-            margin-bottom: 12px;
-        }
-            hr {
+        hr {
             border: none;
             border-top: 1px solid #eee;
             margin: 24px 0;
         }
-            button {
-                background-color: hsl(224.56deg 84.89% 55%);
-                color: white;
-                border: none;
-                padding: 8px 12px;
-                border-radius: 3px;
-                cursor: pointer;
-                font-size: 16px;
-                transition: background-color 0.2s;
-            }
-            button:hover {
-                background-color: hsl(259.7deg 84.89% 55%);
-            }
+        button {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: background-color 0.2s;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        button:hover {
+            background-color: var(--primary-hover);
+        }
+        .disclaimer-link {
+            display: inline-block;
+            margin-bottom: 16px;
+            color: #64748b !important;
+            text-decoration: underline;
+            font-size: 0.9rem;
+        }
     </style>
     <script>
         !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group identify setPersonProperties setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags resetGroups onFeatureFlags addFeatureFlagsHandler onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
@@ -1432,13 +1497,13 @@ app.get("/", async c => {
 </head>
 <body>
     <div class="page">
-        <div class="ref">
+        <header>
             <h1>POWERFUL NOTES</h1>
-            <a href="/disclaimer">Disclaimer</a>
-            <hr />
-            <h2>Cornerstone Chapel - Leesburg</h2>
-            <ul>
-                ${titles.map(({ videoId, fullTitle }) => `<li><a href="/notes/${videoId}">
+            <p class="subtitle">Cornerstone Chapel - Leesburg</p>
+            <a href="/disclaimer" class="disclaimer-link">Disclaimer</a>
+        </header>
+            <ul class="notes-grid">
+                ${titles.map(({ videoId, fullTitle }) => `<li class="note-card"><a href="/notes/${videoId}">
                     <b>${fullTitle}</b>
                 </a></li>`).join('')}
             </ul>
