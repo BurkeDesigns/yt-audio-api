@@ -1355,8 +1355,14 @@ app.get("/", async c => {
     console.log("Titles for videos:", titles);
 
     // todo: slit fulltitle by first " - " to get date and title separately, then display in a nice format on the page
-    
+    let htmlList = titles.map(({ videoId, fullTitle }) => {
+        const titleSplit = fullTitle.split(" - ");
+        return `<li class="note-card"><a href="/notes/${videoId}">
+            <mark class="bold">${titleSplit[0]}</mark> - ${titleSplit[1]}
+        </a></li>`;
+    }).join('');
 
+            // console.log("HTML List:", htmlList);
 
     return c.html(`<!DOCTYPE html>
 <html lang="en">
@@ -1434,7 +1440,7 @@ app.get("/", async c => {
             padding: 12px;
             text-decoration: none;
             color: var(--text);
-            font-weight: 600;
+            font-weight: 400;
         }
         .note-card b {
             font-size: 1.1rem;
@@ -1486,6 +1492,11 @@ app.get("/", async c => {
             text-decoration: underline;
             font-size: 0.9rem;
         }
+            mark.bold {
+                font-weight: bold;
+                background: none;
+                color: var(--primary);
+            }
     </style>
     <script>
         !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group identify setPersonProperties setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags resetGroups onFeatureFlags addFeatureFlagsHandler onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
@@ -1503,9 +1514,7 @@ app.get("/", async c => {
             <a href="/disclaimer" class="disclaimer-link">Disclaimer</a>
         </header>
             <ul class="notes-grid">
-                ${titles.map(({ videoId, fullTitle }) => `<li class="note-card"><a href="/notes/${videoId}">
-                    <b>${fullTitle}</b>
-                </a></li>`).join('')}
+                ${htmlList}
             </ul>
             <hr />
             <p>This free service is provided for the glory of God and the growth of His church! <br><br>If you find these notes helpful, please consider donating any amount you want to support the costs of running this service, to keep it free, and to help others.</p>
