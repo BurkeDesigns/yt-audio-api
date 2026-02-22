@@ -4,7 +4,7 @@ import { $ } from 'bun';
 export let queue: any[] = [];
 export let isProcessing = false;
 
-export async function createNotes(video_id: string) {
+export async function createNotes(video_id: string, overrideName?: string) {
     console.log(`Generating notes for video ID: ${video_id}`);
     const t = await Bun.file(`../output/${video_id}.json`).json();
 const completion = await or.chat.send({
@@ -46,7 +46,8 @@ ${t.transcript}
 
     const markdown:string = completion?.choices[0]?.message?.content || '';
     // save markdown to file
-    Bun.write(`./output/${t.video_id}_notes.md`, markdown);
+    const outputFileName = overrideName ? `${overrideName}_notes.md` : `${t.video_id}_notes.md`;
+    Bun.write(`./output/${outputFileName}`, markdown);
     // console.log(completion?.choices[0]?.message.content);
     console.log(`Notes generated for video ID: ${video_id}`);
 
@@ -113,6 +114,15 @@ export async function generateCudaTranscription(video: string) {
     console.log(`Generating transcription for video: ${video}`);
     let video_id = video.replace("https://www.youtube.com/watch?v=", "");
     const output = await $`/home/wesley/.venvs/torch313/bin/python /home/wesley/Documents/GitHub/yt-audio-api/yt_quick_transcribe_cuda.py 'https://www.youtube.com/watch?v=${video_id}' '../output/${video_id}.json'`.text();
+    console.log(output);
+    // console.log(`Generating notes for video ID: ${video_id}`);
+    // await createNotes();
+}
+
+export async function generateAudioFileCudaTranscription(path: string) {
+    console.log(`Generating transcription for audio file: ${path}`);
+    let filename = path.split("/").pop()?.split(".")[0];
+    const output = await $`/home/wesley/.venvs/torch313/bin/python /home/wesley/Documents/GitHub/yt-audio-api/audio_quick_transcribe_cuda.py '${path}' '../output/${filename}.json'`.text();
     console.log(output);
     // console.log(`Generating notes for video ID: ${video_id}`);
     // await createNotes();
