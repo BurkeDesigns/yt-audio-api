@@ -1182,6 +1182,10 @@ app.get("/", async c => {
     // };
 
     let titles = [
+         {
+    fullTitle: "Sun Feb 22, 2026 - 8am service",
+    videoId: "SLbq87SB_9o",
+  },
         {
     fullTitle: "Wed Feb 18, 2026 - When Success Becomes Sin:The Warning Behind David&#39;s Census",
     videoId: "aP5-1HF932A",

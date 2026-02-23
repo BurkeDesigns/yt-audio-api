@@ -21,9 +21,7 @@ import { $ } from "bun";
 // }
 // await $`pm2 start vllm-openai-service`;
 
-
-// await generateTranscription(videoId);
-// await generateCudaTranscription(videoId);
-// await createNotes(videoId);
-// await createBibleStudy(videoId);
-// await createDevotional(videoId);
+const videoId = "SLbq87SB_9o";
+await createNotes(videoId);
+await createBibleStudy(videoId);
+await createDevotional(videoId);

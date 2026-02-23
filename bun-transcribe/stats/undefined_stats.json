@@ -1,0 +1,45 @@
+{
+  "old": {
+    "count": 1,
+    "perc": 50
+  },
+  "new": {
+    "count": 1,
+    "perc": 50
+  },
+  "uniqueWords": 1550,
+  "totalWords": 5058,
+  "totalRefs": 2,
+  "totalVerses": 0,
+  "topics": [
+    "Biblical Masculinity",
+    "Gender Complementarity",
+    "Dominion Theology",
+    "Genesis Creation Narrative",
+    "Fall and Sin",
+    "Christ as Second Adam",
+    "Discipleship",
+    "Cultural Engagement",
+    "Biblical Authority",
+    "Christian Family Roles"
+  ],
+  "bibleStories": [],
+  "sentimentFlow": "The sermon starts with an upbeat, promotional energy promoting men's ministries, then shifts to a heavy, convicting tone diagnosing sin's corruption of manhood—passivity, failure, and cultural disorder from Genesis 3. It pivots to uplifting hope in Christ's strong, sacrificial leadership as the perfect model. It ends on an empowering, motivational high, urgently calling men to bold action, endurance, and victory over personal weaknesses.",
+  "wordCounts": {
+    "god": 32,
+    "christ": 15,
+    "world": 12,
+    "church": 9,
+    "sin": 8,
+    "christian": 5,
+    "lord": 4,
+    "faith": 4,
+    "love": 4,
+    "sinful": 4,
+    "jesus": 3,
+    "evil": 2,
+    "father": 1,
+    "joy": 1,
+    "honor": 1
+  }
+}

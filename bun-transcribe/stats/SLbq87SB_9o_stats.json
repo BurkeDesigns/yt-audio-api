@@ -1,0 +1,59 @@
+{
+  "id": "SLbq87SB_9o",
+  "old": {
+    "count": 2,
+    "perc": 66.67
+  },
+  "new": {
+    "count": 1,
+    "perc": 33.33
+  },
+  "uniqueWords": 1535,
+  "totalWords": 6396,
+  "totalRefs": 3,
+  "totalVerses": 0,
+  "topics": [
+    "Christ's Atoning Work and Redemption through the Cross",
+    "Sovereignty and Glory of God",
+    "Creation as Testimony to God's Existence",
+    "The Authority and Perfection of Scripture (Law, Statutes, Commandments, Judgments)",
+    "The Fear of the Lord as Reverence and Basis for Holiness",
+    "Sin, Its Dominion, and Freedom in Christ",
+    "Repentance (Metanoia) and Faith in Christ",
+    "The Role of the Holy Spirit in Conviction and Sanctification"
+  ],
+  "bibleStories": [],
+  "sentimentFlow": "The sermon starts light and joyful with upbeat worship, awe at creation, and delight in God's word, keeping an overall positive and reverent tone. It briefly turns heavier in the middle by confronting hidden sins and the struggle against wrongdoing, prompting honest self-reflection. It then rises to a hopeful, uplifting close with themes of freedom, forgiveness, and loving redemption.",
+  "wordCounts": {
+    "lord": 51,
+    "sin": 47,
+    "god": 42,
+    "jesus": 20,
+    "world": 17,
+    "christ": 11,
+    "love": 11,
+    "glory": 10,
+    "light": 10,
+    "pray": 10,
+    "church": 10,
+    "holy": 6,
+    "spirit": 5,
+    "law": 5,
+    "faith": 5,
+    "mercy": 3,
+    "prayer": 3,
+    "father": 3,
+    "worship": 2,
+    "grace": 2,
+    "patience": 2,
+    "sinful": 2,
+    "flesh": 1,
+    "peace": 1,
+    "honor": 1,
+    "darkness": 1,
+    "joy": 1,
+    "salvation": 1,
+    "death": 1,
+    "forgiveness": 1
+  }
+}
